@@ -1,7 +1,0 @@
-C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\SubstanceLibrary\bin\Debug\SubstanceLibrary.dll
-C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\SubstanceLibrary\bin\Debug\SubstanceLibrary.pdb
-C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\SubstanceLibrary\bin\Debug\Prosimo.dll
-C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\SubstanceLibrary\bin\Debug\Prosimo.pdb
-C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\SubstanceLibrary\obj\Debug\SubstanceLibrary.csprojResolveAssemblyReference.cache
-C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\SubstanceLibrary\obj\Debug\SubstanceLibrary.dll
-C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\SubstanceLibrary\obj\Debug\SubstanceLibrary.pdb

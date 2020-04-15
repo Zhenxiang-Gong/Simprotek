@@ -1,5 +1,0 @@
-C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Prosimo\bin\Debug\Prosimo.dll
-C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Prosimo\bin\Debug\Prosimo.pdb
-C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Prosimo\obj\Debug\Prosimo.dll
-C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Prosimo\obj\Debug\Prosimo.pdb
-C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Prosimo\obj\Debug\Prosimo.csprojResolveAssemblyReference.cache

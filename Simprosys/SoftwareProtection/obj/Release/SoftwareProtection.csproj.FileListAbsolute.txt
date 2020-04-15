@@ -1,7 +1,0 @@
-C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\SoftwareProtection\bin\Release\SoftwareProtection.dll
-C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\SoftwareProtection\obj\Release\SoftwareProtection.csprojResolveAssemblyReference.cache
-C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\SoftwareProtection\obj\Release\SoftwareProtection.dll
-C:\Users\Administrator\Documents\Simprotek\Simprosys\SoftwareProtection\bin\Release\SoftwareProtection.dll
-C:\Users\Administrator\Documents\Simprotek\Simprosys\SoftwareProtection\obj\Release\SoftwareProtection.csprojAssemblyReference.cache
-C:\Users\Administrator\Documents\Simprotek\Simprosys\SoftwareProtection\obj\Release\SoftwareProtection.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Documents\Simprotek\Simprosys\SoftwareProtection\obj\Release\SoftwareProtection.dll
