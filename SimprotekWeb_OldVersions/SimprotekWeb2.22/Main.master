@@ -1,0 +1,102 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>SimProTek Corporation</title>
+</head>
+<body style="text-align: center" bgcolor="white">
+    <form id="form1" runat="server">
+       <div>
+          <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 56px; background-repeat: repeat-x; background-image: url(Images/scene.JPG); vertical-align: top; text-align: justify;">
+          <tr>
+              <td bgcolor="#ffccff" nowrap="nowrap" style="font-weight: bold; font-size: xx-large;
+                  background-image: url(Images/wave.JPG); width: 9%; color: orange; background-repeat: repeat;
+                  font-style: italic; font-family: Georgia; height: 60px; background-color: transparent;
+                  text-align: center">
+                  <span style="font-size: 24pt"><span style="color: #660000">&nbsp; <span style="font-size: 32pt">
+                      S</span></span><span style="color: #d2691e">im</span><span style="color: #660000">p</span><span style="color: chocolate">ro</span><span
+                             style="color: #660000">t</span><span style="color: chocolate"><span><span>ek&nbsp;
+                                 <br />
+                                 <span style="font-size: 10pt; color: black; font-family: Times New Roman"></span>
+                             </span> </span></span></span>
+              </td>
+             <td style="font-family:Times New Roman; font-style: italic; font-weight: bold; font-size: xx-large; text-align: center; color: orange; height: 60px; background-color: transparent; width: 34%; background-repeat: repeat;" nowrap="noWrap" bgcolor="#ffccff">
+                 <span style="color: burlywood"><span><span style="color: #660000;"><span>
+                     <span style="color: sienna;"><span style="color: chocolate"><span style="font-size: 8pt; background-attachment: fixed; background-image: url(Images/scene.JPG); vertical-align: top; background-repeat: repeat-x; text-align: left; background-position-x: left; position: static;"></span>
+                                 </span></span></span></span></span></span></td>
+          </tr>
+              <tr style="font-size: 12pt; font-family: Times New Roman">
+                  <td bgcolor="#ffccff" nowrap="nowrap" style="font-weight: bold; font-size: medium;
+                      background-image: url(Images/wave.JPG); width: 9%; color: orange; background-repeat: repeat;
+                      font-style: italic; font-family: Georgia; background-color: transparent;
+                      text-align: center">
+                      <span style="font-weight: normal; color: #000000; font-style: normal; font-family: 'Times New Roman'">
+                          <strong>Simprotek Corporation</strong></span></td>
+                  <td bgcolor="#ffccff" nowrap="nowrap" style="font-weight: bold; font-size: 12pt;
+                      background-image: url(Images/team0.JPG); width: 34%; color: orange; background-repeat: repeat;
+                      font-style: italic; font-family: Georgia; background-color: transparent;
+                      text-align: center">
+                      <span style="background-image: url(Images/team0.JPG); color: khaki; background-repeat: no-repeat; font-family: Verdana;"></span></td>
+              </tr>
+       </table>
+  </div>
+<!--       <br /> -->
+       <table style="width: 100%; height: 287px; font-size: 12pt;">
+          <tr>
+             <td style="height: 31px; width: 1%;text-align: left; background-color: lightgray; " valign="top" bgcolor="#ffff99">
+                <asp:Menu ID="mainMenu" runat="server" DataSourceID="mainSiteMapDataSource" StaticDisplayLevels="2" Height="98px" StaticSubMenuIndent="20px" Font-Names="Verdana" Font-Size="Small" Font-Bold="True" OnMenuItemClick="mainMenu_MenuItemClick" Width="126px">
+                   <LevelMenuItemStyles>
+                      <asp:MenuItemStyle Font-Underline="True" ForeColor="Blue" ItemSpacing="6px"  HorizontalPadding="4px" VerticalPadding="2px" />
+                      <asp:MenuItemStyle Font-Underline="True" ForeColor="Blue" ItemSpacing="6px"  HorizontalPadding="4px" VerticalPadding="2px" />
+                   </LevelMenuItemStyles>
+                   <StaticHoverStyle BackColor="Silver" />
+                </asp:Menu>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br />
+                 <br />
+                 <br />
+                
+                </td>
+             <td style="width: 50px; height: 31px; text-align: left; background-color: white; color: dimgray;" bgcolor="#cccc99" align="center" valign="top">
+                <asp:ContentPlaceHolder ID="mainContentPlaceHolder" runat="server">
+                    <em><span style="font-size: 16pt; color: #f0e68c"></span></em></asp:ContentPlaceHolder>
+             </td>
+          </tr>
+       </table>
+       
+       <table style="width: 100%; background-color: darkgray; font-size: 12pt;">
+          <tr>
+             <td align="right" nowrap="noWrap" width: 100%; height: 100%" style="text-align: center; font-size: small; font-family: Verdana; height: 25px; background-color: lightgray;" >
+                 <asp:HyperLink ID="HyperLink1" runat="server" BackColor="Transparent" Font-Bold="True"
+                     Font-Underline="True" ForeColor="Black" NavigateUrl="~/Default.aspx"> Home </asp:HyperLink>
+                 &nbsp; &nbsp;&nbsp;
+                 <asp:HyperLink ID="HyperLink2" runat="server" BackColor="Transparent" Font-Bold="True"
+                     Font-Underline="True" ForeColor="Black" NavigateUrl="~/Products.aspx">Products</asp:HyperLink>
+                 &nbsp; &nbsp;&nbsp;
+                 <asp:HyperLink ID="HyperLink4" runat="server" BackColor="Transparent" Font-Bold="True"
+                     Font-Underline="True" ForeColor="Black" NavigateUrl="~/Download.aspx">Download</asp:HyperLink>
+                 &nbsp; &nbsp;
+                 <asp:HyperLink ID="HyperLink3" runat="server" BackColor="Transparent" Font-Bold="True"
+                     Font-Underline="True" ForeColor="Black" NavigateUrl="~/Company.aspx">Company</asp:HyperLink>
+                 &nbsp;&nbsp;&nbsp; <asp:HyperLink ID="HyperLink7" runat="server" BackColor="Transparent" Font-Bold="True"
+                     Font-Underline="True" ForeColor="Black" NavigateUrl="~/Services.aspx">Services</asp:HyperLink>
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+                 <asp:HyperLink ID="HyperLink8" runat="server" BackColor="Transparent" Font-Bold="True"
+                     Font-Underline="True" ForeColor="Black" NavigateUrl="~/News.aspx">News</asp:HyperLink>
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+                 <asp:HyperLink ID="HyperLink6" runat="server" 
+                     BackColor="Transparent" Font-Bold="True"
+                     Font-Underline="True" ForeColor="Black" NavigateUrl="~/Resources.aspx">Resources</asp:HyperLink>
+                 &nbsp;&nbsp;&nbsp;&nbsp;
+                 <asp:HyperLink ID="HyperLink5" runat="server" BackColor="Transparent" Font-Bold="True"
+                     Font-Underline="True" ForeColor="Black" NavigateUrl="~/ContactUs.aspx">Contact Us</asp:HyperLink></td>
+          </tr>
+       </table>
+       <small style="color: black; font-size: x-small; font-family: Verdana;">
+          <br />
+          
+          Copyright &copy; 2006 Simprotek Corporation. All rights reserved.</small>&nbsp;<asp:SiteMapDataSource ID="mainSiteMapDataSource" runat="server" />
+    </form>
+</body>
+</html>

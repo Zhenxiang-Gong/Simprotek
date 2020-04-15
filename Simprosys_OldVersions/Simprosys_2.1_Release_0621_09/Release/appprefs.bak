@@ -1,0 +1,51 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:UIPreferences id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ProsimoUI/ProsimoUI">
+<ClassPersistenceVersionUIPreferences>1</ClassPersistenceVersionUIPreferences>
+<MainFormLocation xsi:type="a2:Point" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing">
+<x>165</x>
+<y>76</y>
+</MainFormLocation>
+<MainFormSize xsi:type="a2:Size" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing">
+<width>1206</width>
+<height>510</height>
+</MainFormSize>
+<MainFormWindowState xsi:type="a3:FormWindowState" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/System.Windows.Forms/System.Windows.Forms">Normal</MainFormWindowState>
+<ToolboxVisible>true</ToolboxVisible>
+<ApplicationPreferences href="#ref-5"/>
+<NewProcessSettings href="#ref-6"/>
+<FlowsheetPreferences href="#ref-7"/>
+</a1:UIPreferences>
+<a1:ApplicationPreferences id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ProsimoUI/ProsimoUI">
+<ClassPersistenceVersionApplicationPreferences>1</ClassPersistenceVersionApplicationPreferences>
+<CurrentUnitSystemName id="ref-8">SI-2</CurrentUnitSystemName>
+<NumericFormat xsi:type="a1:NumericFormat" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ProsimoUI/ProsimoUI">FixedPoint</NumericFormat>
+<DecimalPlaces id="ref-9">3</DecimalPlaces>
+</a1:ApplicationPreferences>
+<a1:FlowsheetSettings id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ProsimoUI/ProsimoUI">
+<ClassPersistenceVersionNewProcessSettings>1</ClassPersistenceVersionNewProcessSettings>
+<DryingGasName id="ref-10">Air</DryingGasName>
+<DryingMaterialName id="ref-11">Generic Drying Material</DryingMaterialName>
+</a1:FlowsheetSettings>
+<a1:FlowsheetPreferences id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/ProsimoUI/ProsimoUI">
+<ClassPersistenceVersionFlowsheetPreferences>2</ClassPersistenceVersionFlowsheetPreferences>
+<BackColor xsi:type="a2:Color" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing">
+<name xsi:null="1"/>
+<value>0</value>
+<knownColor>164</knownColor>
+<state>1</state>
+</BackColor>
+<HasGlobalEditorPrefs>true</HasGlobalEditorPrefs>
+<GlobalEditorFormLocation xsi:type="a2:Point" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing">
+<x>487</x>
+<y>162</y>
+</GlobalEditorFormLocation>
+<GlobalEditorFormSize xsi:type="a2:Size" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing">
+<width>745</width>
+<height>639</height>
+</GlobalEditorFormSize>
+<GlobalEditorSplitterPosition>296</GlobalEditorSplitterPosition>
+<HasCustomEditorPrefs>false</HasCustomEditorPrefs>
+</a1:FlowsheetPreferences>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

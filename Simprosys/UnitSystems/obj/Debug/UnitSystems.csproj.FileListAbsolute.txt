@@ -1,0 +1,7 @@
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitSystems\bin\Debug\UnitSystems.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitSystems\bin\Debug\UnitSystems.pdb
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitSystems\bin\Debug\Prosimo.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitSystems\bin\Debug\Prosimo.pdb
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitSystems\obj\Debug\UnitSystems.csprojResolveAssemblyReference.cache
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitSystems\obj\Debug\UnitSystems.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitSystems\obj\Debug\UnitSystems.pdb

@@ -1,0 +1,5 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ReferencePath>C:\SnapshotViews\gengs_view_Canto_Latest\c1s\Software\lib\</ReferencePath>
+  </PropertyGroup>
+</Project>

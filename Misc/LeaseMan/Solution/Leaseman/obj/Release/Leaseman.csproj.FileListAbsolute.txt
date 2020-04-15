@@ -1,0 +1,14 @@
+C:\Users\Zen_Gong\Documents\Simprotek\Misc\LeaseMan\Solution\Leaseman\bin\Release\Lease.exe
+C:\Users\Zen_Gong\Documents\Simprotek\Misc\LeaseMan\Solution\Leaseman\bin\Release\SoftwareProtection.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Misc\LeaseMan\Solution\Leaseman\obj\Release\Leaseman.csprojResolveAssemblyReference.cache
+C:\Users\Zen_Gong\Documents\Simprotek\Misc\LeaseMan\Solution\Leaseman\obj\Release\Leaseman.MainForm.resources
+C:\Users\Zen_Gong\Documents\Simprotek\Misc\LeaseMan\Solution\Leaseman\obj\Release\Leaseman.csproj.GenerateResource.Cache
+C:\Users\Zen_Gong\Documents\Simprotek\Misc\LeaseMan\Solution\Leaseman\obj\Release\Lease.exe
+C:\Users\Administrator\Documents\Simprotek\Misc\LeaseMan\Solution\Leaseman\bin\Release\Lease.exe
+C:\Users\Administrator\Documents\Simprotek\Misc\LeaseMan\Solution\Leaseman\bin\Release\SoftwareProtection.dll
+C:\Users\Administrator\Documents\Simprotek\Misc\LeaseMan\Solution\Leaseman\obj\Release\Leaseman.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Simprotek\Misc\LeaseMan\Solution\Leaseman\obj\Release\Leaseman.MainForm.resources
+C:\Users\Administrator\Documents\Simprotek\Misc\LeaseMan\Solution\Leaseman\obj\Release\Leaseman.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Simprotek\Misc\LeaseMan\Solution\Leaseman\obj\Release\Leaseman.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Simprotek\Misc\LeaseMan\Solution\Leaseman\obj\Release\Leaseman.csproj.CopyComplete
+C:\Users\Administrator\Documents\Simprotek\Misc\LeaseMan\Solution\Leaseman\obj\Release\Lease.exe

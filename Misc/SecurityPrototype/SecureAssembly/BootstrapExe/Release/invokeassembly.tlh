@@ -1,0 +1,83 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.50727.42 (1a28df13).
+//
+// c:\private\prosimo\securityprototype\secureassembly\bootstrapexe\release\invokeassembly.tlh
+//
+// C++ source equivalent of Win32 type library Release\InvokeAssembly.tlb
+// compiler-generated file created 02/22/06 at 21:48:43 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("9f5b1f21-362b-30a2-a1f9-d57b96ceb69d"))
+/* LIBID */ __InvokeAssembly;
+struct __declspec(uuid("eda9d63b-335c-3056-aaec-dbb60d604264"))
+/* dual interface */ IInvokeAssembly;
+struct /* coclass */ CInvokeAssembly;
+struct __declspec(uuid("6c3afd13-7e29-3c8f-9e76-c69edcae5c06"))
+/* dual interface */ _CInvokeAssembly;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IInvokeAssembly, __uuidof(IInvokeAssembly));
+_COM_SMARTPTR_TYPEDEF(_CInvokeAssembly, __uuidof(_CInvokeAssembly));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("eda9d63b-335c-3056-aaec-dbb60d604264"))
+IInvokeAssembly : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT LoadAndExecute (
+        SAFEARRAY * pBuf );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_LoadAndExecute (
+        /*[in]*/ SAFEARRAY * pBuf ) = 0;
+};
+
+struct __declspec(uuid("d4174691-2939-30b4-84e7-f092e5c3a57d"))
+CInvokeAssembly;
+    // [ default ] interface _CInvokeAssembly
+    // interface _Object
+    // interface IInvokeAssembly
+
+struct __declspec(uuid("6c3afd13-7e29-3c8f-9e76-c69edcae5c06"))
+_CInvokeAssembly : IDispatch
+{};
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_InvokeAssembly =
+    {0x9f5b1f21,0x362b,0x30a2,{0xa1,0xf9,0xd5,0x7b,0x96,0xce,0xb6,0x9d}};
+extern "C" const GUID __declspec(selectany) IID_IInvokeAssembly =
+    {0xeda9d63b,0x335c,0x3056,{0xaa,0xec,0xdb,0xb6,0x0d,0x60,0x42,0x64}};
+extern "C" const GUID __declspec(selectany) CLSID_CInvokeAssembly =
+    {0xd4174691,0x2939,0x30b4,{0x84,0xe7,0xf0,0x92,0xe5,0xc3,0xa5,0x7d}};
+extern "C" const GUID __declspec(selectany) IID__CInvokeAssembly =
+    {0x6c3afd13,0x7e29,0x3c8f,{0x9e,0x76,0xc6,0x9e,0xdc,0xae,0x5c,0x06}};
+
+//
+// Wrapper method implementations
+//
+
+#include "c:\private\prosimo\securityprototype\secureassembly\bootstrapexe\release\invokeassembly.tli"
+
+#pragma pack(pop)

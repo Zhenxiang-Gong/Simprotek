@@ -1,0 +1,75 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-2"/>
+<_size>1</_size>
+<_version>1</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-3"/>
+</SOAP-ENC:Array>
+<a3:DryingMaterial id="ref-3" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionDryingMaterial>1</ClassPersistenceVersionDryingMaterial>
+<Name id="ref-6">Generic Drying Material</Name>
+<IsUserDefined>true</IsUserDefined>
+<IsCompositeSubstance>true</IsCompositeSubstance>
+<Substance href="#ref-7"/>
+<MoistureName id="ref-8">Water</MoistureName>
+<MaterialType xsi:type="a3:MaterialType" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">GenericMaterial</MaterialType>
+<SolutionType xsi:type="a3:SolutionType" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Unknown</SolutionType>
+<DuhringLines xsi:null="1"/>
+<SpecificHeatOfAbsoluteDryMaterial>1260</SpecificHeatOfAbsoluteDryMaterial>
+</a3:DryingMaterial>
+<a3:CompositeSubstance id="ref-7" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionSubstance>1</ClassPersistenceVersionSubstance>
+<Name href="#ref-6"/>
+<CasRegistryNo>0</CasRegistryNo>
+<Formula xsi:null="1"/>
+<MolarWeight>0</MolarWeight>
+<IsUserDefined>false</IsUserDefined>
+<Type xsi:type="a5:SubstanceType" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary/SubstanceLibrary%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Organic</Type>
+<PropsAndCoeffs xsi:null="1"/>
+<CriticalProps xsi:null="1"/>
+<ClassPersistenceVersionCompositeSubstance>1</ClassPersistenceVersionCompositeSubstance>
+<Components href="#ref-10"/>
+</a3:CompositeSubstance>
+<a1:ArrayList id="ref-10" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-11"/>
+<_size>1</_size>
+<_version>1</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-11" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-12"/>
+</SOAP-ENC:Array>
+<a3:MaterialComponent id="ref-12" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionNonSolvableProcessVarOwner>1</ClassPersistenceVersionNonSolvableProcessVarOwner>
+<ClassPersistenceVersionMaterialComponent>1</ClassPersistenceVersionMaterialComponent>
+<IsCompositeSubstance>false</IsCompositeSubstance>
+<SubstanceName id="ref-14">Dry Material</SubstanceName>
+<MassFraction href="#ref-15"/>
+<MoleFraction href="#ref-16"/>
+</a3:MaterialComponent>
+<a6:ProcessVarDouble id="ref-15" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-17">MASS_FRACTION</Name>
+<ID>0</ID>
+<State xsi:type="a6:VarState" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a6:PhysicalQuantity" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-12"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a6:ProcessVarDouble>
+<a6:ProcessVarDouble id="ref-16" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-18">MOLE_FRACTION</Name>
+<ID>0</ID>
+<State xsi:type="a6:VarState" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a6:PhysicalQuantity" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-12"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a6:ProcessVarDouble>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

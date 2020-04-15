@@ -1,0 +1,1762 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D9F2B078-7680-4E9D-9CF0-EEB788B572FA}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>ProsimoUI</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ProsimoUI</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <Name>mscorlib</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap">
+      <Name>System.Runtime.Serialization.Formatters.Soap</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\MagicLibrary\MagicLibrary.csproj">
+      <Project>{92F94EA0-9910-4895-B8A1-FED1543A9DA1}</Project>
+      <Name>MagicLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Materials\Materials.csproj">
+      <Name>Materials</Name>
+      <Project>{0203ADF3-CC1E-48B2-9333-9862860DB466}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\Plots\Plots.csproj">
+      <Name>Plots</Name>
+      <Project>{32B00507-6645-4F1F-9C21-7699C53A2A28}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\Prosimo\Prosimo.csproj">
+      <Name>Prosimo</Name>
+      <Project>{E9DB3F4C-08DA-4ED6-81AB-6ACC64B1658C}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\SoftwareProtection\SoftwareProtection.csproj">
+      <Name>SoftwareProtection</Name>
+      <Project>{688B503B-F700-46BA-80A9-C9A7EAE8FCEC}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\SubstanceLibrary\SubstanceLibrary.csproj">
+      <Name>SubstanceLibrary</Name>
+      <Project>{F1664DED-6E70-4EBF-B015-EBBEF8CEF54B}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\ThermalProperties\ThermalProperties.csproj">
+      <Project>{4492F3E3-19DE-400A-8B52-891BB25B82B1}</Project>
+      <Name>ThermalProperties</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnitOperations\UnitOperations.csproj">
+      <Name>UnitOperations</Name>
+      <Project>{C215C04C-78F8-40DA-B89E-9EA8F5978D02}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\UnitSystems\UnitSystems.csproj">
+      <Name>UnitSystems</Name>
+      <Project>{1BC26AB1-E441-4F73-9510-1CC1672EBF28}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <Content Include="App.ico" />
+    <Content Include="images\chart.bmp" />
+    <Content Include="images\toolbar\add_connection.bmp" />
+    <Content Include="images\toolbar\close.bmp" />
+    <Content Include="images\toolbar\custom_editor.bmp" />
+    <Content Include="images\toolbar\delete.bmp" />
+    <Content Include="images\toolbar\delete_connection.bmp" />
+    <Content Include="images\toolbar\full_snapshot.bmp" />
+    <Content Include="images\toolbar\formula_editor.bmp" />
+    <Content Include="images\toolbar\help.bmp" />
+    <Content Include="images\toolbar\humidity_chart.bmp" />
+    <Content Include="images\toolbar\new.bmp" />
+    <Content Include="images\not_solved.ico" />
+    <Content Include="images\toolbar\numeric_format.bmp" />
+    <Content Include="images\toolbar\open.bmp" />
+    <Content Include="images\solved_with_warning.ico" />
+    <Content Include="images\toolbar\preferences.bmp" />
+    <Content Include="images\toolbar\preview.bmp" />
+    <Content Include="images\toolbar\print.bmp" />
+    <Content Include="images\toolbar\rotate_clockwise.bmp" />
+    <Content Include="images\toolbar\rotate_counterclockwise.bmp" />
+    <Content Include="images\toolbar\save.bmp" />
+    <Content Include="images\toolbar\selection_snapshot.bmp" />
+    <Content Include="images\solve_failed.ico" />
+    <Content Include="images\solved.ico" />
+    <Content Include="images\splash.jpg" />
+    <Content Include="images\Streams\Gas\gas_ctrl_not_solved_down.bmp" />
+    <Content Include="images\Streams\Gas\gas_ctrl_not_solved_left.bmp" />
+    <Content Include="images\Streams\Gas\gas_ctrl_not_solved_right.bmp" />
+    <Content Include="images\Streams\Gas\gas_ctrl_not_solved_up.bmp" />
+    <Content Include="images\Streams\Gas\gas_ctrl_solved_with_warning_down.bmp" />
+    <Content Include="images\Streams\Gas\gas_ctrl_solved_with_warning_left.bmp" />
+    <Content Include="images\Streams\Gas\gas_ctrl_solved_with_warning_right.bmp" />
+    <Content Include="images\Streams\Gas\gas_ctrl_solved_with_warning_up.bmp" />
+    <Content Include="images\Streams\Gas\gas_ctrl_solve_failed_down.bmp" />
+    <Content Include="images\Streams\Gas\gas_ctrl_solve_failed_left.bmp" />
+    <Content Include="images\Streams\Gas\gas_ctrl_solve_failed_right.bmp" />
+    <Content Include="images\Streams\Gas\gas_ctrl_solve_failed_up.bmp" />
+    <Content Include="images\Streams\Gas\gas_ctrl_solved_down.bmp" />
+    <Content Include="images\Streams\Gas\gas_ctrl_solved_left.bmp" />
+    <Content Include="images\Streams\Gas\gas_ctrl_solved_right.bmp" />
+    <Content Include="images\Streams\Gas\gas_ctrl_solved_up.bmp" />
+    <Content Include="images\Streams\Gas\gas_toolbox.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_ctrl_not_solved_down.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_ctrl_not_solved_left.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_ctrl_not_solved_right.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_ctrl_not_solved_up.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_ctrl_solved_with_warning_down.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_ctrl_solved_with_warning_left.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_ctrl_solved_with_warning_right.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_ctrl_solved_with_warning_up.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_ctrl_solve_failed_down.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_ctrl_solve_failed_left.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_ctrl_solve_failed_right.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_ctrl_solve_failed_up.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_ctrl_solved_down.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_ctrl_solved_left.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_ctrl_solved_right.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_ctrl_solved_up.bmp" />
+    <Content Include="images\Streams\Material\Liquid\material_liquid_toolbox.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_ctrl_not_solved_down.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_ctrl_not_solved_left.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_ctrl_not_solved_right.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_ctrl_not_solved_up.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_ctrl_solved_with_warning_down.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_ctrl_solved_with_warning_left.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_ctrl_solved_with_warning_right.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_ctrl_solved_with_warning_up.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_ctrl_solve_failed_down.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_ctrl_solve_failed_left.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_ctrl_solve_failed_right.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_ctrl_solve_failed_up.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_ctrl_solved_down.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_ctrl_solved_left.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_ctrl_solved_right.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_ctrl_solved_up.bmp" />
+    <Content Include="images\Streams\Material\Solid\material_solid_toolbox.bmp" />
+    <Content Include="images\Streams\Process\process_ctrl_not_solved_down.bmp" />
+    <Content Include="images\Streams\Process\process_ctrl_not_solved_left.bmp" />
+    <Content Include="images\Streams\Process\process_ctrl_not_solved_right.bmp" />
+    <Content Include="images\Streams\Process\process_ctrl_not_solved_up.bmp" />
+    <Content Include="images\Streams\Process\process_ctrl_solved_with_warning_down.bmp" />
+    <Content Include="images\Streams\Process\process_ctrl_solved_with_warning_left.bmp" />
+    <Content Include="images\Streams\Process\process_ctrl_solved_with_warning_right.bmp" />
+    <Content Include="images\Streams\Process\process_ctrl_solved_with_warning_up.bmp" />
+    <Content Include="images\Streams\Process\process_ctrl_solve_failed_down.bmp" />
+    <Content Include="images\Streams\Process\process_ctrl_solve_failed_left.bmp" />
+    <Content Include="images\Streams\Process\process_ctrl_solve_failed_right.bmp" />
+    <Content Include="images\Streams\Process\process_ctrl_solve_failed_up.bmp" />
+    <Content Include="images\Streams\Process\process_ctrl_solved_down.bmp" />
+    <Content Include="images\Streams\Process\process_ctrl_solved_left.bmp" />
+    <Content Include="images\Streams\Process\process_ctrl_solved_right.bmp" />
+    <Content Include="images\Streams\Process\process_ctrl_solved_up.bmp" />
+    <Content Include="images\Streams\Process\process_toolbox.bmp" />
+    <Content Include="images\toolbar\system_editor.bmp" />
+    <Content Include="images\target.bmp" />
+    <Content Include="images\toolbar\toolbox.bmp" />
+    <Content Include="images\toolbar\unit_converter.bmp" />
+    <Content Include="images\toolbar\unit_systems.bmp" />
+    <Content Include="images\UnitOperations\Cyclone\cyclone_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\Cyclone\cyclone_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\Cyclone\cyclone_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\Cyclone\cyclone_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\Cyclone\cyclone_toolbox.bmp" />
+    <Content Include="images\UnitOperations\Dryer\dryer_liquid_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\Dryer\dryer_liquid_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\Dryer\dryer_liquid_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\Dryer\dryer_liquid_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\Dryer\dryer_liquid_toolbox.bmp" />
+    <Content Include="images\UnitOperations\Dryer\dryer_solid_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\Dryer\dryer_solid_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\Dryer\dryer_solid_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\Dryer\dryer_solid_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\Dryer\dryer_solid_toolbox.bmp" />
+    <Content Include="images\UnitOperations\Ejector\ejector_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\Ejector\ejector_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\Ejector\ejector_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\Ejector\ejector_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\Ejector\ejector_toolbox.bmp" />
+    <Content Include="images\UnitOperations\FlashTank\flashtank_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\FlashTank\flashtank_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\FlashTank\flashtank_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\FlashTank\flashtank_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\FlashTank\flashtank_toolbox.bmp" />
+    <Content Include="images\UnitOperations\HeatExchanger\heatexchanger_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\HeatExchanger\heatexchanger_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\HeatExchanger\heatexchanger_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\HeatExchanger\heatexchanger_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\HeatExchanger\heatexchanger_toolbox.bmp" />
+    <Content Include="images\UnitOperations\Mixer\mixer_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\Mixer\mixer_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\Mixer\mixer_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\Mixer\mixer_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\Mixer\mixer_toolbox.bmp" />
+    <Content Include="images\UnitOperations\ScrubberCondenser\scrubbercondenser_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\ScrubberCondenser\scrubbercondenser_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\ScrubberCondenser\scrubbercondenser_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\ScrubberCondenser\scrubbercondenser_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\ScrubberCondenser\scrubbercondenser_toolbox.bmp" />
+    <Content Include="images\UnitOperations\Tee\tee_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\Tee\tee_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\Tee\tee_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\Tee\tee_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\Tee\tee_toolbox.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Compressor\compressor_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Compressor\compressor_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Compressor\compressor_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Compressor\compressor_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Compressor\compressor_toolbox.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Cooler\cooler_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Cooler\cooler_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Cooler\cooler_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Cooler\cooler_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Cooler\cooler_toolbox.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\ElectrostaticPrecipitator\electrostaticprecipitator_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\ElectrostaticPrecipitator\electrostaticprecipitator_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\ElectrostaticPrecipitator\electrostaticprecipitator_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\ElectrostaticPrecipitator\electrostaticprecipitator_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\ElectrostaticPrecipitator\electrostaticprecipitator_toolbox.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\FabricFilter\airfilter_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\FabricFilter\airfilter_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\FabricFilter\airfilter_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\FabricFilter\airfilter_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\FabricFilter\airfilter_toolbox.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\FabricFilter\bagfilter_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\FabricFilter\bagfilter_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\FabricFilter\bagfilter_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\FabricFilter\bagfilter_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\FabricFilter\bagfilter_toolbox.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Fan\fan_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Fan\fan_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Fan\fan_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Fan\fan_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Fan\fan_toolbox.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Heater\heater_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Heater\heater_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Heater\heater_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Heater\heater_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Heater\heater_toolbox.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Pump\pump_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Pump\pump_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Pump\pump_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Pump\pump_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Pump\pump_toolbox.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Recycle\recycle_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Recycle\recycle_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Recycle\recycle_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Recycle\recycle_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Recycle\recycle_toolbox.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Valve\valve_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Valve\valve_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Valve\valve_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Valve\valve_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\TwoStream\Valve\valve_toolbox.bmp" />
+    <Content Include="images\UnitOperations\WetScrubber\wetscrubber_ctrl_not_solved.bmp" />
+    <Content Include="images\UnitOperations\WetScrubber\wetscrubber_ctrl_solved_with_warning.bmp" />
+    <Content Include="images\UnitOperations\WetScrubber\wetscrubber_ctrl_solve_failed.bmp" />
+    <Content Include="images\UnitOperations\WetScrubber\wetscrubber_ctrl_solved.bmp" />
+    <Content Include="images\UnitOperations\WetScrubber\wetscrubber_toolbox.bmp" />
+    <Compile Include="ApplicationInformation.cs" />
+    <Compile Include="ApplicationPreferences.cs" />
+    <Compile Include="ApplicationPreferencesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationPreferencesForm.Designer.cs">
+      <DependentUpon>ApplicationPreferencesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalEditor\CustomizeFlowsheetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\TheTutorialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessVarObj.cs">
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ConnectionManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ConnectionPoint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CustomEditor\CustomEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CustomEditor\CustomEditorElementControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomEditor\CustomEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomEditor\CustomEditorHeaderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomEditor\VariableSelectorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomEditor\VariableSelectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Flowsheet.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlowsheetPreferences.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlowsheetOptionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlowsheetVersion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FormulaEditor\FormulaEditorElementControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormulaEditor\FormulaEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormulaEditor\FormulaEditorHeaderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormulaEditor\FormulaParser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FormulaEditor\ListViewSolvableItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\AirFiltersEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\BagFiltersEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\CompressorsEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\CoolersEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\CyclonesEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\DryersEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\EjectorsEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\ElectrostaticPrecipitatorsEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\FansEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\GasStreamsEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\HeatersEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\HeatExchangersEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\MaterialStreamsEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\PumpsEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\ScrubberCondensersEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\StreamsEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\SystemEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\UnitOpsEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\ValvesEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GlobalEditor\WetScrubbersEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Help\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\ActivationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\ChooseTutorialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\InformationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Help\SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\TutorialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help\UserManualForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumidityChart\HumidityChartCurrentStateEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HumidityChart\HumidityChartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HumidityChart\HumidityChartProcess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HumidityChart\HumidityChartProcessEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HumidityChart\HumidityChartState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HumidityChart\HumidityChartStreamLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HumidityChart\HumidityChartStreamValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HumidityChart\StateControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ListViewItemComparer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ListViewVariableItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaterialsUI\AddOrEditDryingMaterialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaterialsUI\DMDetailsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MaterialsUI\DMDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaterialsUI\DryingGasesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MaterialsUI\DryingMaterialsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MaterialsUI\DryingMaterialsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaterialsUI\DuhringLineControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MaterialsUI\DuhringLinesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MaterialsUI\DuhringLinesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaterialsUI\MaterialComponentNameAndFractionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MaterialsUI\MaterialComponentsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MaterialsUI\ReadOnlyDuhringLinesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewProcessSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NewProcessSettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersistenceManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plots\AddPlot2DForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plots\AxisVariable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plots\Curve.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plots\CurveFamily.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plots\HCPlotControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Plots\HCPlotGraph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Plots\ParameterValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Plots\Plot2DControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Plots\Plot2DGraph.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Plots\PlotData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plots\Plots.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Plots\PlotsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Plots\PlotsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plots\ViewPlot2DForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessStreamsUI\DryingStreamControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProcessStreamsUI\GasStreamControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProcessStreamsUI\GasStreamEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessStreamsUI\GasStreamLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProcessStreamsUI\GasStreamValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProcessStreamsUI\MaterialStreamControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProcessStreamsUI\MaterialStreamEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessStreamsUI\MaterialStreamLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProcessStreamsUI\MaterialStreamValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProcessStreamsUI\ProcessStreamBaseControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProcessStreamsUI\ProcessStreamBaseEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessStreamsUI\ProcessStreamControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProcessStreamsUI\ProcessStreamEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessStreamsUI\ProcessStreamLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProcessStreamsUI\ProcessStreamValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProcessStreamsUI\StreamManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ProcessVarLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProcessVarNonEditableTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProcessVarTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProcVarsEditor\MinMaxProcVarElementControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProcVarsEditor\MinMaxProcVarHeaderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProcVarsEditor\ProcVarOutOfRangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcVarsEditor\ProcVarsInappropriateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcVarsEditor\ProcVarsMoreThenOneOutOfRangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcVarsEditor\ProcVarsOnlyOneOutOfRangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcVarsEditor\RecommProcVarElementControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProcVarsEditor\RecommProcVarHeaderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyBag.cs" />
+    <Compile Include="ScrollablePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SelectSolvablesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SolvableConnection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SolvableControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SolvableEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SolvableLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SolvableNameTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SolvableVariablesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubstancesUI\SubstanceDetailsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SubstancesUI\SubstanceDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubstancesUI\SubstancesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SystemNameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Toolbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIPreferences.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\CycloneUI\CycloneControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\CycloneUI\CycloneEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\CycloneUI\CycloneLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\CycloneUI\CycloneParticleDistributionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\CycloneUI\CycloneParticleDistributionEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\CycloneUI\CycloneParticleSizeAndFractionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\CycloneUI\CycloneRatingEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\CycloneUI\CycloneRatingLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\CycloneUI\CycloneRatingValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\CycloneUI\CycloneTotalEfficiencyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\CycloneUI\CycloneValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\DryerUI\DryerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\DryerUI\DryerEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\DryerUI\DryerLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\DryerUI\DryerScopingCircularLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\DryerUI\DryerScopingCircularValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\DryerUI\DryerScopingCommonLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\DryerUI\DryerScopingCommonValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\DryerUI\DryerScopingEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\DryerUI\DryerScopingRectangularLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\DryerUI\DryerScopingRectangularValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\DryerUI\DryerValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\EjectorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\EjectorEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\EjectorLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\EjectorValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\FlashTankControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\FlashTankEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HeatExchangerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HeatExchangerEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HeatExchangerLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HeatExchangerRatingEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HeatExchangerValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRating2LabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRating2ValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRating3LabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRating3ValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingPlateAndFrameEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingPlateAndFrameLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingPlateAndFrameValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeBellDelawareLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeBellDelawareValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeDonohueLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeDonohueValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeKernLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeKernValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericPlateAndFrameLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericPlateAndFrameValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericShellAndTubeLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericShellAndTubeValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\MixerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\MixerEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\ScrubberCondenserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\ScrubberCondenserEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\ScrubberCondenserLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\ScrubberCondenserValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TeeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TeeEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TeeStreamAndFractionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\AirFilterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\BagFilterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\BagFilterEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\BagFilterLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\BagFilterValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\CompressorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\CompressorEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\CompressorLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\CompressorValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\CoolerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\CoolerEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\CoolerLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\CoolerValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\ElectrostaticPrecipitatorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\ElectrostaticPrecipitatorEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\ElectrostaticPrecipitatorLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\ElectrostaticPrecipitatorValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\FabricFilterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\FabricFilterEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\FabricFilterLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\FabricFilterValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\FanCircularLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\FanCircularValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\FanControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\FanDimensionsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\FanEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\FanLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\FanRectangularLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\FanRectangularValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\FanValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\HeaterControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\HeaterEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\HeaterLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\HeaterValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\PumpControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\PumpDimensionsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\PumpEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\PumpLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\PumpValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\RecycleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\TwoStreamUnitOpControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\TwoStreamUnitOpEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\ValveControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\ValveEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\ValveLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\TwoStream\ValveValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\UnitOpControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\UnitOpEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\UnitOpManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\WetScrubberControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\WetScrubberEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\WetScrubberLabelsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitOperationsUI\WetScrubberValuesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitSystemsUI\UnitConverterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitSystemsUI\UnitSystemControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitSystemsUI\UnitSystemEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnitSystemsUI\UnitSystemsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UnitSystemsUI\UnitSystemsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="ApplicationPreferencesForm.resx">
+      <DependentUpon>ApplicationPreferencesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomEditor\CustomEditorElementControl.resx">
+      <DependentUpon>CustomEditorElementControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomEditor\CustomEditorForm.resx">
+      <DependentUpon>CustomEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomEditor\CustomEditorHeaderControl.resx">
+      <DependentUpon>CustomEditorHeaderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomEditor\VariableSelectorControl.resx">
+      <DependentUpon>VariableSelectorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomEditor\VariableSelectorForm.resx">
+      <DependentUpon>VariableSelectorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindForm.resx">
+      <DependentUpon>FindForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Flowsheet.resx">
+      <DependentUpon>Flowsheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlowsheetOptionsForm.resx">
+      <DependentUpon>FlowsheetOptionsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulaEditor\FormulaEditorElementControl.resx">
+      <DependentUpon>FormulaEditorElementControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulaEditor\FormulaEditorForm.resx">
+      <DependentUpon>FormulaEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormulaEditor\FormulaEditorHeaderControl.resx">
+      <DependentUpon>FormulaEditorHeaderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalEditor\EjectorsEditor.resx">
+      <DependentUpon>EjectorsEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalEditor\ElectrostaticPrecipitatorsEditor.resx">
+      <DependentUpon>ElectrostaticPrecipitatorsEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalEditor\CustomizeFlowsheetForm.resx">
+      <DependentUpon>CustomizeFlowsheetForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalEditor\GasStreamsEditor.resx">
+      <DependentUpon>GasStreamsEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalEditor\SystemEditor.resx">
+      <DependentUpon>SystemEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GlobalEditor\WetScrubbersEditor.resx">
+      <DependentUpon>WetScrubbersEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\ActivationForm.resx">
+      <DependentUpon>ActivationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\ChooseTutorialForm.resx">
+      <DependentUpon>ChooseTutorialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\InformationControl.resx">
+      <DependentUpon>InformationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\TheTutorialForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TheTutorialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\TutorialForm.resx">
+      <DependentUpon>TutorialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\UserManualForm.resx">
+      <DependentUpon>UserManualForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumidityChart\HumidityChartCurrentStateEditor.resx">
+      <DependentUpon>HumidityChartCurrentStateEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumidityChart\HumidityChartForm.resx">
+      <DependentUpon>HumidityChartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumidityChart\HumidityChartProcessEditor.resx">
+      <DependentUpon>HumidityChartProcessEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumidityChart\HumidityChartStreamLabelsControl.resx">
+      <DependentUpon>HumidityChartStreamLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumidityChart\HumidityChartStreamValuesControl.resx">
+      <DependentUpon>HumidityChartStreamValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumidityChart\StateControl.resx">
+      <DependentUpon>StateControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialsUI\AddOrEditDryingMaterialForm.resx">
+      <DependentUpon>AddOrEditDryingMaterialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialsUI\DMDetailsControl.resx">
+      <DependentUpon>DMDetailsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialsUI\DMDetailsForm.resx">
+      <DependentUpon>DMDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialsUI\DryingGasesControl.resx">
+      <DependentUpon>DryingGasesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialsUI\DryingMaterialsControl.resx">
+      <DependentUpon>DryingMaterialsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialsUI\DryingMaterialsForm.resx">
+      <DependentUpon>DryingMaterialsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialsUI\DuhringLineControl.resx">
+      <DependentUpon>DuhringLineControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialsUI\DuhringLinesControl.resx">
+      <DependentUpon>DuhringLinesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialsUI\DuhringLinesForm.resx">
+      <DependentUpon>DuhringLinesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialsUI\MaterialComponentNameAndFractionControl.resx">
+      <DependentUpon>MaterialComponentNameAndFractionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialsUI\MaterialComponentsControl.resx">
+      <DependentUpon>MaterialComponentsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialsUI\ReadOnlyDuhringLinesControl.resx">
+      <DependentUpon>ReadOnlyDuhringLinesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewProcessSettingsForm.resx">
+      <DependentUpon>NewProcessSettingsForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plots\AddPlot2DForm.resx">
+      <DependentUpon>AddPlot2DForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plots\HCPlotControl.resx">
+      <DependentUpon>HCPlotControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plots\HCPlotGraph.resx">
+      <DependentUpon>HCPlotGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plots\ParameterValuesControl.resx">
+      <DependentUpon>ParameterValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plots\Plot2DControl.resx">
+      <DependentUpon>Plot2DControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plots\Plot2DGraph.resx">
+      <DependentUpon>Plot2DGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plots\PlotsControl.resx">
+      <DependentUpon>PlotsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plots\PlotsForm.resx">
+      <DependentUpon>PlotsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plots\ViewPlot2DForm.resx">
+      <DependentUpon>ViewPlot2DForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessStreamsUI\DryingStreamControl.resx">
+      <DependentUpon>DryingStreamControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessStreamsUI\GasStreamControl.resx">
+      <DependentUpon>GasStreamControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessStreamsUI\GasStreamEditor.resx">
+      <DependentUpon>GasStreamEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessStreamsUI\GasStreamLabelsControl.resx">
+      <DependentUpon>GasStreamLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessStreamsUI\GasStreamValuesControl.resx">
+      <DependentUpon>GasStreamValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessStreamsUI\MaterialStreamControl.resx">
+      <DependentUpon>MaterialStreamControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessStreamsUI\MaterialStreamEditor.resx">
+      <DependentUpon>MaterialStreamEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessStreamsUI\MaterialStreamLabelsControl.resx">
+      <DependentUpon>MaterialStreamLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessStreamsUI\MaterialStreamValuesControl.resx">
+      <DependentUpon>MaterialStreamValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessStreamsUI\ProcessStreamBaseControl.resx">
+      <DependentUpon>ProcessStreamBaseControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessStreamsUI\ProcessStreamBaseEditor.resx">
+      <DependentUpon>ProcessStreamBaseEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessStreamsUI\ProcessStreamControl.resx">
+      <DependentUpon>ProcessStreamControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessStreamsUI\ProcessStreamEditor.resx">
+      <DependentUpon>ProcessStreamEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessStreamsUI\ProcessStreamLabelsControl.resx">
+      <DependentUpon>ProcessStreamLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessStreamsUI\ProcessStreamValuesControl.resx">
+      <DependentUpon>ProcessStreamValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessVarLabel.resx">
+      <DependentUpon>ProcessVarLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcVarsEditor\MinMaxProcVarElementControl.resx">
+      <DependentUpon>MinMaxProcVarElementControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcVarsEditor\MinMaxProcVarHeaderControl.resx">
+      <DependentUpon>MinMaxProcVarHeaderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcVarsEditor\ProcVarOutOfRangeForm.resx">
+      <DependentUpon>ProcVarOutOfRangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcVarsEditor\ProcVarsInappropriateForm.resx">
+      <DependentUpon>ProcVarsInappropriateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcVarsEditor\ProcVarsMoreThenOneOutOfRangeForm.resx">
+      <DependentUpon>ProcVarsMoreThenOneOutOfRangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcVarsEditor\ProcVarsOnlyOneOutOfRangeForm.resx">
+      <DependentUpon>ProcVarsOnlyOneOutOfRangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcVarsEditor\RecommProcVarElementControl.resx">
+      <DependentUpon>RecommProcVarElementControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcVarsEditor\RecommProcVarHeaderControl.resx">
+      <DependentUpon>RecommProcVarHeaderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectSolvablesControl.resx">
+      <DependentUpon>SelectSolvablesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SolvableConnection.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SolvableConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SolvableControl.resx">
+      <DependentUpon>SolvableControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SolvableEditor.resx">
+      <DependentUpon>SolvableEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SolvableLabel.resx">
+      <DependentUpon>SolvableLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SolvableNameTextBox.resx">
+      <DependentUpon>SolvableNameTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SolvableVariablesControl.resx">
+      <DependentUpon>SolvableVariablesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubstancesUI\SubstanceDetailsControl.resx">
+      <DependentUpon>SubstanceDetailsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubstancesUI\SubstanceDetailsForm.resx">
+      <DependentUpon>SubstanceDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubstancesUI\SubstancesControl.resx">
+      <DependentUpon>SubstancesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemNameForm.resx">
+      <DependentUpon>SystemNameForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Toolbox.resx">
+      <DependentUpon>Toolbox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForm.resx">
+      <DependentUpon>UIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\CycloneUI\CycloneControl.resx">
+      <DependentUpon>CycloneControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\CycloneUI\CycloneEditor.resx">
+      <DependentUpon>CycloneEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\CycloneUI\CycloneLabelsControl.resx">
+      <DependentUpon>CycloneLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\CycloneUI\CycloneParticleDistributionControl.resx">
+      <DependentUpon>CycloneParticleDistributionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\CycloneUI\CycloneParticleDistributionEditor.resx">
+      <DependentUpon>CycloneParticleDistributionEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\CycloneUI\CycloneParticleSizeAndFractionControl.resx">
+      <DependentUpon>CycloneParticleSizeAndFractionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\CycloneUI\CycloneRatingEditor.resx">
+      <DependentUpon>CycloneRatingEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\CycloneUI\CycloneRatingLabelsControl.resx">
+      <DependentUpon>CycloneRatingLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\CycloneUI\CycloneRatingValuesControl.resx">
+      <DependentUpon>CycloneRatingValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\CycloneUI\CycloneTotalEfficiencyControl.resx">
+      <DependentUpon>CycloneTotalEfficiencyControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\CycloneUI\CycloneValuesControl.resx">
+      <DependentUpon>CycloneValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\DryerUI\DryerControl.resx">
+      <DependentUpon>DryerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\DryerUI\DryerEditor.resx">
+      <DependentUpon>DryerEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\DryerUI\DryerLabelsControl.resx">
+      <DependentUpon>DryerLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\DryerUI\DryerScopingCircularLabelsControl.resx">
+      <DependentUpon>DryerScopingCircularLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\DryerUI\DryerScopingCircularValuesControl.resx">
+      <DependentUpon>DryerScopingCircularValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\DryerUI\DryerScopingCommonLabelsControl.resx">
+      <DependentUpon>DryerScopingCommonLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\DryerUI\DryerScopingCommonValuesControl.resx">
+      <DependentUpon>DryerScopingCommonValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\DryerUI\DryerScopingEditor.resx">
+      <DependentUpon>DryerScopingEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\DryerUI\DryerScopingRectangularLabelsControl.resx">
+      <DependentUpon>DryerScopingRectangularLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\DryerUI\DryerScopingRectangularValuesControl.resx">
+      <DependentUpon>DryerScopingRectangularValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\DryerUI\DryerValuesControl.resx">
+      <DependentUpon>DryerValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\EjectorControl.resx">
+      <DependentUpon>EjectorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\EjectorEditor.resx">
+      <DependentUpon>EjectorEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\EjectorLabelsControl.resx">
+      <DependentUpon>EjectorLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\EjectorValuesControl.resx">
+      <DependentUpon>EjectorValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\FlashTankControl.resx">
+      <DependentUpon>FlashTankControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\FlashTankEditor.resx">
+      <DependentUpon>FlashTankEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HeatExchangerControl.resx">
+      <DependentUpon>HeatExchangerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HeatExchangerEditor.resx">
+      <DependentUpon>HeatExchangerEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HeatExchangerLabelsControl.resx">
+      <DependentUpon>HeatExchangerLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HeatExchangerRatingEditor.resx">
+      <DependentUpon>HeatExchangerRatingEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HeatExchangerValuesControl.resx">
+      <DependentUpon>HeatExchangerValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRating2LabelsControl.resx">
+      <DependentUpon>HXRating2LabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRating2ValuesControl.resx">
+      <DependentUpon>HXRating2ValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRating3LabelsControl.resx">
+      <DependentUpon>HXRating3LabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRating3ValuesControl.resx">
+      <DependentUpon>HXRating3ValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingPlateAndFrameEditor.resx">
+      <DependentUpon>HXRatingPlateAndFrameEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingPlateAndFrameLabelsControl.resx">
+      <DependentUpon>HXRatingPlateAndFrameLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingPlateAndFrameValuesControl.resx">
+      <DependentUpon>HXRatingPlateAndFrameValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeBellDelawareLabelsControl.resx">
+      <DependentUpon>HXRatingShellAndTubeBellDelawareLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeBellDelawareValuesControl.resx">
+      <DependentUpon>HXRatingShellAndTubeBellDelawareValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeDonohueLabelsControl.resx">
+      <DependentUpon>HXRatingShellAndTubeDonohueLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeDonohueValuesControl.resx">
+      <DependentUpon>HXRatingShellAndTubeDonohueValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeEditor.resx">
+      <DependentUpon>HXRatingShellAndTubeEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeKernLabelsControl.resx">
+      <DependentUpon>HXRatingShellAndTubeKernLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeKernValuesControl.resx">
+      <DependentUpon>HXRatingShellAndTubeKernValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericEditor.resx">
+      <DependentUpon>HXRatingSimpleGenericEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericLabelsControl.resx">
+      <DependentUpon>HXRatingSimpleGenericLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericPlateAndFrameLabelsControl.resx">
+      <DependentUpon>HXRatingSimpleGenericPlateAndFrameLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericPlateAndFrameValuesControl.resx">
+      <DependentUpon>HXRatingSimpleGenericPlateAndFrameValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericShellAndTubeLabelsControl.resx">
+      <DependentUpon>HXRatingSimpleGenericShellAndTubeLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericShellAndTubeValuesControl.resx">
+      <DependentUpon>HXRatingSimpleGenericShellAndTubeValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericValuesControl.resx">
+      <DependentUpon>HXRatingSimpleGenericValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\MixerControl.resx">
+      <DependentUpon>MixerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\MixerEditor.resx">
+      <DependentUpon>MixerEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\ScrubberCondenserLabelsControl.resx">
+      <DependentUpon>ScrubberCondenserLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\ScrubberCondenserValuesControl.resx">
+      <DependentUpon>ScrubberCondenserValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TeeControl.resx">
+      <DependentUpon>TeeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TeeEditor.resx">
+      <DependentUpon>TeeEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TeeStreamAndFractionControl.resx">
+      <DependentUpon>TeeStreamAndFractionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\AirFilterControl.resx">
+      <DependentUpon>AirFilterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\BagFilterControl.resx">
+      <DependentUpon>BagFilterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\BagFilterEditor.resx">
+      <DependentUpon>BagFilterEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\BagFilterLabelsControl.resx">
+      <DependentUpon>BagFilterLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\BagFilterValuesControl.resx">
+      <DependentUpon>BagFilterValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\CompressorControl.resx">
+      <DependentUpon>CompressorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\CompressorEditor.resx">
+      <DependentUpon>CompressorEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\CompressorLabelsControl.resx">
+      <DependentUpon>CompressorLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\CompressorValuesControl.resx">
+      <DependentUpon>CompressorValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\CoolerControl.resx">
+      <DependentUpon>CoolerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\CoolerEditor.resx">
+      <DependentUpon>CoolerEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\CoolerLabelsControl.resx">
+      <DependentUpon>CoolerLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\CoolerValuesControl.resx">
+      <DependentUpon>CoolerValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\ElectrostaticPrecipitatorControl.resx">
+      <DependentUpon>ElectrostaticPrecipitatorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\ElectrostaticPrecipitatorEditor.resx">
+      <DependentUpon>ElectrostaticPrecipitatorEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\ElectrostaticPrecipitatorLabelsControl.resx">
+      <DependentUpon>ElectrostaticPrecipitatorLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\ElectrostaticPrecipitatorValuesControl.resx">
+      <DependentUpon>ElectrostaticPrecipitatorValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\FabricFilterControl.resx">
+      <DependentUpon>FabricFilterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\FabricFilterEditor.resx">
+      <DependentUpon>FabricFilterEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\FabricFilterLabelsControl.resx">
+      <DependentUpon>FabricFilterLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\FabricFilterValuesControl.resx">
+      <DependentUpon>FabricFilterValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\FanCircularLabelsControl.resx">
+      <DependentUpon>FanCircularLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\FanCircularValuesControl.resx">
+      <DependentUpon>FanCircularValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\FanControl.resx">
+      <DependentUpon>FanControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\FanDimensionsControl.resx">
+      <DependentUpon>FanDimensionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\FanEditor.resx">
+      <DependentUpon>FanEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\FanLabelsControl.resx">
+      <DependentUpon>FanLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\FanRectangularLabelsControl.resx">
+      <DependentUpon>FanRectangularLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\FanRectangularValuesControl.resx">
+      <DependentUpon>FanRectangularValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\FanValuesControl.resx">
+      <DependentUpon>FanValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\HeaterControl.resx">
+      <DependentUpon>HeaterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\HeaterEditor.resx">
+      <DependentUpon>HeaterEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\HeaterLabelsControl.resx">
+      <DependentUpon>HeaterLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\HeaterValuesControl.resx">
+      <DependentUpon>HeaterValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\PumpControl.resx">
+      <DependentUpon>PumpControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\PumpDimensionsControl.resx">
+      <DependentUpon>PumpDimensionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\PumpEditor.resx">
+      <DependentUpon>PumpEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\PumpLabelsControl.resx">
+      <DependentUpon>PumpLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\PumpValuesControl.resx">
+      <DependentUpon>PumpValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\TwoStreamUnitOpControl.resx">
+      <DependentUpon>TwoStreamUnitOpControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\TwoStreamUnitOpEditor.resx">
+      <DependentUpon>TwoStreamUnitOpEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\ValveControl.resx">
+      <DependentUpon>ValveControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\ValveEditor.resx">
+      <DependentUpon>ValveEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\ValveLabelsControl.resx">
+      <DependentUpon>ValveLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\TwoStream\ValveValuesControl.resx">
+      <DependentUpon>ValveValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\UnitOpControl.resx">
+      <DependentUpon>UnitOpControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\UnitOpEditor.resx">
+      <DependentUpon>UnitOpEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\WetScrubberControl.resx">
+      <DependentUpon>WetScrubberControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\WetScrubberEditor.resx">
+      <DependentUpon>WetScrubberEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\WetScrubberLabelsControl.resx">
+      <DependentUpon>WetScrubberLabelsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitOperationsUI\WetScrubberValuesControl.resx">
+      <DependentUpon>WetScrubberValuesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitSystemsUI\UnitConverterForm.resx">
+      <DependentUpon>UnitConverterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitSystemsUI\UnitSystemControl.resx">
+      <DependentUpon>UnitSystemControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitSystemsUI\UnitSystemEditor.resx">
+      <DependentUpon>UnitSystemEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitSystemsUI\UnitSystemsControl.resx">
+      <DependentUpon>UnitSystemsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnitSystemsUI\UnitSystemsForm.resx">
+      <DependentUpon>UnitSystemsForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,35 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:F id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/pers/pers%2C%20Version%3D1.0.1395.30931%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassVersionF>1</ClassVersionF>
+<AARef href="#ref-3"/>
+<AAARef href="#ref-4"/>
+</a1:F>
+<a1:AA id="ref-3" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/pers/pers%2C%20Version%3D1.0.1395.30931%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassVersionA>1</ClassVersionA>
+<MyInt>3</MyInt>
+<BBRef href="#ref-5"/>
+<ClassVersionAA>1</ClassVersionAA>
+<MyBool>false</MyBool>
+</a1:AA>
+<a1:AAA id="ref-4" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/pers/pers%2C%20Version%3D1.0.1395.30931%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassVersionA>1</ClassVersionA>
+<MyInt>3</MyInt>
+<BBRef href="#ref-6"/>
+<ClassVersionAAA>1</ClassVersionAAA>
+<MyInt2>3</MyInt2>
+</a1:AAA>
+<a1:BB id="ref-5" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/pers/pers%2C%20Version%3D1.0.1395.30931%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassVersionB>1</ClassVersionB>
+<MyInt>3</MyInt>
+<ClassVersionBB>1</ClassVersionBB>
+<MyBool>false</MyBool>
+</a1:BB>
+<a1:BB id="ref-6" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/pers/pers%2C%20Version%3D1.0.1395.30931%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassVersionB>1</ClassVersionB>
+<MyInt>3</MyInt>
+<ClassVersionBB>1</ClassVersionBB>
+<MyBool>false</MyBool>
+</a1:BB>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

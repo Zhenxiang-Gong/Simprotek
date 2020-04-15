@@ -1,0 +1,42 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-2"/>
+<_size>3</_size>
+<_version>3</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-3"/>
+<item href="#ref-4"/>
+<item href="#ref-5"/>
+</SOAP-ENC:Array>
+<a3:UIPreferences id="ref-3" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ProsimoUI/ProsimoUI%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionUIPreferences>1</ClassPersistenceVersionUIPreferences>
+<MainFormLocation xsi:type="a4:Point" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>375</x>
+<y>101</y>
+</MainFormLocation>
+<MainFormSize xsi:type="a4:Size" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<width>692</width>
+<height>535</height>
+</MainFormSize>
+<MainFormWindowState xsi:type="a5:FormWindowState" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/System.Windows.Forms/System.Windows.Forms%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db77a5c561934e089">Normal</MainFormWindowState>
+<ToolboxVisible>false</ToolboxVisible>
+<ToolboxLocation xsi:type="a4:Point" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>0</x>
+<y>0</y>
+</ToolboxLocation>
+</a3:UIPreferences>
+<a3:NewProcessSettings id="ref-4" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ProsimoUI/ProsimoUI%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionNewProcessSettings>1</ClassPersistenceVersionNewProcessSettings>
+<DryingGasName id="ref-9">Air</DryingGasName>
+<DryingMaterialName id="ref-10">Generic Drying Material</DryingMaterialName>
+</a3:NewProcessSettings>
+<a3:ApplicationPreferences id="ref-5" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ProsimoUI/ProsimoUI%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionApplicationPreferences>1</ClassPersistenceVersionApplicationPreferences>
+<CurrentUnitSystemName id="ref-11">SI-2</CurrentUnitSystemName>
+<NumericFormat xsi:type="a3:NumericFormat" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/ProsimoUI/ProsimoUI%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">FixedPoint</NumericFormat>
+<DecimalPlaces id="ref-12">3</DecimalPlaces>
+</a3:ApplicationPreferences>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,73 @@
+using System;
+using System.Drawing;
+using System.Collections;
+using System.Windows.Forms;
+
+using Prosimo.UnitOperations;
+using ProsimoUI;
+
+namespace ProsimoUI.ProcessStreamsUI {
+   /// <summary>
+   /// Summary description for ProcessStreamEditor.
+   /// </summary>
+   public class WaterStreamEditor : ProcessStreamBaseEditor {
+      public WaterStreamControl WaterStreamCtrl {
+         get { return (WaterStreamControl)this.solvableCtrl; }
+         set { this.solvableCtrl = value; }
+      }
+
+      /// <summary>
+      /// Required designer variable.
+      /// </summary>
+      private System.ComponentModel.Container components = null;
+
+      public WaterStreamEditor(WaterStreamControl waterStreamCtrl)
+         : base(waterStreamCtrl) {
+         //
+         // Required for Windows Form Designer support
+         //
+         InitializeComponent();
+
+         WaterStreamLabelsControl labelsCtrl = new WaterStreamLabelsControl(this.WaterStreamCtrl.WaterStream);
+         this.panel.Controls.Add(labelsCtrl);
+         labelsCtrl.Location = new Point(0, 24);
+
+         WaterStreamValuesControl valuesCtrl = new WaterStreamValuesControl(this.WaterStreamCtrl);
+         this.panel.Controls.Add(valuesCtrl);
+         valuesCtrl.Location = new Point(192, 24);
+      }
+
+      /// <summary>
+      /// Clean up any resources being used.
+      /// </summary>
+      protected override void Dispose(bool disposing) {
+         if (disposing) {
+            if (components != null) {
+               components.Dispose();
+            }
+         }
+         base.Dispose(disposing);
+      }
+
+      #region Windows Form Designer generated code
+      /// <summary>
+      /// Required method for Designer support - do not modify
+      /// the contents of this method with the code editor.
+      /// </summary>
+      private void InitializeComponent() {
+         ((System.ComponentModel.ISupportInitialize)(this.statusBarPanel)).BeginInit();
+         this.panel.SuspendLayout();
+         this.SuspendLayout();
+         // 
+         // ProcessStreamEditor
+         // 
+         this.Name = "WaterStreamEditor";
+         this.Text = "Water Stream";
+         ((System.ComponentModel.ISupportInitialize)(this.statusBarPanel)).EndInit();
+         this.panel.ResumeLayout(false);
+         this.ResumeLayout(false);
+
+      }
+      #endregion
+   }
+}

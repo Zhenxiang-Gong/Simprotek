@@ -1,0 +1,78 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>AMSCO Technology Inc.</title>
+</head>
+<body style="text-align: center" bgcolor="silver">
+    <form id="form1" runat="server">
+    <div>
+       <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 50px; background-image: url(Images/bits.bmp);">
+          <tr>
+             <td style="font-weight: bold; font-size: xx-large; text-align: left; color: blue; height: 48px; background-color: transparent; width: 50%; background-repeat: repeat;" nowrap="noWrap" bgcolor="#ffccff">
+                AMSCO Technology Inc. &nbsp;</td>
+             <td style="width: 100px; height: 48px; background-color: transparent; background-repeat: repeat;" bgcolor="#ffcc66">
+                </td>
+          </tr>
+       </table>
+    </div>
+       <table style="width: 100%; height: 20px">
+          <tr>
+             <td nowrap="noWrap" width="100%" style="text-align: left; font-size: small; color: blue; font-family: Verdana; background-color: white; height: 18px; font-weight: bold;" bgcolor="#99ffff">
+                Advanced Modeling, Simulation, Control and Optimization</td>
+          </tr>
+       </table>
+       <br />
+       <table style="width: 100%; background-color: darkgray;">
+          <tr>
+             <td align="right" nowrap="noWrap" width="100%" style="text-align: right; font-size: small; font-family: Verdana; height: 18px; background-color: darkgray;" bgcolor="#99ff66">
+                <asp:SiteMapPath ID="mainSiteMapPath" runat="server" ForeColor="White" BackColor="Blue" BorderColor="Orange" BorderStyle="Solid" BorderWidth="2px" Font-Bold="True">
+                   <RootNodeStyle ForeColor="White" BackColor="Blue" />
+                   <CurrentNodeStyle BackColor="Blue" ForeColor="White" />
+                   <NodeStyle BackColor="Blue" ForeColor="White" />
+                </asp:SiteMapPath>
+             </td>
+          </tr>
+       </table>
+<!--       <br /> -->
+       <table style="width: 100%; height: 287px;">
+          <tr>
+             <td style="height: 306px; text-align: left; background-color: darkgray; width: 14%;" valign="top" bgcolor="#ffff99">
+                <asp:Menu ID="mainMenu" runat="server" DataSourceID="mainSiteMapDataSource" StaticDisplayLevels="2" Height="47px" StaticSubMenuIndent="20px" Font-Names="Verdana" Font-Size="Small" Font-Bold="True">
+                   <LevelMenuItemStyles>
+                      <asp:MenuItemStyle Font-Underline="False" ForeColor="White" ItemSpacing="6px" BackColor="Blue" BorderColor="Orange" BorderStyle="Solid" BorderWidth="2px" HorizontalPadding="4px" VerticalPadding="2px" />
+                      <asp:MenuItemStyle Font-Underline="False" ForeColor="White" ItemSpacing="6px" BackColor="Blue" BorderColor="Orange" BorderStyle="Solid" BorderWidth="2px" HorizontalPadding="4px" VerticalPadding="2px" />
+                   </LevelMenuItemStyles>
+                   <StaticHoverStyle BackColor="Silver" />
+                </asp:Menu>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <asp:HyperLink ID="contactUsHyperLink" runat="server" Font-Size="Small" ForeColor="Blue"
+                   NavigateUrl="~/Company.aspx" Font-Bold="True" Font-Names="Verdana">Contact Us</asp:HyperLink></td>
+             <td style="width: 102px; height: 306px; text-align: left; background-color: lightgrey; color: dimgray;" bgcolor="#cccc99" align="center" valign="top">
+                <asp:ContentPlaceHolder ID="mainContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+             </td>
+          </tr>
+       </table>
+       <small style="color: blue; font-size: x-small; font-family: Verdana;">
+          <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 10px">
+             <tr>
+                <td style="width: 100px; height: 2px; background-color: white">
+                </td>
+             </tr>
+          </table>
+          <br />
+          Copyright &copy; 2006 AMSCO Technology Inc. All rights reserved.</small>&nbsp;<asp:SiteMapDataSource ID="mainSiteMapDataSource" runat="server" />
+    </form>
+</body>
+</html>

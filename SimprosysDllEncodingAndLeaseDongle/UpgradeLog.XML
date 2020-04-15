@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LeaseManagementAndDllEncoding">
+</Property><Property Name="Solution File" Value="D:\Private\Simprotek\SimprosysDllEncodingAndLeaseDongle\LeaseManagementAndDllEncoding.sln">
+</Property><Property Name="User Options File" Value="D:\Private\Simprotek\SimprosysDllEncodingAndLeaseDongle\LeaseManagementAndDllEncoding.suo">
+</Property><Property Name="Date" Value="Thursday, May 22, 2008">
+</Property><Property Name="Time" Value="16:12 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="LeaseManagementAndDllEncoding.sln" Description="File successfully backed up as D:\Private\Simprotek\SimprosysDllEncodingAndLeaseDongle\Backup\LeaseManagementAndDllEncoding.sln">
+</Event><Event ErrorLevel="0" Project="" Source="LeaseManagementAndDllEncoding.suo" Description="File successfully backed up as D:\Private\Simprotek\SimprosysDllEncodingAndLeaseDongle\Backup\LeaseManagementAndDllEncoding.suo">
+</Event><Event ErrorLevel="0" Project="Leaseman" Source="Leaseman\Leaseman.csproj" Description="Project file successfully backed up as D:\Private\Simprotek\SimprosysDllEncodingAndLeaseDongle\Backup\Leaseman\Leaseman.csproj">
+</Event><Event ErrorLevel="0" Project="Leaseman" Source="Leaseman\Leaseman.csproj.user" Description="Project user file successfully backed up as D:\Private\Simprotek\SimprosysDllEncodingAndLeaseDongle\Backup\Leaseman\Leaseman.csproj.user">
+</Event><Event ErrorLevel="0" Project="Leaseman" Source="Leaseman\AssemblyInfo.cs" Description="File successfully backed up as D:\Private\Simprotek\SimprosysDllEncodingAndLeaseDongle\Backup\Leaseman\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Leaseman" Source="Leaseman\MainForm.cs" Description="File successfully backed up as D:\Private\Simprotek\SimprosysDllEncodingAndLeaseDongle\Backup\Leaseman\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="Leaseman" Source="Leaseman\App.ico" Description="File successfully backed up as D:\Private\Simprotek\SimprosysDllEncodingAndLeaseDongle\Backup\Leaseman\App.ico">
+</Event><Event ErrorLevel="0" Project="Leaseman" Source="Leaseman\MainForm.resx" Description="File successfully backed up as D:\Private\Simprotek\SimprosysDllEncodingAndLeaseDongle\Backup\Leaseman\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="Leaseman" Source="Leaseman\Leaseman.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Leaseman" Source="Leaseman\Leaseman.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SoftwareProtection" Source="SoftwareProtection\SoftwareProtection.csproj" Description="Project file successfully backed up as D:\Private\Simprotek\SimprosysDllEncodingAndLeaseDongle\Backup\SoftwareProtection\SoftwareProtection.csproj">
+</Event><Event ErrorLevel="0" Project="SoftwareProtection" Source="SoftwareProtection\SoftwareProtection.csproj.user" Description="Project user file successfully backed up as D:\Private\Simprotek\SimprosysDllEncodingAndLeaseDongle\Backup\SoftwareProtection\SoftwareProtection.csproj.user">
+</Event><Event ErrorLevel="0" Project="SoftwareProtection" Source="SoftwareProtection\AssemblyInfo.cs" Description="File successfully backed up as D:\Private\Simprotek\SimprosysDllEncodingAndLeaseDongle\Backup\SoftwareProtection\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SoftwareProtection" Source="SoftwareProtection\DongleGenerator.cs" Description="File successfully backed up as D:\Private\Simprotek\SimprosysDllEncodingAndLeaseDongle\Backup\SoftwareProtection\DongleGenerator.cs">
+</Event><Event ErrorLevel="0" Project="SoftwareProtection" Source="SoftwareProtection\EnDec.cs" Description="File successfully backed up as D:\Private\Simprotek\SimprosysDllEncodingAndLeaseDongle\Backup\SoftwareProtection\EnDec.cs">
+</Event><Event ErrorLevel="0" Project="SoftwareProtection" Source="SoftwareProtection\Lease.cs" Description="File successfully backed up as D:\Private\Simprotek\SimprosysDllEncodingAndLeaseDongle\Backup\SoftwareProtection\Lease.cs">
+</Event><Event ErrorLevel="0" Project="SoftwareProtection" Source="SoftwareProtection\SoftwareProtection.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SoftwareProtection" Source="SoftwareProtection\SoftwareProtection.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LeaseManagementAndDllEncoding.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="LeaseManagementAndDllEncoding.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Leaseman" Source="Leaseman\Leaseman.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SoftwareProtection" Source="SoftwareProtection\SoftwareProtection.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

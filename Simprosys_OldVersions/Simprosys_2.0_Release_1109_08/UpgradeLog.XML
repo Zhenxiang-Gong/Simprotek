@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SimprosysSolution">
+</Property><Property Name="Solution File" Value="D:\Private\Simprotek\Simprosys\SimprosysSolution.sln">
+</Property><Property Name="User Options File" Value="D:\Private\Simprotek\Simprosys\SimprosysSolution.suo">
+</Property><Property Name="Date" Value="Saturday, March 15, 2008">
+</Property><Property Name="Time" Value="20:23 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SimprosysSolution.sln" Description="File successfully backed up as D:\Private\Simprotek\Simprosys\SimprosysSolution.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="SimprosysSolution.suo" Description="File successfully backed up as D:\Private\Simprotek\Simprosys\SimprosysSolution.suo.old">
+</Event><Event ErrorLevel="0" Project="ProsimoBootstrap" Source="ProsimoBootstrap\ProsimoBootstrap.csproj" Description="Project file successfully backed up as D:\Private\Simprotek\Simprosys\ProsimoBootstrap\ProsimoBootstrap.csproj.old">
+</Event><Event ErrorLevel="0" Project="ProsimoBootstrap" Source="ProsimoBootstrap\ProsimoBootstrap.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ProsimoBootstrap" Source="ProsimoBootstrap\ProsimoBootstrap.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CalculatorWin32" Source="CalculatorWin32\CalculatorWin32.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="CalculatorWin32" Source="CalculatorWin32\CalculatorWin32.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="CalculatorWin32" Source="CalculatorWin32\CalculatorWin32.vcproj" Description="Project file successfully backed up as 'D:\Private\Simprotek\Simprosys\CalculatorWin32\CalculatorWin32.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="CalculatorWin32" Source="CalculatorWin32\CalculatorWin32.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="CalculatorWin32" Source="CalculatorWin32\CalculatorWin32.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Materials" Source="Materials\Materials.csproj" Description="Project file successfully backed up as D:\Private\Simprotek\Simprosys\Materials\Materials.csproj.old">
+</Event><Event ErrorLevel="0" Project="Materials" Source="Materials\Materials.csproj.user" Description="Project user file successfully backed up as D:\Private\Simprotek\Simprosys\Materials\Materials.csproj.user.old">
+</Event><Event ErrorLevel="0" Project="Materials" Source="Materials\Materials.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Materials" Source="Materials\Materials.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Plots" Source="Plots\Plots.csproj" Description="Project file successfully backed up as D:\Private\Simprotek\Simprosys\Plots\Plots.csproj.old">
+</Event><Event ErrorLevel="0" Project="Plots" Source="Plots\Plots.csproj.user" Description="Project user file successfully backed up as D:\Private\Simprotek\Simprosys\Plots\Plots.csproj.user.old">
+</Event><Event ErrorLevel="0" Project="Plots" Source="Plots\Plots.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Plots" Source="Plots\Plots.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Prosimo" Source="Prosimo\Prosimo.csproj" Description="Project file successfully backed up as D:\Private\Simprotek\Simprosys\Prosimo\Prosimo.csproj.old">
+</Event><Event ErrorLevel="0" Project="Prosimo" Source="Prosimo\Prosimo.csproj.user" Description="Project user file successfully backed up as D:\Private\Simprotek\Simprosys\Prosimo\Prosimo.csproj.user.old">
+</Event><Event ErrorLevel="0" Project="Prosimo" Source="Prosimo\Prosimo.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Prosimo" Source="Prosimo\Prosimo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ProsimoUI" Source="ProsimoUI\ProsimoUI.csproj" Description="Project file successfully backed up as D:\Private\Simprotek\Simprosys\ProsimoUI\ProsimoUI.csproj.old">
+</Event><Event ErrorLevel="0" Project="ProsimoUI" Source="ProsimoUI\ProsimoUI.csproj.user" Description="Project user file successfully backed up as D:\Private\Simprotek\Simprosys\ProsimoUI\ProsimoUI.csproj.user.old">
+</Event><Event ErrorLevel="0" Project="ProsimoUI" Source="ProsimoUI\ProsimoUI.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ProsimoUI" Source="ProsimoUI\ProsimoUI.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SoftwareProtection" Source="SoftwareProtection\SoftwareProtection.csproj" Description="Project file successfully backed up as D:\Private\Simprotek\Simprosys\SoftwareProtection\SoftwareProtection.csproj.old">
+</Event><Event ErrorLevel="0" Project="SoftwareProtection" Source="SoftwareProtection\SoftwareProtection.csproj.user" Description="Project user file successfully backed up as D:\Private\Simprotek\Simprosys\SoftwareProtection\SoftwareProtection.csproj.user.old">
+</Event><Event ErrorLevel="0" Project="SoftwareProtection" Source="SoftwareProtection\SoftwareProtection.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SoftwareProtection" Source="SoftwareProtection\SoftwareProtection.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SubstanceLibrary" Source="SubstanceLibrary\SubstanceLibrary.csproj" Description="Project file successfully backed up as D:\Private\Simprotek\Simprosys\SubstanceLibrary\SubstanceLibrary.csproj.old">
+</Event><Event ErrorLevel="0" Project="SubstanceLibrary" Source="SubstanceLibrary\SubstanceLibrary.csproj.user" Description="Project user file successfully backed up as D:\Private\Simprotek\Simprosys\SubstanceLibrary\SubstanceLibrary.csproj.user.old">
+</Event><Event ErrorLevel="0" Project="SubstanceLibrary" Source="SubstanceLibrary\SubstanceLibrary.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SubstanceLibrary" Source="SubstanceLibrary\SubstanceLibrary.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ThermalProperties" Source="ThermalProperties\ThermalProperties.csproj" Description="Project file successfully backed up as D:\Private\Simprotek\Simprosys\ThermalProperties\ThermalProperties.csproj.old">
+</Event><Event ErrorLevel="0" Project="ThermalProperties" Source="ThermalProperties\ThermalProperties.csproj.user" Description="Project user file successfully backed up as D:\Private\Simprotek\Simprosys\ThermalProperties\ThermalProperties.csproj.user.old">
+</Event><Event ErrorLevel="0" Project="ThermalProperties" Source="ThermalProperties\ThermalProperties.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ThermalProperties" Source="ThermalProperties\ThermalProperties.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UnitOperations" Source="UnitOperations\UnitOperations.csproj" Description="Project file successfully backed up as D:\Private\Simprotek\Simprosys\UnitOperations\UnitOperations.csproj.old">
+</Event><Event ErrorLevel="0" Project="UnitOperations" Source="UnitOperations\UnitOperations.csproj.user" Description="Project user file successfully backed up as D:\Private\Simprotek\Simprosys\UnitOperations\UnitOperations.csproj.user.old">
+</Event><Event ErrorLevel="0" Project="UnitOperations" Source="UnitOperations\UnitOperations.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UnitOperations" Source="UnitOperations\UnitOperations.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UnitSystems" Source="UnitSystems\UnitSystems.csproj" Description="Project file successfully backed up as D:\Private\Simprotek\Simprosys\UnitSystems\UnitSystems.csproj.old">
+</Event><Event ErrorLevel="0" Project="UnitSystems" Source="UnitSystems\UnitSystems.csproj.user" Description="Project user file successfully backed up as D:\Private\Simprotek\Simprosys\UnitSystems\UnitSystems.csproj.user.old">
+</Event><Event ErrorLevel="0" Project="UnitSystems" Source="UnitSystems\UnitSystems.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UnitSystems" Source="UnitSystems\UnitSystems.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="YawsThermalPropExtractor" Source="YawsThermalPropExtractor\YawsThermalPropExtractor.csproj" Description="Project file successfully backed up as D:\Private\Simprotek\Simprosys\YawsThermalPropExtractor\YawsThermalPropExtractor.csproj.old">
+</Event><Event ErrorLevel="0" Project="YawsThermalPropExtractor" Source="YawsThermalPropExtractor\YawsThermalPropExtractor.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="YawsThermalPropExtractor" Source="YawsThermalPropExtractor\YawsThermalPropExtractor.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MagicLibrary" Source="MagicLibrary\MagicLibrary.csproj" Description="Project file successfully backed up as D:\Private\Simprotek\Simprosys\MagicLibrary\MagicLibrary.csproj.old">
+</Event><Event ErrorLevel="0" Project="MagicLibrary" Source="MagicLibrary\MagicLibrary.csproj.user" Description="Project user file successfully backed up as D:\Private\Simprotek\Simprosys\MagicLibrary\MagicLibrary.csproj.user.old">
+</Event><Event ErrorLevel="0" Project="MagicLibrary" Source="MagicLibrary\MagicLibrary.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MagicLibrary" Source="MagicLibrary\MagicLibrary.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SimprosysSolution.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SimprosysSolution.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ProsimoBootstrap" Source="ProsimoBootstrap\ProsimoBootstrap.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Materials" Source="Materials\Materials.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Plots" Source="Plots\Plots.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Prosimo" Source="Prosimo\Prosimo.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ProsimoUI" Source="ProsimoUI\ProsimoUI.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SoftwareProtection" Source="SoftwareProtection\SoftwareProtection.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="SubstanceLibrary" Source="SubstanceLibrary\SubstanceLibrary.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ThermalProperties" Source="ThermalProperties\ThermalProperties.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="UnitOperations" Source="UnitOperations\UnitOperations.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="UnitSystems" Source="UnitSystems\UnitSystems.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="YawsThermalPropExtractor" Source="YawsThermalPropExtractor\YawsThermalPropExtractor.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="MagicLibrary" Source="MagicLibrary\MagicLibrary.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

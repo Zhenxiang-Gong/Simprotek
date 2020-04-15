@@ -1,0 +1,151 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./readme_files/filelist.xml">
+<title>Overview</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Steven Pratschner</o:Author>
+  <o:LastAuthor>Steven Pratschner</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>12</o:TotalTime>
+  <o:Created>2000-12-06T07:40:00Z</o:Created>
+  <o:LastSaved>2000-12-06T08:06:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>236</o:Words>
+  <o:Characters>1349</o:Characters>
+  <o:Company>Microsoft Corp.</o:Company>
+  <o:Lines>11</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1656</o:CharactersWithSpaces>
+  <o:Version>9.3821</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Courier;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-format:other;
+	mso-font-pitch:fixed;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+</head>
+
+<body lang=EN-US style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<h1>Overview</h1>
+
+<p class=MsoNormal>This sample code accompanies the article “Hosting the Common
+Language Runtime” in the XXX issue of MSDN magazine.<span style="mso-spacerun:
+yes">  </span>While not a complete host, the sample code demonstrates the API’s
+and the architecture of a typical host as described in the article.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Visual C++ 6.0 and the Beta1 release of the .NET Framework
+SDK are required to build and run this sample.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>This sample host consists of both unmanaged and managed
+code.<span style="mso-spacerun: yes">  </span>The unmanaged code is a VC 6.0
+console application called Clrhost.<span style="mso-spacerun: yes"> 
+</span>Clrhost loads the CLR into the process, creates the managed hosting code
+and directs user requests into managed code.<span style="mso-spacerun: yes"> 
+</span>The managed portion of the host creates an application domain with
+domain level security evidence and custom security policy.</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h1>Building the Sample</h1>
+
+<p class=MsoNormal>To build the unmanaged portion of the sample, open
+ClrHost.dsw in VC 6.0 and select “Rebuild All”.<span style="mso-spacerun:
+yes">  </span>The Clrhost project assumes the .NET Framework SDK is installed in
+c:\program files\Microsoft.net\frameworksdk.<span style="mso-spacerun: yes"> 
+</span>If your SDK is in a different location, adjust the include directories
+and libpath in “Project-&gt;Settings” accordingly.</p>
+
+<p class=MsoNormal>To build the managed portion of the sample, type “nmake all”
+from the mgd directory under ClrHost.</p>
+
+<h1>Running the Sample</h1>
+
+<p class=MsoNormal>Run clrhost.exe from the Debug directory under Clrhost.<span
+style="mso-spacerun: yes">  </span>You should see the following output:</p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><span style='font-family:Courier'>Unmanaged hosting code
+started...<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'>Version 1.0.2204 of the
+CLR loaded...<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'>Managed hosting code
+successfully created...<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'>Domain properties successfully
+initialized...<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'>Domain level evidence
+successfully created...<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'>Domain security policy
+successfully created..<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'>Domain MyDomain
+successfully created...<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'>Domain MyDomain
+unloaded...<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-family:Courier'>Done.</span></p>
+
+</div>
+
+</body>
+
+</html>

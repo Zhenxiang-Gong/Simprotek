@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="pers">
+</Property><Property Name="Solution File" Value="D:\Private\Simprotek\Misc\PersistencePrototype\pers.sln">
+</Property><Property Name="User Options File" Value="D:\Private\Simprotek\Misc\PersistencePrototype\pers.suo">
+</Property><Property Name="Date" Value="Friday, June 26, 2009">
+</Property><Property Name="Time" Value="11:36 AM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="pers.sln" Description="File successfully backed up as D:\Private\Simprotek\Misc\PersistencePrototype\Backup1\pers.sln">
+</Event><Event ErrorLevel="0" Project="" Source="pers.suo" Description="File successfully backed up as D:\Private\Simprotek\Misc\PersistencePrototype\Backup1\pers.suo">
+</Event><Event ErrorLevel="0" Project="pers" Source="pers.csproj" Description="Project file successfully backed up as D:\Private\Simprotek\Misc\PersistencePrototype\Backup1\pers.csproj">
+</Event><Event ErrorLevel="0" Project="pers" Source="pers.csproj.user" Description="Project user file successfully backed up as D:\Private\Simprotek\Misc\PersistencePrototype\Backup1\pers.csproj.user">
+</Event><Event ErrorLevel="0" Project="pers" Source="A.cs" Description="File successfully backed up as D:\Private\Simprotek\Misc\PersistencePrototype\Backup1\A.cs">
+</Event><Event ErrorLevel="0" Project="pers" Source="AA.cs" Description="File successfully backed up as D:\Private\Simprotek\Misc\PersistencePrototype\Backup1\AA.cs">
+</Event><Event ErrorLevel="0" Project="pers" Source="AAA.cs" Description="File successfully backed up as D:\Private\Simprotek\Misc\PersistencePrototype\Backup1\AAA.cs">
+</Event><Event ErrorLevel="0" Project="pers" Source="AssemblyInfo.cs" Description="File successfully backed up as D:\Private\Simprotek\Misc\PersistencePrototype\Backup1\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="pers" Source="B.cs" Description="File successfully backed up as D:\Private\Simprotek\Misc\PersistencePrototype\Backup1\B.cs">
+</Event><Event ErrorLevel="0" Project="pers" Source="BB.cs" Description="File successfully backed up as D:\Private\Simprotek\Misc\PersistencePrototype\Backup1\BB.cs">
+</Event><Event ErrorLevel="0" Project="pers" Source="F.cs" Description="File successfully backed up as D:\Private\Simprotek\Misc\PersistencePrototype\Backup1\F.cs">
+</Event><Event ErrorLevel="0" Project="pers" Source="Form1.cs" Description="File successfully backed up as D:\Private\Simprotek\Misc\PersistencePrototype\Backup1\Form1.cs">
+</Event><Event ErrorLevel="0" Project="pers" Source="App.ico" Description="File successfully backed up as D:\Private\Simprotek\Misc\PersistencePrototype\Backup1\App.ico">
+</Event><Event ErrorLevel="0" Project="pers" Source="Form1.resx" Description="File successfully backed up as D:\Private\Simprotek\Misc\PersistencePrototype\Backup1\Form1.resx">
+</Event><Event ErrorLevel="0" Project="pers" Source="pers.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="pers" Source="pers.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="pers.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="pers.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="pers" Source="pers.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

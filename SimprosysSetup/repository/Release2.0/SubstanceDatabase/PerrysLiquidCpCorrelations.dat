@@ -1,0 +1,3245 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-2"/>
+<_size>231</_size>
+<_version>928</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[256]">
+<item href="#ref-3"/>
+<item href="#ref-4"/>
+<item href="#ref-5"/>
+<item href="#ref-6"/>
+<item href="#ref-7"/>
+<item href="#ref-8"/>
+<item href="#ref-9"/>
+<item href="#ref-10"/>
+<item href="#ref-11"/>
+<item href="#ref-12"/>
+<item href="#ref-13"/>
+<item href="#ref-14"/>
+<item href="#ref-15"/>
+<item href="#ref-16"/>
+<item href="#ref-17"/>
+<item href="#ref-18"/>
+<item href="#ref-19"/>
+<item href="#ref-20"/>
+<item href="#ref-21"/>
+<item href="#ref-22"/>
+<item href="#ref-23"/>
+<item href="#ref-24"/>
+<item href="#ref-25"/>
+<item href="#ref-26"/>
+<item href="#ref-27"/>
+<item href="#ref-28"/>
+<item href="#ref-29"/>
+<item href="#ref-30"/>
+<item href="#ref-31"/>
+<item href="#ref-32"/>
+<item href="#ref-33"/>
+<item href="#ref-34"/>
+<item href="#ref-35"/>
+<item href="#ref-36"/>
+<item href="#ref-37"/>
+<item href="#ref-38"/>
+<item href="#ref-39"/>
+<item href="#ref-40"/>
+<item href="#ref-41"/>
+<item href="#ref-42"/>
+<item href="#ref-43"/>
+<item href="#ref-44"/>
+<item href="#ref-45"/>
+<item href="#ref-46"/>
+<item href="#ref-47"/>
+<item href="#ref-48"/>
+<item href="#ref-49"/>
+<item href="#ref-50"/>
+<item href="#ref-51"/>
+<item href="#ref-52"/>
+<item href="#ref-53"/>
+<item href="#ref-54"/>
+<item href="#ref-55"/>
+<item href="#ref-56"/>
+<item href="#ref-57"/>
+<item href="#ref-58"/>
+<item href="#ref-59"/>
+<item href="#ref-60"/>
+<item href="#ref-61"/>
+<item href="#ref-62"/>
+<item href="#ref-63"/>
+<item href="#ref-64"/>
+<item href="#ref-65"/>
+<item href="#ref-66"/>
+<item href="#ref-67"/>
+<item href="#ref-68"/>
+<item href="#ref-69"/>
+<item href="#ref-70"/>
+<item href="#ref-71"/>
+<item href="#ref-72"/>
+<item href="#ref-73"/>
+<item href="#ref-74"/>
+<item href="#ref-75"/>
+<item href="#ref-76"/>
+<item href="#ref-77"/>
+<item href="#ref-78"/>
+<item href="#ref-79"/>
+<item href="#ref-80"/>
+<item href="#ref-81"/>
+<item href="#ref-82"/>
+<item href="#ref-83"/>
+<item href="#ref-84"/>
+<item href="#ref-85"/>
+<item href="#ref-86"/>
+<item href="#ref-87"/>
+<item href="#ref-88"/>
+<item href="#ref-89"/>
+<item href="#ref-90"/>
+<item href="#ref-91"/>
+<item href="#ref-92"/>
+<item href="#ref-93"/>
+<item href="#ref-94"/>
+<item href="#ref-95"/>
+<item href="#ref-96"/>
+<item href="#ref-97"/>
+<item href="#ref-98"/>
+<item href="#ref-99"/>
+<item href="#ref-100"/>
+<item href="#ref-101"/>
+<item href="#ref-102"/>
+<item href="#ref-103"/>
+<item href="#ref-104"/>
+<item href="#ref-105"/>
+<item href="#ref-106"/>
+<item href="#ref-107"/>
+<item href="#ref-108"/>
+<item href="#ref-109"/>
+<item href="#ref-110"/>
+<item href="#ref-111"/>
+<item href="#ref-112"/>
+<item href="#ref-113"/>
+<item href="#ref-114"/>
+<item href="#ref-115"/>
+<item href="#ref-116"/>
+<item href="#ref-117"/>
+<item href="#ref-118"/>
+<item href="#ref-119"/>
+<item href="#ref-120"/>
+<item href="#ref-121"/>
+<item href="#ref-122"/>
+<item href="#ref-123"/>
+<item href="#ref-124"/>
+<item href="#ref-125"/>
+<item href="#ref-126"/>
+<item href="#ref-127"/>
+<item href="#ref-128"/>
+<item href="#ref-129"/>
+<item href="#ref-130"/>
+<item href="#ref-131"/>
+<item href="#ref-132"/>
+<item href="#ref-133"/>
+<item href="#ref-134"/>
+<item href="#ref-135"/>
+<item href="#ref-136"/>
+<item href="#ref-137"/>
+<item href="#ref-138"/>
+<item href="#ref-139"/>
+<item href="#ref-140"/>
+<item href="#ref-141"/>
+<item href="#ref-142"/>
+<item href="#ref-143"/>
+<item href="#ref-144"/>
+<item href="#ref-145"/>
+<item href="#ref-146"/>
+<item href="#ref-147"/>
+<item href="#ref-148"/>
+<item href="#ref-149"/>
+<item href="#ref-150"/>
+<item href="#ref-151"/>
+<item href="#ref-152"/>
+<item href="#ref-153"/>
+<item href="#ref-154"/>
+<item href="#ref-155"/>
+<item href="#ref-156"/>
+<item href="#ref-157"/>
+<item href="#ref-158"/>
+<item href="#ref-159"/>
+<item href="#ref-160"/>
+<item href="#ref-161"/>
+<item href="#ref-162"/>
+<item href="#ref-163"/>
+<item href="#ref-164"/>
+<item href="#ref-165"/>
+<item href="#ref-166"/>
+<item href="#ref-167"/>
+<item href="#ref-168"/>
+<item href="#ref-169"/>
+<item href="#ref-170"/>
+<item href="#ref-171"/>
+<item href="#ref-172"/>
+<item href="#ref-173"/>
+<item href="#ref-174"/>
+<item href="#ref-175"/>
+<item href="#ref-176"/>
+<item href="#ref-177"/>
+<item href="#ref-178"/>
+<item href="#ref-179"/>
+<item href="#ref-180"/>
+<item href="#ref-181"/>
+<item href="#ref-182"/>
+<item href="#ref-183"/>
+<item href="#ref-184"/>
+<item href="#ref-185"/>
+<item href="#ref-186"/>
+<item href="#ref-187"/>
+<item href="#ref-188"/>
+<item href="#ref-189"/>
+<item href="#ref-190"/>
+<item href="#ref-191"/>
+<item href="#ref-192"/>
+<item href="#ref-193"/>
+<item href="#ref-194"/>
+<item href="#ref-195"/>
+<item href="#ref-196"/>
+<item href="#ref-197"/>
+<item href="#ref-198"/>
+<item href="#ref-199"/>
+<item href="#ref-200"/>
+<item href="#ref-201"/>
+<item href="#ref-202"/>
+<item href="#ref-203"/>
+<item href="#ref-204"/>
+<item href="#ref-205"/>
+<item href="#ref-206"/>
+<item href="#ref-207"/>
+<item href="#ref-208"/>
+<item href="#ref-209"/>
+<item href="#ref-210"/>
+<item href="#ref-211"/>
+<item href="#ref-212"/>
+<item href="#ref-213"/>
+<item href="#ref-214"/>
+<item href="#ref-215"/>
+<item href="#ref-216"/>
+<item href="#ref-217"/>
+<item href="#ref-218"/>
+<item href="#ref-219"/>
+<item href="#ref-220"/>
+<item href="#ref-221"/>
+<item href="#ref-222"/>
+<item href="#ref-223"/>
+<item href="#ref-224"/>
+<item href="#ref-225"/>
+<item href="#ref-226"/>
+<item href="#ref-227"/>
+<item href="#ref-228"/>
+<item href="#ref-229"/>
+<item href="#ref-230"/>
+<item href="#ref-231"/>
+<item href="#ref-232"/>
+<item href="#ref-233"/>
+</SOAP-ENC:Array>
+<a3:PerrysLiquidCpCorrelation id="ref-3" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-235">methane</SubstanceName>
+<CasRegistryNo id="ref-236">74-82-8</CasRegistryNo>
+<MinTemperature>90.69</MinTemperature>
+<MaxTemperature>190</MaxTemperature>
+<C1>65.708</C1>
+<C2>38883</C2>
+<C3>-257.95</C3>
+<C4>614.07</C4>
+<C5>0</C5>
+<TC>190.564</TC>
+<CorrelationType>2</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-4" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-237">ethane</SubstanceName>
+<CasRegistryNo id="ref-238">74-84-0</CasRegistryNo>
+<MinTemperature>92</MinTemperature>
+<MaxTemperature>290</MaxTemperature>
+<C1>44.009</C1>
+<C2>89718</C2>
+<C3>918.77</C3>
+<C4>-1886</C4>
+<C5>0</C5>
+<TC>305.32</TC>
+<CorrelationType>2</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-5" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-239">propane</SubstanceName>
+<CasRegistryNo id="ref-240">74-98-6</CasRegistryNo>
+<MinTemperature>85.47</MinTemperature>
+<MaxTemperature>360</MaxTemperature>
+<C1>62.983</C1>
+<C2>113630</C2>
+<C3>633.21</C3>
+<C4>-873.46</C4>
+<C5>0</C5>
+<TC>369.83</TC>
+<CorrelationType>2</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-6" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-241">n-butane</SubstanceName>
+<CasRegistryNo id="ref-242">106-97-8</CasRegistryNo>
+<MinTemperature>134.86</MinTemperature>
+<MaxTemperature>420</MaxTemperature>
+<C1>64.73</C1>
+<C2>161840</C2>
+<C3>983.41</C3>
+<C4>-1431.5</C4>
+<C5>0</C5>
+<TC>425.12</TC>
+<CorrelationType>2</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-7" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-243">n-pentane</SubstanceName>
+<CasRegistryNo id="ref-244">109-66-0</CasRegistryNo>
+<MinTemperature>143.42</MinTemperature>
+<MaxTemperature>390</MaxTemperature>
+<C1>159080</C1>
+<C2>-270.5</C2>
+<C3>0.99537</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>469.7</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-8" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-245">n-hexane</SubstanceName>
+<CasRegistryNo id="ref-246">110-54-3</CasRegistryNo>
+<MinTemperature>177.83</MinTemperature>
+<MaxTemperature>460</MaxTemperature>
+<C1>172120</C1>
+<C2>-183.78</C2>
+<C3>0.88734</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>507.6</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-9" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-247">n-heptane</SubstanceName>
+<CasRegistryNo id="ref-248">142-82-5</CasRegistryNo>
+<MinTemperature>182.57</MinTemperature>
+<MaxTemperature>520</MaxTemperature>
+<C1>61.26</C1>
+<C2>314410</C2>
+<C3>1824.6</C3>
+<C4>-2547.9</C4>
+<C5>0</C5>
+<TC>540.2</TC>
+<CorrelationType>2</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-10" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-249">n-octane</SubstanceName>
+<CasRegistryNo id="ref-250">111-65-9</CasRegistryNo>
+<MinTemperature>216.38</MinTemperature>
+<MaxTemperature>460</MaxTemperature>
+<C1>224830</C1>
+<C2>-186.63</C2>
+<C3>0.95891</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>568.7</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-11" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-251">n-nonane</SubstanceName>
+<CasRegistryNo id="ref-252">111-84-2</CasRegistryNo>
+<MinTemperature>219.66</MinTemperature>
+<MaxTemperature>325</MaxTemperature>
+<C1>383080</C1>
+<C2>-1139.8</C2>
+<C3>2.7101</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>594.6</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-12" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-253">n-decane</SubstanceName>
+<CasRegistryNo id="ref-254">124-18-5</CasRegistryNo>
+<MinTemperature>243.51</MinTemperature>
+<MaxTemperature>460</MaxTemperature>
+<C1>278620</C1>
+<C2>-197.91</C2>
+<C3>1.0737</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>617.7</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-13" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-255">n-undecane</SubstanceName>
+<CasRegistryNo id="ref-256">1120-21-4</CasRegistryNo>
+<MinTemperature>247.57</MinTemperature>
+<MaxTemperature>433.42</MaxTemperature>
+<C1>293980</C1>
+<C2>-114.98</C2>
+<C3>0.96936</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>639</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-14" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-257">n-dodecane</SubstanceName>
+<CasRegistryNo id="ref-258">112-40-3</CasRegistryNo>
+<MinTemperature>263.57</MinTemperature>
+<MaxTemperature>330</MaxTemperature>
+<C1>508210</C1>
+<C2>-1368.7</C2>
+<C3>3.1015</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>658</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-15" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-259">n-tridecane</SubstanceName>
+<CasRegistryNo id="ref-260">629-50-5</CasRegistryNo>
+<MinTemperature>267.76</MinTemperature>
+<MaxTemperature>508.62</MaxTemperature>
+<C1>350180</C1>
+<C2>-104.7</C2>
+<C3>1.0022</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>675</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-16" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-261">n-tetradecane</SubstanceName>
+<CasRegistryNo id="ref-262">629-59-4</CasRegistryNo>
+<MinTemperature>279.01</MinTemperature>
+<MaxTemperature>526.73</MaxTemperature>
+<C1>353140</C1>
+<C2>29.13</C2>
+<C3>0.86116</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>693</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-17" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-263">n-pentadecane</SubstanceName>
+<CasRegistryNo id="ref-264">629-62-9</CasRegistryNo>
+<MinTemperature>283.07</MinTemperature>
+<MaxTemperature>543.84</MaxTemperature>
+<C1>346910</C1>
+<C2>219.54</C2>
+<C3>0.65632</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>708</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-18" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-265">n-hexadecane</SubstanceName>
+<CasRegistryNo id="ref-266">544-76-3</CasRegistryNo>
+<MinTemperature>291.31</MinTemperature>
+<MaxTemperature>560.01</MaxTemperature>
+<C1>370350</C1>
+<C2>231.47</C2>
+<C3>0.68632</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>723</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-19" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-267">n-heptadecane</SubstanceName>
+<CasRegistryNo id="ref-268">629-78-7</CasRegistryNo>
+<MinTemperature>295.13</MinTemperature>
+<MaxTemperature>575.3</MaxTemperature>
+<C1>376970</C1>
+<C2>347.82</C2>
+<C3>0.57895</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>736</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-20" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-269">n-octadecane</SubstanceName>
+<CasRegistryNo id="ref-270">593-45-3</CasRegistryNo>
+<MinTemperature>301.31</MinTemperature>
+<MaxTemperature>589.86</MaxTemperature>
+<C1>399430</C1>
+<C2>374.64</C2>
+<C3>0.58156</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>747</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-21" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-271">n-nonadecane</SubstanceName>
+<CasRegistryNo id="ref-272">629-92-5</CasRegistryNo>
+<MinTemperature>305.04</MinTemperature>
+<MaxTemperature>603.05</MaxTemperature>
+<C1>342570</C1>
+<C2>762.08</C2>
+<C3>0.20481</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>758</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-22" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-273">n-eicosane</SubstanceName>
+<CasRegistryNo id="ref-274">112-95-8</CasRegistryNo>
+<MinTemperature>309.58</MinTemperature>
+<MaxTemperature>616.93</MaxTemperature>
+<C1>352720</C1>
+<C2>807.32</C2>
+<C3>0.2122</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>768</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-23" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-275">2-methylpropane</SubstanceName>
+<CasRegistryNo id="ref-276">75-28-5</CasRegistryNo>
+<MinTemperature>113.54</MinTemperature>
+<MaxTemperature>380</MaxTemperature>
+<C1>172370</C1>
+<C2>-1783.9</C2>
+<C3>14.759</C3>
+<C4>-0.047909</C4>
+<C5>5.805E-05</C5>
+<TC>408.14</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-24" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-277">2-methylbutane</SubstanceName>
+<CasRegistryNo id="ref-278">78-78-4</CasRegistryNo>
+<MinTemperature>113.25</MinTemperature>
+<MaxTemperature>310</MaxTemperature>
+<C1>108300</C1>
+<C2>146</C2>
+<C3>-0.292</C3>
+<C4>0.01151</C4>
+<C5>0</C5>
+<TC>460.43</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-25" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-279">2,3-dimethylbutane</SubstanceName>
+<CasRegistryNo id="ref-280">79-29-8</CasRegistryNo>
+<MinTemperature>145.19</MinTemperature>
+<MaxTemperature>331.13</MaxTemperature>
+<C1>129450</C1>
+<C2>18.5</C2>
+<C3>0.608</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>499.98</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-26" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-281">2-methylpentane</SubstanceName>
+<CasRegistryNo id="ref-282">107-83-5</CasRegistryNo>
+<MinTemperature>119.55</MinTemperature>
+<MaxTemperature>333.41</MaxTemperature>
+<C1>142220</C1>
+<C2>-47.83</C2>
+<C3>0.739</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>497.5</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-27" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-283">2,3-dimethylpentane</SubstanceName>
+<CasRegistryNo id="ref-284">565-59-3</CasRegistryNo>
+<MinTemperature>90</MinTemperature>
+<MaxTemperature>380</MaxTemperature>
+<C1>146420</C1>
+<C2>59.2</C2>
+<C3>0.604</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>537.35</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-28" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-285">2,3,3-trimethylpentane</SubstanceName>
+<CasRegistryNo id="ref-286">560-21-4</CasRegistryNo>
+<MinTemperature>280</MinTemperature>
+<MaxTemperature>320</MaxTemperature>
+<C1>388620</C1>
+<C2>-1439.5</C2>
+<C3>3.2187</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>573.5</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-29" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-287">2,2,4-trimethylpentane</SubstanceName>
+<CasRegistryNo id="ref-288">540-84-1</CasRegistryNo>
+<MinTemperature>165.78</MinTemperature>
+<MaxTemperature>520</MaxTemperature>
+<C1>95275</C1>
+<C2>696.7</C2>
+<C3>-1.3765</C3>
+<C4>0.0021734</C4>
+<C5>0</C5>
+<TC>543.96</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-30" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-289">ethylene</SubstanceName>
+<CasRegistryNo id="ref-290">74-85-1</CasRegistryNo>
+<MinTemperature>103.97</MinTemperature>
+<MaxTemperature>252.7</MaxTemperature>
+<C1>247390</C1>
+<C2>-4428</C2>
+<C3>40.936</C3>
+<C4>-0.1697</C4>
+<C5>0.00026816</C5>
+<TC>282.34</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-31" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-291">propylene</SubstanceName>
+<CasRegistryNo id="ref-292">115-07-1</CasRegistryNo>
+<MinTemperature>87.89</MinTemperature>
+<MaxTemperature>298.15</MaxTemperature>
+<C1>117200</C1>
+<C2>-386.32</C2>
+<C3>1.2348</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>365.57</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-32" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-293">1-butene</SubstanceName>
+<CasRegistryNo id="ref-294">106-98-9</CasRegistryNo>
+<MinTemperature>87.8</MinTemperature>
+<MaxTemperature>300</MaxTemperature>
+<C1>135890</C1>
+<C2>-477.39</C2>
+<C3>2.1835</C3>
+<C4>-0.002223</C4>
+<C5>0</C5>
+<TC>419.95</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-33" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-295">cis-2-butene</SubstanceName>
+<CasRegistryNo id="ref-296">590-18-1</CasRegistryNo>
+<MinTemperature>134.26</MinTemperature>
+<MaxTemperature>350</MaxTemperature>
+<C1>126680</C1>
+<C2>-65.47</C2>
+<C3>-0.64</C3>
+<C4>0.002912</C4>
+<C5>0</C5>
+<TC>435.58</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-34" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-297">trans-2-butene</SubstanceName>
+<CasRegistryNo id="ref-298">624-64-6</CasRegistryNo>
+<MinTemperature>167.62</MinTemperature>
+<MaxTemperature>274.03</MaxTemperature>
+<C1>112760</C1>
+<C2>-104.7</C2>
+<C3>0.5214</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>428.63</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-35" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-299">1-pentene</SubstanceName>
+<CasRegistryNo id="ref-300">109-67-1</CasRegistryNo>
+<MinTemperature>107.93</MinTemperature>
+<MaxTemperature>310</MaxTemperature>
+<C1>154670</C1>
+<C2>-426</C2>
+<C3>1.964</C3>
+<C4>-0.0018038</C4>
+<C5>0</C5>
+<TC>464.78</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-36" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-301">1-hexene</SubstanceName>
+<CasRegistryNo id="ref-302">592-41-6</CasRegistryNo>
+<MinTemperature>133.39</MinTemperature>
+<MaxTemperature>336.63</MaxTemperature>
+<C1>192630</C1>
+<C2>-571.16</C2>
+<C3>2.4004</C3>
+<C4>-0.0019758</C4>
+<C5>0</C5>
+<TC>504.03</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-37" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-303">1-heptene</SubstanceName>
+<CasRegistryNo id="ref-304">592-76-7</CasRegistryNo>
+<MinTemperature>154.27</MinTemperature>
+<MaxTemperature>330</MaxTemperature>
+<C1>189970</C1>
+<C2>-156.7</C2>
+<C3>0.343</C3>
+<C4>0.0015222</C4>
+<C5>0</C5>
+<TC>537.29</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-38" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-305">1-octene</SubstanceName>
+<CasRegistryNo id="ref-306">111-66-0</CasRegistryNo>
+<MinTemperature>171.45</MinTemperature>
+<MaxTemperature>315</MaxTemperature>
+<C1>379300</C1>
+<C2>-2117.5</C2>
+<C3>8.2362</C3>
+<C4>-0.0090093</C4>
+<C5>0</C5>
+<TC>566.65</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-39" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-307">1-nonene</SubstanceName>
+<CasRegistryNo id="ref-308">124-11-8</CasRegistryNo>
+<MinTemperature>191.78</MinTemperature>
+<MaxTemperature>420.02</MaxTemperature>
+<C1>258750</C1>
+<C2>-354.5</C2>
+<C3>1.3126</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>593.25</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-40" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-309">1-decene</SubstanceName>
+<CasRegistryNo id="ref-310">872-05-9</CasRegistryNo>
+<MinTemperature>206.89</MinTemperature>
+<MaxTemperature>443.75</MaxTemperature>
+<C1>319500</C1>
+<C2>-576.21</C2>
+<C3>1.7087</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>616.4</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-41" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-311">2-methylpropene</SubstanceName>
+<CasRegistryNo id="ref-312">115-11-7</CasRegistryNo>
+<MinTemperature>132.81</MinTemperature>
+<MaxTemperature>343.15</MaxTemperature>
+<C1>87680</C1>
+<C2>217.1</C2>
+<C3>-0.9153</C3>
+<C4>0.002266</C4>
+<C5>0</C5>
+<TC>417.9</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-42" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-313">2-methyl-1-butene</SubstanceName>
+<CasRegistryNo id="ref-314">563-46-2</CasRegistryNo>
+<MinTemperature>135.58</MinTemperature>
+<MaxTemperature>304.31</MaxTemperature>
+<C1>149510</C1>
+<C2>-247.63</C2>
+<C3>0.91849</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>465</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-43" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-315">2-methyl-2-butene</SubstanceName>
+<CasRegistryNo id="ref-316">513-35-9</CasRegistryNo>
+<MinTemperature>139.39</MinTemperature>
+<MaxTemperature>311.71</MaxTemperature>
+<C1>151600</C1>
+<C2>-266.72</C2>
+<C3>0.90847</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>471</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-44" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-317">1,2-butadiene</SubstanceName>
+<CasRegistryNo id="ref-318">590-19-2</CasRegistryNo>
+<MinTemperature>136.95</MinTemperature>
+<MaxTemperature>290</MaxTemperature>
+<C1>135150</C1>
+<C2>-311.14</C2>
+<C3>0.97007</C3>
+<C4>-0.0001523</C4>
+<C5>0</C5>
+<TC>452</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-45" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-319">1,3-butadiene</SubstanceName>
+<CasRegistryNo id="ref-320">106-99-0</CasRegistryNo>
+<MinTemperature>165</MinTemperature>
+<MaxTemperature>350</MaxTemperature>
+<C1>128860</C1>
+<C2>-323.1</C2>
+<C3>1.015</C3>
+<C4>3.2E-05</C4>
+<C5>0</C5>
+<TC>425.17</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-46" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-321">2-methyl-1,3-butadine</SubstanceName>
+<CasRegistryNo id="ref-322">78-79-5</CasRegistryNo>
+<MinTemperature>130.32</MinTemperature>
+<MaxTemperature>307.2</MaxTemperature>
+<C1>141480</C1>
+<C2>-288.7</C2>
+<C3>1.091</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>484</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-47" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-323">acetylene</SubstanceName>
+<CasRegistryNo id="ref-324">74-86-2</CasRegistryNo>
+<MinTemperature>192.4</MinTemperature>
+<MaxTemperature>250</MaxTemperature>
+<C1>200110</C1>
+<C2>-1198.8</C2>
+<C3>3.0027</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>308.32</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-48" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-325">methylacetylene</SubstanceName>
+<CasRegistryNo id="ref-326">74-99-7</CasRegistryNo>
+<MinTemperature>200</MinTemperature>
+<MaxTemperature>249.94</MaxTemperature>
+<C1>79791</C1>
+<C2>89.49</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>402.39</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-49" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-327">dimethylacetylene</SubstanceName>
+<CasRegistryNo id="ref-328">503-17-3</CasRegistryNo>
+<MinTemperature>240.91</MinTemperature>
+<MaxTemperature>300.13</MaxTemperature>
+<C1>88153</C1>
+<C2>124.16</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>473.2</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-50" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-329">3-methyl-1-butyne</SubstanceName>
+<CasRegistryNo id="ref-330">598-23-2</CasRegistryNo>
+<MinTemperature>200</MinTemperature>
+<MaxTemperature>299.49</MaxTemperature>
+<C1>105200</C1>
+<C2>191.1</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>463.2</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-51" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-331">1-pentyne</SubstanceName>
+<CasRegistryNo id="ref-332">627-19-0</CasRegistryNo>
+<MinTemperature>200</MinTemperature>
+<MaxTemperature>313.33</MaxTemperature>
+<C1>86200</C1>
+<C2>256.6</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>481.2</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-52" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-333">2-pentyne</SubstanceName>
+<CasRegistryNo id="ref-334">627-21-4</CasRegistryNo>
+<MinTemperature>200</MinTemperature>
+<MaxTemperature>329.27</MaxTemperature>
+<C1>68671</C1>
+<C2>246.66</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>519</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-53" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-335">1-hexyne</SubstanceName>
+<CasRegistryNo id="ref-336">693-02-7</CasRegistryNo>
+<MinTemperature>200</MinTemperature>
+<MaxTemperature>344.48</MaxTemperature>
+<C1>93000</C1>
+<C2>326</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>516.2</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-54" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-337">2-hexyne</SubstanceName>
+<CasRegistryNo id="ref-338">764-35-2</CasRegistryNo>
+<MinTemperature>300</MinTemperature>
+<MaxTemperature>357.67</MaxTemperature>
+<C1>94860</C1>
+<C2>254.15</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>549</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-55" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-339">3-hexyne</SubstanceName>
+<CasRegistryNo id="ref-340">928-49-4</CasRegistryNo>
+<MinTemperature>300</MinTemperature>
+<MaxTemperature>354.35</MaxTemperature>
+<C1>82795</C1>
+<C2>283.4</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>544</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-56" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-341">1-heptyne</SubstanceName>
+<CasRegistryNo id="ref-342">628-71-7</CasRegistryNo>
+<MinTemperature>192.22</MinTemperature>
+<MaxTemperature>372.93</MaxTemperature>
+<C1>85122</C1>
+<C2>402.47</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>559</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-57" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-343">1-octyne</SubstanceName>
+<CasRegistryNo id="ref-344">629-05-0</CasRegistryNo>
+<MinTemperature>193.55</MinTemperature>
+<MaxTemperature>399.35</MaxTemperature>
+<C1>91748</C1>
+<C2>471.4</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>585</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-58" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-345">vinylacetylene</SubstanceName>
+<CasRegistryNo id="ref-346">689-97-4</CasRegistryNo>
+<MinTemperature>200</MinTemperature>
+<MaxTemperature>278.25</MaxTemperature>
+<C1>68720</C1>
+<C2>135</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>454</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-59" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-347">cyclopentane</SubstanceName>
+<CasRegistryNo id="ref-348">287-92-3</CasRegistryNo>
+<MinTemperature>179.28</MinTemperature>
+<MaxTemperature>322.4</MaxTemperature>
+<C1>122530</C1>
+<C2>-403.8</C2>
+<C3>1.7344</C3>
+<C4>-0.0010975</C4>
+<C5>0</C5>
+<TC>511.76</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-60" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-349">methylcyclopentane</SubstanceName>
+<CasRegistryNo id="ref-350">96-37-7</CasRegistryNo>
+<MinTemperature>130.73</MinTemperature>
+<MaxTemperature>366.48</MaxTemperature>
+<C1>155920</C1>
+<C2>-490</C2>
+<C3>2.1383</C3>
+<C4>-0.0015585</C4>
+<C5>0</C5>
+<TC>532.79</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-61" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-351">ethylcyclopentane</SubstanceName>
+<CasRegistryNo id="ref-352">1640-89-7</CasRegistryNo>
+<MinTemperature>134.71</MinTemperature>
+<MaxTemperature>301.82</MaxTemperature>
+<C1>178520</C1>
+<C2>-518.35</C2>
+<C3>2.3255</C3>
+<C4>-0.0016818</C4>
+<C5>0</C5>
+<TC>569.52</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-62" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-353">cyclohexane</SubstanceName>
+<CasRegistryNo id="ref-354">110-82-7</CasRegistryNo>
+<MinTemperature>279.69</MinTemperature>
+<MaxTemperature>400</MaxTemperature>
+<C1>-220600</C1>
+<C2>3118.3</C2>
+<C3>-9.4216</C3>
+<C4>0.010687</C4>
+<C5>0</C5>
+<TC>553.58</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-63" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-355">methylcyclohexane</SubstanceName>
+<CasRegistryNo id="ref-356">108-87-2</CasRegistryNo>
+<MinTemperature>146.58</MinTemperature>
+<MaxTemperature>320</MaxTemperature>
+<C1>131340</C1>
+<C2>-63.1</C2>
+<C3>0.8125</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>572.19</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-64" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-357">1,1-dimethylcyclohexane</SubstanceName>
+<CasRegistryNo id="ref-358">590-66-9</CasRegistryNo>
+<MinTemperature>239.66</MinTemperature>
+<MaxTemperature>392.7</MaxTemperature>
+<C1>134500</C1>
+<C2>8.765</C2>
+<C3>0.81151</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>591.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-65" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-359">ethylcyclohexane</SubstanceName>
+<CasRegistryNo id="ref-360">1678-91-7</CasRegistryNo>
+<MinTemperature>161.84</MinTemperature>
+<MaxTemperature>404.95</MaxTemperature>
+<C1>132360</C1>
+<C2>72.74</C2>
+<C3>0.64738</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>609.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-66" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-361">cyclopentene</SubstanceName>
+<CasRegistryNo id="ref-362">142-29-0</CasRegistryNo>
+<MinTemperature>138.13</MinTemperature>
+<MaxTemperature>317.38</MaxTemperature>
+<C1>125380</C1>
+<C2>-349.7</C2>
+<C3>1.143</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>507</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-67" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-363">1-methylcyclopentene</SubstanceName>
+<CasRegistryNo id="ref-364">693-89-0</CasRegistryNo>
+<MinTemperature>200</MinTemperature>
+<MaxTemperature>348.64</MaxTemperature>
+<C1>53271</C1>
+<C2>327.92</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>542</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-68" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-365">cyclohexene</SubstanceName>
+<CasRegistryNo id="ref-366">110-83-8</CasRegistryNo>
+<MinTemperature>169.67</MinTemperature>
+<MaxTemperature>356.12</MaxTemperature>
+<C1>105850</C1>
+<C2>-60</C2>
+<C3>0.68</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>560.4</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-69" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-367">benzene</SubstanceName>
+<CasRegistryNo id="ref-368">71-43-2</CasRegistryNo>
+<MinTemperature>278.68</MinTemperature>
+<MaxTemperature>353.24</MaxTemperature>
+<C1>129440</C1>
+<C2>-169.5</C2>
+<C3>0.64781</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>562.16</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-70" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-369">toluene</SubstanceName>
+<CasRegistryNo id="ref-370">108-88-3</CasRegistryNo>
+<MinTemperature>178.18</MinTemperature>
+<MaxTemperature>500</MaxTemperature>
+<C1>140140</C1>
+<C2>-152.3</C2>
+<C3>0.695</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>591.8</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-71" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-371">o-xylene</SubstanceName>
+<CasRegistryNo id="ref-372">95-47-6</CasRegistryNo>
+<MinTemperature>248</MinTemperature>
+<MaxTemperature>415</MaxTemperature>
+<C1>36500</C1>
+<C2>1017.5</C2>
+<C3>-2.63</C3>
+<C4>0.00302</C4>
+<C5>0</C5>
+<TC>630.33</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-72" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-373">m-xylene</SubstanceName>
+<CasRegistryNo id="ref-374">108-38-3</CasRegistryNo>
+<MinTemperature>225.3</MinTemperature>
+<MaxTemperature>360</MaxTemperature>
+<C1>175550</C1>
+<C2>-299.5</C2>
+<C3>1.088</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>617.05</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-73" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-375">p-xylene</SubstanceName>
+<CasRegistryNo id="ref-376">106-42-3</CasRegistryNo>
+<MinTemperature>286.41</MinTemperature>
+<MaxTemperature>600</MaxTemperature>
+<C1>-35500</C1>
+<C2>1287.2</C2>
+<C3>-2.599</C3>
+<C4>0.002426</C4>
+<C5>0</C5>
+<TC>616.23</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-74" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-377">ethylbenzene</SubstanceName>
+<CasRegistryNo id="ref-378">100-41-4</CasRegistryNo>
+<MinTemperature>178.15</MinTemperature>
+<MaxTemperature>409.35</MaxTemperature>
+<C1>133160</C1>
+<C2>44.507</C2>
+<C3>0.39645</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>617.2</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-75" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-379">propylbenzene</SubstanceName>
+<CasRegistryNo id="ref-380">103-65-1</CasRegistryNo>
+<MinTemperature>173.59</MinTemperature>
+<MaxTemperature>370</MaxTemperature>
+<C1>234770</C1>
+<C2>-800.22</C2>
+<C3>3.4037</C3>
+<C4>-0.0031739</C4>
+<C5>0</C5>
+<TC>638.32</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-76" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-381">1,2,4-trimethylbenzene</SubstanceName>
+<CasRegistryNo id="ref-382">95-63-6</CasRegistryNo>
+<MinTemperature>229.33</MinTemperature>
+<MaxTemperature>350</MaxTemperature>
+<C1>178800</C1>
+<C2>-128.47</C2>
+<C3>0.83741</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>649.13</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-77" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-383">isopropylbenzene</SubstanceName>
+<CasRegistryNo id="ref-384">98-82-8</CasRegistryNo>
+<MinTemperature>177.14</MinTemperature>
+<MaxTemperature>500</MaxTemperature>
+<C1>182900</C1>
+<C2>-174</C2>
+<C3>0.912</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>631.1</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-78" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-385">1,3,5-trimethylbenzene</SubstanceName>
+<CasRegistryNo id="ref-386">108-67-8</CasRegistryNo>
+<MinTemperature>228.42</MinTemperature>
+<MaxTemperature>350</MaxTemperature>
+<C1>148050</C1>
+<C2>19.7</C2>
+<C3>0.6226</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>637.36</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-79" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-387">p-isopropyltoluene</SubstanceName>
+<CasRegistryNo id="ref-388">99-87-6</CasRegistryNo>
+<MinTemperature>205.25</MinTemperature>
+<MaxTemperature>450.28</MaxTemperature>
+<C1>145600</C1>
+<C2>248.7</C2>
+<C3>0.187</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>653.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-80" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-389">naphthalene</SubstanceName>
+<CasRegistryNo id="ref-390">91-20-3</CasRegistryNo>
+<MinTemperature>353.43</MinTemperature>
+<MaxTemperature>491.14</MaxTemperature>
+<C1>29800</C1>
+<C2>527.5</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>748.35</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-81" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-391">biphenyl</SubstanceName>
+<CasRegistryNo id="ref-392">92-52-4</CasRegistryNo>
+<MinTemperature>342.2</MinTemperature>
+<MaxTemperature>533.37</MaxTemperature>
+<C1>121770</C1>
+<C2>429.3</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>789.26</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-82" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-393">styrene</SubstanceName>
+<CasRegistryNo id="ref-394">100-42-5</CasRegistryNo>
+<MinTemperature>242.54</MinTemperature>
+<MaxTemperature>418.31</MaxTemperature>
+<C1>113340</C1>
+<C2>290.2</C2>
+<C3>-0.6051</C3>
+<C4>0.0013567</C4>
+<C5>0</C5>
+<TC>636</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-83" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-395">m-terphenyl</SubstanceName>
+<CasRegistryNo id="ref-396">92-06-8</CasRegistryNo>
+<MinTemperature>360</MinTemperature>
+<MaxTemperature>650</MaxTemperature>
+<C1>195670</C1>
+<C2>594.07</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>924.85</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-84" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-397">methanol</SubstanceName>
+<CasRegistryNo id="ref-398">67-56-1</CasRegistryNo>
+<MinTemperature>175.47</MinTemperature>
+<MaxTemperature>400</MaxTemperature>
+<C1>105800</C1>
+<C2>-362.23</C2>
+<C3>0.9379</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>512.64</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-85" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-399">ethanol</SubstanceName>
+<CasRegistryNo id="ref-400">64-17-5</CasRegistryNo>
+<MinTemperature>159.05</MinTemperature>
+<MaxTemperature>390</MaxTemperature>
+<C1>102640</C1>
+<C2>-139.63</C2>
+<C3>-0.030341</C3>
+<C4>0.0020386</C4>
+<C5>0</C5>
+<TC>513.92</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-86" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-401">1-propanol</SubstanceName>
+<CasRegistryNo id="ref-402">71-23-8</CasRegistryNo>
+<MinTemperature>146.95</MinTemperature>
+<MaxTemperature>400</MaxTemperature>
+<C1>158760</C1>
+<C2>-6350000</C2>
+<C3>1.969</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>536.78</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-87" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-403">1-butanol</SubstanceName>
+<CasRegistryNo id="ref-404">71-36-3</CasRegistryNo>
+<MinTemperature>184.51</MinTemperature>
+<MaxTemperature>390.81</MaxTemperature>
+<C1>191200</C1>
+<C2>-730.4</C2>
+<C3>2.2998</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>563.05</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-88" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-405">2-butanol</SubstanceName>
+<CasRegistryNo id="ref-406">78-92-2</CasRegistryNo>
+<MinTemperature>158.45</MinTemperature>
+<MaxTemperature>372.7</MaxTemperature>
+<C1>206700</C1>
+<C2>-1020.4</C2>
+<C3>3.29</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>536.05</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-89" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-407">2-propanol</SubstanceName>
+<CasRegistryNo id="ref-408">67-63-0</CasRegistryNo>
+<MinTemperature>185.28</MinTemperature>
+<MaxTemperature>480</MaxTemperature>
+<C1>723550</C1>
+<C2>-8095</C2>
+<C3>36.662</C3>
+<C4>-0.066395</C4>
+<C5>4.4064E-05</C5>
+<TC>508.3</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-90" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-409">2-methyl-2-propanol</SubstanceName>
+<CasRegistryNo id="ref-410">75-65-0</CasRegistryNo>
+<MinTemperature>298.96</MinTemperature>
+<MaxTemperature>460</MaxTemperature>
+<C1>74.123</C1>
+<C2>-925460</C2>
+<C3>7894.9</C3>
+<C4>-17.661</C4>
+<C5>0.013617</C5>
+<TC>506.21</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-91" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-411">1-pentanol</SubstanceName>
+<CasRegistryNo id="ref-412">71-41-0</CasRegistryNo>
+<MinTemperature>200.14</MinTemperature>
+<MaxTemperature>389.15</MaxTemperature>
+<C1>201200</C1>
+<C2>-651.3</C2>
+<C3>2.275</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>586.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-92" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-413">2-methyl-1-butanol</SubstanceName>
+<CasRegistryNo id="ref-414">137-32-6</CasRegistryNo>
+<MinTemperature>250</MinTemperature>
+<MaxTemperature>401.85</MaxTemperature>
+<C1>82937</C1>
+<C2>459.98</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>565</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-93" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-415">3-methyl-1-butanol</SubstanceName>
+<CasRegistryNo id="ref-416">123-51-3</CasRegistryNo>
+<MinTemperature>295.52</MinTemperature>
+<MaxTemperature>350</MaxTemperature>
+<C1>-53777</C1>
+<C2>883.42</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>577.2</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-94" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-417">1-hexanol</SubstanceName>
+<CasRegistryNo id="ref-418">111-27-3</CasRegistryNo>
+<MinTemperature>228.55</MinTemperature>
+<MaxTemperature>320</MaxTemperature>
+<C1>484660</C1>
+<C2>-2761.3</C2>
+<C3>6.5555</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>611.35</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-95" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-419">1-heptanol</SubstanceName>
+<CasRegistryNo id="ref-420">111-70-6</CasRegistryNo>
+<MinTemperature>239.15</MinTemperature>
+<MaxTemperature>370</MaxTemperature>
+<C1>437900</C1>
+<C2>-2094.7</C2>
+<C3>5.209</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>631.9</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-96" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-421">cyclohexanol</SubstanceName>
+<CasRegistryNo id="ref-422">108-93-0</CasRegistryNo>
+<MinTemperature>296.6</MinTemperature>
+<MaxTemperature>434</MaxTemperature>
+<C1>-40000</C1>
+<C2>853</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>650</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-97" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-423">ethylene glycol</SubstanceName>
+<CasRegistryNo id="ref-424">107-21-1</CasRegistryNo>
+<MinTemperature>260.15</MinTemperature>
+<MaxTemperature>493.15</MaxTemperature>
+<C1>35540</C1>
+<C2>436.78</C2>
+<C3>-0.18486</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>719.7</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-98" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-425">1,2-propylene glycol</SubstanceName>
+<CasRegistryNo id="ref-426">57-55-6</CasRegistryNo>
+<MinTemperature>213.15</MinTemperature>
+<MaxTemperature>460.75</MaxTemperature>
+<C1>58080</C1>
+<C2>445.2</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>626</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-99" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-427">phenol</SubstanceName>
+<CasRegistryNo id="ref-428">108-95-2</CasRegistryNo>
+<MinTemperature>314.06</MinTemperature>
+<MaxTemperature>425</MaxTemperature>
+<C1>101720</C1>
+<C2>317.61</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>694.25</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-100" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-429">o-cresol</SubstanceName>
+<CasRegistryNo id="ref-430">95-48-7</CasRegistryNo>
+<MinTemperature>304.2</MinTemperature>
+<MaxTemperature>400</MaxTemperature>
+<C1>-185150</C1>
+<C2>3148</C2>
+<C3>-8.0367</C3>
+<C4>0.007254</C4>
+<C5>0</C5>
+<TC>697.55</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-101" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-431">m-Cresol</SubstanceName>
+<CasRegistryNo id="ref-432">108-39-4</CasRegistryNo>
+<MinTemperature>285.39</MinTemperature>
+<MaxTemperature>400</MaxTemperature>
+<C1>-246700</C1>
+<C2>3256.8</C2>
+<C3>-7.4202</C3>
+<C4>0.0060467</C4>
+<C5>0</C5>
+<TC>705.85</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-102" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-433">p-Cresol</SubstanceName>
+<CasRegistryNo id="ref-434">106-44-5</CasRegistryNo>
+<MinTemperature>307.93</MinTemperature>
+<MaxTemperature>400</MaxTemperature>
+<C1>259980</C1>
+<C2>-1112.3</C2>
+<C3>4.9427</C3>
+<C4>-0.0054367</C4>
+<C5>0</C5>
+<TC>704.65</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-103" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-435">dimethyl ether</SubstanceName>
+<CasRegistryNo id="ref-436">115-10-6</CasRegistryNo>
+<MinTemperature>131.65</MinTemperature>
+<MaxTemperature>250</MaxTemperature>
+<C1>110100</C1>
+<C2>-157.47</C2>
+<C3>0.51853</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>400.1</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-104" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-437">methyl ethyl ether</SubstanceName>
+<CasRegistryNo id="ref-438">540-67-0</CasRegistryNo>
+<MinTemperature>218.9</MinTemperature>
+<MaxTemperature>328.35</MaxTemperature>
+<C1>129770</C1>
+<C2>-331.96</C2>
+<C3>1.3869</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>437.8</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-105" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-439">methyl-n-propyl ether</SubstanceName>
+<CasRegistryNo id="ref-440">557-17-5</CasRegistryNo>
+<MinTemperature>133.97</MinTemperature>
+<MaxTemperature>312.2</MaxTemperature>
+<C1>144110</C1>
+<C2>-102.09</C2>
+<C3>0.58113</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>476.3</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-106" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-441">methyl isopropyl ether</SubstanceName>
+<CasRegistryNo id="ref-442">598-53-8</CasRegistryNo>
+<MinTemperature>127.93</MinTemperature>
+<MaxTemperature>310</MaxTemperature>
+<C1>143440</C1>
+<C2>-154.07</C2>
+<C3>0.7255</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>464.5</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-107" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-443">methyl-n-butyl ether</SubstanceName>
+<CasRegistryNo id="ref-444">628-28-4</CasRegistryNo>
+<MinTemperature>157.48</MinTemperature>
+<MaxTemperature>343.35</MaxTemperature>
+<C1>177850</C1>
+<C2>-171.57</C2>
+<C3>0.74379</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>510</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-108" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-445">methyl isobutyl ether</SubstanceName>
+<CasRegistryNo id="ref-446">625-44-5</CasRegistryNo>
+<MinTemperature>300</MinTemperature>
+<MaxTemperature>370</MaxTemperature>
+<C1>51380</C1>
+<C2>450.4</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>497</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-109" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-447">methyl tert-butyl ether</SubstanceName>
+<CasRegistryNo id="ref-448">1634-04-4</CasRegistryNo>
+<MinTemperature>164.55</MinTemperature>
+<MaxTemperature>328.35</MaxTemperature>
+<C1>140120</C1>
+<C2>-9</C2>
+<C3>0.563</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>497.1</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-110" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-449">diethyl ether</SubstanceName>
+<CasRegistryNo id="ref-450">60-29-7</CasRegistryNo>
+<MinTemperature>156.92</MinTemperature>
+<MaxTemperature>460</MaxTemperature>
+<C1>44400</C1>
+<C2>1301</C2>
+<C3>-5.5</C3>
+<C4>0.008763</C4>
+<C5>0</C5>
+<TC>466.7</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-111" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-451">ethyl propyl ether</SubstanceName>
+<CasRegistryNo id="ref-452">628-32-0</CasRegistryNo>
+<MinTemperature>145.65</MinTemperature>
+<MaxTemperature>320</MaxTemperature>
+<C1>103680</C1>
+<C2>726.3</C2>
+<C3>-2.6047</C3>
+<C4>0.0040957</C4>
+<C5>0</C5>
+<TC>500.23</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-112" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-453">ethyl isopropyl ether</SubstanceName>
+<CasRegistryNo id="ref-454">625-54-7</CasRegistryNo>
+<MinTemperature>298.15</MinTemperature>
+<MaxTemperature>326.15</MaxTemperature>
+<C1>106250</C1>
+<C2>292.15</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>489</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-113" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-455">methyl phenyl ether</SubstanceName>
+<CasRegistryNo id="ref-456">100-66-3</CasRegistryNo>
+<MinTemperature>298.15</MinTemperature>
+<MaxTemperature>484.2</MaxTemperature>
+<C1>150940</C1>
+<C2>93.455</C2>
+<C3>0.23602</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>645.6</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-114" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-457">diphenyl ether</SubstanceName>
+<CasRegistryNo id="ref-458">101-84-8</CasRegistryNo>
+<MinTemperature>300.03</MinTemperature>
+<MaxTemperature>570</MaxTemperature>
+<C1>134160</C1>
+<C2>447.67</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>766.8</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-115" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-459">formaldehyde</SubstanceName>
+<CasRegistryNo id="ref-460">50-00-0</CasRegistryNo>
+<MinTemperature>204</MinTemperature>
+<MaxTemperature>234</MaxTemperature>
+<C1>61900</C1>
+<C2>28.3</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>408</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-116" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-461">acetaldehyde</SubstanceName>
+<CasRegistryNo id="ref-462">75-07-0</CasRegistryNo>
+<MinTemperature>150.15</MinTemperature>
+<MaxTemperature>294</MaxTemperature>
+<C1>115100</C1>
+<C2>-433</C2>
+<C3>1.425</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>466</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-117" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-463">1-propanal</SubstanceName>
+<CasRegistryNo id="ref-464">123-38-6</CasRegistryNo>
+<MinTemperature>200</MinTemperature>
+<MaxTemperature>328.75</MaxTemperature>
+<C1>99306</C1>
+<C2>115.73</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>504.4</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-118" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-465">1-butanal</SubstanceName>
+<CasRegistryNo id="ref-466">123-72-8</CasRegistryNo>
+<MinTemperature>176.75</MinTemperature>
+<MaxTemperature>300</MaxTemperature>
+<C1>65682</C1>
+<C2>1329.1</C2>
+<C3>-7.1579</C3>
+<C4>0.012755</C4>
+<C5>0</C5>
+<TC>537.2</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-119" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-467">1-pentanal</SubstanceName>
+<CasRegistryNo id="ref-468">110-62-3</CasRegistryNo>
+<MinTemperature>200</MinTemperature>
+<MaxTemperature>376.15</MaxTemperature>
+<C1>112050</C1>
+<C2>257.78</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>566.1</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-120" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-469">1-hexanal</SubstanceName>
+<CasRegistryNo id="ref-470">66-25-1</CasRegistryNo>
+<MinTemperature>217.15</MinTemperature>
+<MaxTemperature>401.45</MaxTemperature>
+<C1>117700</C1>
+<C2>329.52</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>591</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-121" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-471">1-heptanal</SubstanceName>
+<CasRegistryNo id="ref-472">111-71-7</CasRegistryNo>
+<MinTemperature>229.8</MinTemperature>
+<MaxTemperature>381.25</MaxTemperature>
+<C1>222360</C1>
+<C2>-105.17</C2>
+<C3>0.65074</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>617</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-122" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-473">1-octanal</SubstanceName>
+<CasRegistryNo id="ref-474">124-13-0</CasRegistryNo>
+<MinTemperature>246</MinTemperature>
+<MaxTemperature>447.15</MaxTemperature>
+<C1>130650</C1>
+<C2>463.61</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>638.1</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-123" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-475">1-nonanal</SubstanceName>
+<CasRegistryNo id="ref-476">124-19-6</CasRegistryNo>
+<MinTemperature>255.15</MinTemperature>
+<MaxTemperature>468.15</MaxTemperature>
+<C1>136820</C1>
+<C2>531.29</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>658</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-124" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-477">1-decanal</SubstanceName>
+<CasRegistryNo id="ref-478">112-31-2</CasRegistryNo>
+<MinTemperature>267.15</MinTemperature>
+<MaxTemperature>488.15</MaxTemperature>
+<C1>150460</C1>
+<C2>586.63</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>674.2</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-125" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-479">acetone</SubstanceName>
+<CasRegistryNo id="ref-480">67-64-1</CasRegistryNo>
+<MinTemperature>178.45</MinTemperature>
+<MaxTemperature>329.44</MaxTemperature>
+<C1>135600</C1>
+<C2>-177</C2>
+<C3>0.2837</C3>
+<C4>0.000689</C4>
+<C5>0</C5>
+<TC>508.2</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-126" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-481">methyl ethyl ketone</SubstanceName>
+<CasRegistryNo id="ref-482">78-93-3</CasRegistryNo>
+<MinTemperature>186.48</MinTemperature>
+<MaxTemperature>373.15</MaxTemperature>
+<C1>132300</C1>
+<C2>200.87</C2>
+<C3>-0.9597</C3>
+<C4>0.0019533</C4>
+<C5>0</C5>
+<TC>535.5</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-127" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-483">2-pentanone</SubstanceName>
+<CasRegistryNo id="ref-484">107-87-9</CasRegistryNo>
+<MinTemperature>196.29</MinTemperature>
+<MaxTemperature>375.46</MaxTemperature>
+<C1>194590</C1>
+<C2>-263.86</C2>
+<C3>0.76808</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>561.08</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-128" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-485">methyl isopropyl ketone</SubstanceName>
+<CasRegistryNo id="ref-486">563-80-4</CasRegistryNo>
+<MinTemperature>181.15</MinTemperature>
+<MaxTemperature>367.55</MaxTemperature>
+<C1>183610</C1>
+<C2>-268.85</C2>
+<C3>0.8608</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>553</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-129" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-487">2-hexanone</SubstanceName>
+<CasRegistryNo id="ref-488">591-78-6</CasRegistryNo>
+<MinTemperature>220.87</MinTemperature>
+<MaxTemperature>382.62</MaxTemperature>
+<C1>272490</C1>
+<C2>-790.7</C2>
+<C3>2.5834</C3>
+<C4>-0.002004</C4>
+<C5>0</C5>
+<TC>587.05</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-130" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-489">methyl isobutyl ketone</SubstanceName>
+<CasRegistryNo id="ref-490">108-10-1</CasRegistryNo>
+<MinTemperature>298.15</MinTemperature>
+<MaxTemperature>390</MaxTemperature>
+<C1>124920</C1>
+<C2>304.1</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>571.4</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-131" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-491">3-methyl-2-pentanone</SubstanceName>
+<CasRegistryNo id="ref-492">565-61-7</CasRegistryNo>
+<MinTemperature>298.15</MinTemperature>
+<MaxTemperature>390.55</MaxTemperature>
+<C1>99815</C1>
+<C2>346.72</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>573</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-132" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-493">3-pentanone</SubstanceName>
+<CasRegistryNo id="ref-494">96-22-0</CasRegistryNo>
+<MinTemperature>234.18</MinTemperature>
+<MaxTemperature>375.14</MaxTemperature>
+<C1>193020</C1>
+<C2>-176.43</C2>
+<C3>0.5669</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>560.95</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-133" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-495">ethyl isopropyl ketone</SubstanceName>
+<CasRegistryNo id="ref-496">565-69-5</CasRegistryNo>
+<MinTemperature>298.15</MinTemperature>
+<MaxTemperature>425</MaxTemperature>
+<C1>83630</C1>
+<C2>399</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>567</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-134" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-497">diisopropyl ketone</SubstanceName>
+<CasRegistryNo id="ref-498">565-80-0</CasRegistryNo>
+<MinTemperature>204.81</MinTemperature>
+<MaxTemperature>410</MaxTemperature>
+<C1>179270</C1>
+<C2>28.37</C2>
+<C3>0.5375</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>576</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-135" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-499">cyclohexanone</SubstanceName>
+<CasRegistryNo id="ref-500">108-94-1</CasRegistryNo>
+<MinTemperature>290</MinTemperature>
+<MaxTemperature>486.5</MaxTemperature>
+<C1>109800</C1>
+<C2>261.5</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>653</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-136" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-501">methyl phenyl ketone</SubstanceName>
+<CasRegistryNo id="ref-502">98-86-2</CasRegistryNo>
+<MinTemperature>298.2</MinTemperature>
+<MaxTemperature>532.12</MaxTemperature>
+<C1>72692</C1>
+<C2>337.83</C2>
+<C3>0.35572</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>709.5</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-137" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-503">formic acid</SubstanceName>
+<CasRegistryNo id="ref-504">64-18-6</CasRegistryNo>
+<MinTemperature>281.45</MinTemperature>
+<MaxTemperature>380</MaxTemperature>
+<C1>78060</C1>
+<C2>71.54</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>588</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-138" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-505">acetic acid</SubstanceName>
+<CasRegistryNo id="ref-506">64-19-7</CasRegistryNo>
+<MinTemperature>289.81</MinTemperature>
+<MaxTemperature>391.05</MaxTemperature>
+<C1>139640</C1>
+<C2>-320.8</C2>
+<C3>0.8985</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>591.95</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-139" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-507">propionic acid</SubstanceName>
+<CasRegistryNo id="ref-508">79-09-4</CasRegistryNo>
+<MinTemperature>252.45</MinTemperature>
+<MaxTemperature>414.32</MaxTemperature>
+<C1>213660</C1>
+<C2>-702.7</C2>
+<C3>1.6605</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>600.81</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-140" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-509">n-Butyric acid</SubstanceName>
+<CasRegistryNo id="ref-510">107-92-6</CasRegistryNo>
+<MinTemperature>267.95</MinTemperature>
+<MaxTemperature>436.42</MaxTemperature>
+<C1>237700</C1>
+<C2>-746.4</C2>
+<C3>1.829</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>615.7</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-141" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-511">isobutyric acid</SubstanceName>
+<CasRegistryNo id="ref-512">79-31-2</CasRegistryNo>
+<MinTemperature>270</MinTemperature>
+<MaxTemperature>427.65</MaxTemperature>
+<C1>127540</C1>
+<C2>-65.35</C2>
+<C3>0.82867</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>605</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-142" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-513">benzoic acid</SubstanceName>
+<CasRegistryNo id="ref-514">65-85-0</CasRegistryNo>
+<MinTemperature>395.45</MinTemperature>
+<MaxTemperature>450</MaxTemperature>
+<C1>-5480</C1>
+<C2>647.12</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>751</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-143" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-515">acetic anhydride</SubstanceName>
+<CasRegistryNo id="ref-516">108-24-7</CasRegistryNo>
+<MinTemperature>250</MinTemperature>
+<MaxTemperature>350</MaxTemperature>
+<C1>36600</C1>
+<C2>511</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>606</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-144" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-517">methyl formate</SubstanceName>
+<CasRegistryNo id="ref-518">107-31-3</CasRegistryNo>
+<MinTemperature>174.15</MinTemperature>
+<MaxTemperature>304.9</MaxTemperature>
+<C1>130200</C1>
+<C2>-396</C2>
+<C3>1.21</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>487.2</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-145" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-519">methyl acetate</SubstanceName>
+<CasRegistryNo id="ref-520">79-20-9</CasRegistryNo>
+<MinTemperature>253.4</MinTemperature>
+<MaxTemperature>373.4</MaxTemperature>
+<C1>61260</C1>
+<C2>270.9</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>506.55</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-146" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-521">methyl propionate</SubstanceName>
+<CasRegistryNo id="ref-522">554-12-1</CasRegistryNo>
+<MinTemperature>300</MinTemperature>
+<MaxTemperature>390</MaxTemperature>
+<C1>71140</C1>
+<C2>335.5</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>530.6</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-147" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-523">methyl n-butyrate</SubstanceName>
+<CasRegistryNo id="ref-524">623-42-7</CasRegistryNo>
+<MinTemperature>277.25</MinTemperature>
+<MaxTemperature>415.87</MaxTemperature>
+<C1>102930</C1>
+<C2>129.1</C2>
+<C3>0.62516</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>554.5</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-148" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-525">ethyl formate</SubstanceName>
+<CasRegistryNo id="ref-526">109-94-4</CasRegistryNo>
+<MinTemperature>254.2</MinTemperature>
+<MaxTemperature>374.2</MaxTemperature>
+<C1>80000</C1>
+<C2>223.6</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>508.4</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-149" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-527">ethyl acetate</SubstanceName>
+<CasRegistryNo id="ref-528">141-78-6</CasRegistryNo>
+<MinTemperature>189.6</MinTemperature>
+<MaxTemperature>350.21</MaxTemperature>
+<C1>226230</C1>
+<C2>-624.8</C2>
+<C3>1.472</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>523.3</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-150" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-529">ethyl propionate</SubstanceName>
+<CasRegistryNo id="ref-530">105-37-3</CasRegistryNo>
+<MinTemperature>298.15</MinTemperature>
+<MaxTemperature>410</MaxTemperature>
+<C1>76330</C1>
+<C2>400.1</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>546</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-151" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-531">ethyl n-butyrate</SubstanceName>
+<CasRegistryNo id="ref-532">105-54-4</CasRegistryNo>
+<MinTemperature>285.5</MinTemperature>
+<MaxTemperature>428.25</MaxTemperature>
+<C1>82434</C1>
+<C2>422.45</C2>
+<C3>0.20992</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>571</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-152" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-533">n-propyl formate</SubstanceName>
+<CasRegistryNo id="ref-534">110-74-7</CasRegistryNo>
+<MinTemperature>298.15</MinTemperature>
+<MaxTemperature>398.15</MaxTemperature>
+<C1>75700</C1>
+<C2>326.1</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>538</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-153" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-535">n-propyl acetate</SubstanceName>
+<CasRegistryNo id="ref-536">109-60-4</CasRegistryNo>
+<MinTemperature>274.7</MinTemperature>
+<MaxTemperature>404.7</MaxTemperature>
+<C1>83400</C1>
+<C2>384.1</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>549.73</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-154" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-537">n-butyl acetate</SubstanceName>
+<CasRegistryNo id="ref-538">123-86-4</CasRegistryNo>
+<MinTemperature>289.58</MinTemperature>
+<MaxTemperature>429.58</MaxTemperature>
+<C1>117300</C1>
+<C2>352.2</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>579.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-155" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-539">methyl benzoate</SubstanceName>
+<CasRegistryNo id="ref-540">93-58-3</CasRegistryNo>
+<MinTemperature>260.75</MinTemperature>
+<MaxTemperature>472.65</MaxTemperature>
+<C1>119500</C1>
+<C2>294</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>693</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-156" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-541">ethyl benzoate</SubstanceName>
+<CasRegistryNo id="ref-542">93-89-0</CasRegistryNo>
+<MinTemperature>238.45</MinTemperature>
+<MaxTemperature>486.55</MaxTemperature>
+<C1>124500</C1>
+<C2>370.6</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>698</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-157" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-543">vinyl acetate</SubstanceName>
+<CasRegistryNo id="ref-544">108-05-4</CasRegistryNo>
+<MinTemperature>259.56</MinTemperature>
+<MaxTemperature>389.35</MaxTemperature>
+<C1>136300</C1>
+<C2>-106.17</C2>
+<C3>0.75175</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>519.13</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-158" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-545">methylamine</SubstanceName>
+<CasRegistryNo id="ref-546">74-89-5</CasRegistryNo>
+<MinTemperature>179.69</MinTemperature>
+<MaxTemperature>266.82</MaxTemperature>
+<C1>92520</C1>
+<C2>37.45</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>430.05</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-159" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-547">dimethylamine</SubstanceName>
+<CasRegistryNo id="ref-548">124-40-3</CasRegistryNo>
+<MinTemperature>180.96</MinTemperature>
+<MaxTemperature>298.15</MaxTemperature>
+<C1>-214870</C1>
+<C2>3787.2</C2>
+<C3>-13.781</C3>
+<C4>0.016924</C4>
+<C5>0</C5>
+<TC>437.2</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-160" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-549">trimethylamine</SubstanceName>
+<CasRegistryNo id="ref-550">75-50-3</CasRegistryNo>
+<MinTemperature>156.08</MinTemperature>
+<MaxTemperature>276.02</MaxTemperature>
+<C1>136050</C1>
+<C2>-288</C2>
+<C3>0.9913</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>433.25</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-161" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-551">ethylamine</SubstanceName>
+<CasRegistryNo id="ref-552">75-04-7</CasRegistryNo>
+<MinTemperature>192.15</MinTemperature>
+<MaxTemperature>289.73</MaxTemperature>
+<C1>121700</C1>
+<C2>38.993</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>456.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-162" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-553">diethylamine</SubstanceName>
+<CasRegistryNo id="ref-554">109-89-7</CasRegistryNo>
+<MinTemperature>223.35</MinTemperature>
+<MaxTemperature>328.6</MaxTemperature>
+<C1>101330</C1>
+<C2>243.18</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>496.6</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-163" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-555">triethylamine</SubstanceName>
+<CasRegistryNo id="ref-556">121-44-8</CasRegistryNo>
+<MinTemperature>200</MinTemperature>
+<MaxTemperature>361.92</MaxTemperature>
+<C1>111480</C1>
+<C2>368.13</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>535.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-164" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-557">n-propylamine</SubstanceName>
+<CasRegistryNo id="ref-558">107-10-8</CasRegistryNo>
+<MinTemperature>188.36</MinTemperature>
+<MaxTemperature>340</MaxTemperature>
+<C1>139530</C1>
+<C2>78</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>496.95</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-165" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-559">di-n-propylamine</SubstanceName>
+<CasRegistryNo id="ref-560">142-84-7</CasRegistryNo>
+<MinTemperature>277.9</MinTemperature>
+<MaxTemperature>407.9</MaxTemperature>
+<C1>49120</C1>
+<C2>562.24</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>550</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-166" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-561">isopropylamine</SubstanceName>
+<CasRegistryNo id="ref-562">75-31-0</CasRegistryNo>
+<MinTemperature>177.95</MinTemperature>
+<MaxTemperature>320</MaxTemperature>
+<C1>-32469</C1>
+<C2>1977.1</C2>
+<C3>-7.0145</C3>
+<C4>0.0086913</C4>
+<C5>0</C5>
+<TC>471.85</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-167" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-563">diisopropylamine</SubstanceName>
+<CasRegistryNo id="ref-564">108-18-9</CasRegistryNo>
+<MinTemperature>275</MinTemperature>
+<MaxTemperature>357.05</MaxTemperature>
+<C1>98434</C1>
+<C2>429.04</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>523.1</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-168" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-565">aniline</SubstanceName>
+<CasRegistryNo id="ref-566">62-53-3</CasRegistryNo>
+<MinTemperature>267.13</MinTemperature>
+<MaxTemperature>457.15</MaxTemperature>
+<C1>141500</C1>
+<C2>171.2</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>699</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-169" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-567">N-methylaniline</SubstanceName>
+<CasRegistryNo id="ref-568">100-61-8</CasRegistryNo>
+<MinTemperature>216.15</MinTemperature>
+<MaxTemperature>469.02</MaxTemperature>
+<C1>128500</C1>
+<C2>100.2</C2>
+<C3>0.374</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>701.55</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-170" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-569">N,N-dimethylaniline</SubstanceName>
+<CasRegistryNo id="ref-570">121-69-7</CasRegistryNo>
+<MinTemperature>343.58</MinTemperature>
+<MaxTemperature>513.58</MaxTemperature>
+<C1>41860</C1>
+<C2>527.5</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>687.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-171" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-571">ethylene oxide</SubstanceName>
+<CasRegistryNo id="ref-572">75-21-8</CasRegistryNo>
+<MinTemperature>160.65</MinTemperature>
+<MaxTemperature>283.85</MaxTemperature>
+<C1>144710</C1>
+<C2>-758.87</C2>
+<C3>2.8261</C3>
+<C4>-0.003064</C4>
+<C5>0</C5>
+<TC>469.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-172" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-573">furan</SubstanceName>
+<CasRegistryNo id="ref-574">110-00-9</CasRegistryNo>
+<MinTemperature>187.55</MinTemperature>
+<MaxTemperature>304.5</MaxTemperature>
+<C1>114370</C1>
+<C2>-215.69</C2>
+<C3>0.72691</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>490.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-173" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-575">thiophene</SubstanceName>
+<CasRegistryNo id="ref-576">110-02-1</CasRegistryNo>
+<MinTemperature>234.94</MinTemperature>
+<MaxTemperature>357.31</MaxTemperature>
+<C1>81350</C1>
+<C2>129.8</C2>
+<C3>-0.0039</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>579.35</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-174" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-577">pyridine</SubstanceName>
+<CasRegistryNo id="ref-578">110-86-1</CasRegistryNo>
+<MinTemperature>231.51</MinTemperature>
+<MaxTemperature>388.41</MaxTemperature>
+<C1>107850</C1>
+<C2>-34.787</C2>
+<C3>0.39565</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>619.95</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-175" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-579">formamide</SubstanceName>
+<CasRegistryNo id="ref-580">75-12-7</CasRegistryNo>
+<MinTemperature>292</MinTemperature>
+<MaxTemperature>493</MaxTemperature>
+<C1>63400</C1>
+<C2>150.6</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>771</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-176" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-581">N,N-dimethylformamide</SubstanceName>
+<CasRegistryNo id="ref-582">68-12-2</CasRegistryNo>
+<MinTemperature>273.82</MinTemperature>
+<MaxTemperature>466.44</MaxTemperature>
+<C1>147900</C1>
+<C2>-106</C2>
+<C3>0.384</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>649.6</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-177" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-583">acetamide</SubstanceName>
+<CasRegistryNo id="ref-584">60-35-5</CasRegistryNo>
+<MinTemperature>354.15</MinTemperature>
+<MaxTemperature>571</MaxTemperature>
+<C1>102300</C1>
+<C2>128.7</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>761</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-178" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-585">N-Methylacetamide</SubstanceName>
+<CasRegistryNo id="ref-586">79-16-3</CasRegistryNo>
+<MinTemperature>359</MinTemperature>
+<MaxTemperature>538.5</MaxTemperature>
+<C1>62600</C1>
+<C2>243.4</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>718</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-179" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-587">acetonitrile</SubstanceName>
+<CasRegistryNo id="ref-588">75-05-8</CasRegistryNo>
+<MinTemperature>229.32</MinTemperature>
+<MaxTemperature>354.75</MaxTemperature>
+<C1>97582</C1>
+<C2>-122.2</C2>
+<C3>0.34085</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>545.5</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-180" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-589">propionitrile</SubstanceName>
+<CasRegistryNo id="ref-590">107-12-0</CasRegistryNo>
+<MinTemperature>180.26</MinTemperature>
+<MaxTemperature>370.5</MaxTemperature>
+<C1>118190</C1>
+<C2>-120.98</C2>
+<C3>0.42075</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>564.4</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-181" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-591">n-butyronitrile</SubstanceName>
+<CasRegistryNo id="ref-592">109-74-0</CasRegistryNo>
+<MinTemperature>161.25</MinTemperature>
+<MaxTemperature>390.75</MaxTemperature>
+<C1>104000</C1>
+<C2>174</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>582.25</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-182" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-593">benzonitrile</SubstanceName>
+<CasRegistryNo id="ref-594">100-47-0</CasRegistryNo>
+<MinTemperature>260.4</MinTemperature>
+<MaxTemperature>464.15</MaxTemperature>
+<C1>76900</C1>
+<C2>314.2</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>699.35</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-183" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-595">methyl mercaptan</SubstanceName>
+<CasRegistryNo id="ref-596">74-93-1</CasRegistryNo>
+<MinTemperature>150.18</MinTemperature>
+<MaxTemperature>298.15</MaxTemperature>
+<C1>115300</C1>
+<C2>-263.23</C2>
+<C3>0.60412</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>469.95</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-184" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-597">ethyl mercaptan</SubstanceName>
+<CasRegistryNo id="ref-598">75-08-1</CasRegistryNo>
+<MinTemperature>125.26</MinTemperature>
+<MaxTemperature>315.25</MaxTemperature>
+<C1>134670</C1>
+<C2>-234.39</C2>
+<C3>0.59656</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>499.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-185" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-599">n-propyl mercaptan</SubstanceName>
+<CasRegistryNo id="ref-600">107-03-9</CasRegistryNo>
+<MinTemperature>159.95</MinTemperature>
+<MaxTemperature>340.87</MaxTemperature>
+<C1>167330</C1>
+<C2>-319.1</C2>
+<C3>0.8127</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>536.6</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-186" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-601">n-butyl mercaptan</SubstanceName>
+<CasRegistryNo id="ref-602">109-79-5</CasRegistryNo>
+<MinTemperature>157.46</MinTemperature>
+<MaxTemperature>390</MaxTemperature>
+<C1>232190</C1>
+<C2>-804.35</C2>
+<C3>2.7063</C3>
+<C4>-0.0023017</C4>
+<C5>0</C5>
+<TC>570.1</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-187" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-603">isobutyl mercaptan</SubstanceName>
+<CasRegistryNo id="ref-604">513-44-0</CasRegistryNo>
+<MinTemperature>128.31</MinTemperature>
+<MaxTemperature>361.64</MaxTemperature>
+<C1>173360</C1>
+<C2>-217.32</C2>
+<C3>0.70933</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>559</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-188" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-605">sec-butyl mercaptan</SubstanceName>
+<CasRegistryNo id="ref-606">513-53-1</CasRegistryNo>
+<MinTemperature>133.02</MinTemperature>
+<MaxTemperature>370</MaxTemperature>
+<C1>197890</C1>
+<C2>-491.54</C2>
+<C3>1.7219</C3>
+<C4>-0.0012499</C4>
+<C5>0</C5>
+<TC>554</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-189" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-607">dimethyl sulfide</SubstanceName>
+<CasRegistryNo id="ref-608">75-18-3</CasRegistryNo>
+<MinTemperature>174.88</MinTemperature>
+<MaxTemperature>310.48</MaxTemperature>
+<C1>146950</C1>
+<C2>-380.06</C2>
+<C3>1.2035</C3>
+<C4>-0.00084787</C4>
+<C5>0</C5>
+<TC>503.04</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-190" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-609">methyl ethyl sulfide</SubstanceName>
+<CasRegistryNo id="ref-610">624-89-5</CasRegistryNo>
+<MinTemperature>167.23</MinTemperature>
+<MaxTemperature>339.8</MaxTemperature>
+<C1>161240</C1>
+<C2>-288.61</C2>
+<C3>0.78179</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>533</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-191" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-611">diethyl sulfide</SubstanceName>
+<CasRegistryNo id="ref-612">352-93-2</CasRegistryNo>
+<MinTemperature>181.95</MinTemperature>
+<MaxTemperature>322.08</MaxTemperature>
+<C1>238520</C1>
+<C2>-1038.4</C2>
+<C3>4.0587</C3>
+<C4>-0.0044691</C4>
+<C5>0</C5>
+<TC>557.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-192" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-613">fluoromethane</SubstanceName>
+<CasRegistryNo id="ref-614">593-53-3</CasRegistryNo>
+<MinTemperature>140</MinTemperature>
+<MaxTemperature>220</MaxTemperature>
+<C1>74746</C1>
+<C2>-132.32</C2>
+<C3>0.53772</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>317.42</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-193" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-615">chloromethane</SubstanceName>
+<CasRegistryNo id="ref-616">74-87-3</CasRegistryNo>
+<MinTemperature>175.43</MinTemperature>
+<MaxTemperature>373.15</MaxTemperature>
+<C1>96910</C1>
+<C2>-207.9</C2>
+<C3>0.37456</C3>
+<C4>0.000488</C4>
+<C5>0</C5>
+<TC>416.25</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-194" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-617">trichloromethane</SubstanceName>
+<CasRegistryNo id="ref-618">67-66-3</CasRegistryNo>
+<MinTemperature>233.15</MinTemperature>
+<MaxTemperature>366.48</MaxTemperature>
+<C1>124850</C1>
+<C2>-166.34</C2>
+<C3>0.43209</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>536.4</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-195" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-619">tetrachloromethane</SubstanceName>
+<CasRegistryNo id="ref-620">56-23-5</CasRegistryNo>
+<MinTemperature>250.33</MinTemperature>
+<MaxTemperature>388.71</MaxTemperature>
+<C1>-752700</C1>
+<C2>8966.1</C2>
+<C3>-30.394</C3>
+<C4>0.034455</C4>
+<C5>0</C5>
+<TC>556.35</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-196" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-621">bromomethane</SubstanceName>
+<CasRegistryNo id="ref-622">74-83-9</CasRegistryNo>
+<MinTemperature>184.45</MinTemperature>
+<MaxTemperature>276.71</MaxTemperature>
+<C1>129730</C1>
+<C2>-596.54</C2>
+<C3>2.16</C3>
+<C4>-0.0024234</C4>
+<C5>0</C5>
+<TC>467</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-197" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-623">fluoroethane</SubstanceName>
+<CasRegistryNo id="ref-624">353-36-6</CasRegistryNo>
+<MinTemperature>200</MinTemperature>
+<MaxTemperature>281.48</MaxTemperature>
+<C1>83303</C1>
+<C2>65.454</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>375.31</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-198" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-625">chloroethane</SubstanceName>
+<CasRegistryNo id="ref-626">75-00-3</CasRegistryNo>
+<MinTemperature>134.8</MinTemperature>
+<MaxTemperature>340</MaxTemperature>
+<C1>127900</C1>
+<C2>-345.15</C2>
+<C3>0.915</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>460.35</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-199" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-627">bromoethane</SubstanceName>
+<CasRegistryNo id="ref-628">74-96-4</CasRegistryNo>
+<MinTemperature>160</MinTemperature>
+<MaxTemperature>320</MaxTemperature>
+<C1>94364</C1>
+<C2>-109.12</C2>
+<C3>0.44032</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>503.8</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-200" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-629">1-chloropropane</SubstanceName>
+<CasRegistryNo id="ref-630">540-54-5</CasRegistryNo>
+<MinTemperature>230</MinTemperature>
+<MaxTemperature>319.67</MaxTemperature>
+<C1>96344</C1>
+<C2>117.52</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>503.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-201" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-631">2-chloropropane</SubstanceName>
+<CasRegistryNo id="ref-632">75-29-6</CasRegistryNo>
+<MinTemperature>200</MinTemperature>
+<MaxTemperature>308.85</MaxTemperature>
+<C1>69362</C1>
+<C2>215.01</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>489</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-202" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-633">1,1-dichloropropane</SubstanceName>
+<CasRegistryNo id="ref-634">78-99-9</CasRegistryNo>
+<MinTemperature>280</MinTemperature>
+<MaxTemperature>420</MaxTemperature>
+<C1>70010</C1>
+<C2>266.6</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>560</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-203" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-635">1,2-dichloropropane</SubstanceName>
+<CasRegistryNo id="ref-636">78-87-5</CasRegistryNo>
+<MinTemperature>286</MinTemperature>
+<MaxTemperature>429</MaxTemperature>
+<C1>110940</C1>
+<C2>8.3496</C2>
+<C3>0.47218</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>572</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-204" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-637">vinyl chloride</SubstanceName>
+<CasRegistryNo id="ref-638">75-01-4</CasRegistryNo>
+<MinTemperature>200</MinTemperature>
+<MaxTemperature>400</MaxTemperature>
+<C1>-10320</C1>
+<C2>322.8</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>432</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-205" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-639">fluorobenzene</SubstanceName>
+<CasRegistryNo id="ref-640">462-06-6</CasRegistryNo>
+<MinTemperature>239.99</MinTemperature>
+<MaxTemperature>319.99</MaxTemperature>
+<C1>-991200</C1>
+<C2>11734</C2>
+<C3>-40.669</C3>
+<C4>0.047333</C4>
+<C5>0</C5>
+<TC>560.09</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-206" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-641">chlorobenzene</SubstanceName>
+<CasRegistryNo id="ref-642">108-90-7</CasRegistryNo>
+<MinTemperature>227.95</MinTemperature>
+<MaxTemperature>360</MaxTemperature>
+<C1>-1307500</C1>
+<C2>15338</C2>
+<C3>-53.974</C3>
+<C4>0.063483</C4>
+<C5>0</C5>
+<TC>632.35</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-207" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-643">bromobenzene</SubstanceName>
+<CasRegistryNo id="ref-644">108-86-1</CasRegistryNo>
+<MinTemperature>293.15</MinTemperature>
+<MaxTemperature>495.08</MaxTemperature>
+<C1>121600</C1>
+<C2>-9.45</C2>
+<C3>0.358</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>670.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-208" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-645">air</SubstanceName>
+<CasRegistryNo id="ref-646">132259-10-0</CasRegistryNo>
+<MinTemperature>75</MinTemperature>
+<MaxTemperature>115</MaxTemperature>
+<C1>-214460</C1>
+<C2>9185.1</C2>
+<C3>-106.12</C3>
+<C4>0.41616</C4>
+<C5>0</C5>
+<TC>132.45</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-209" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-647">hydrogen</SubstanceName>
+<CasRegistryNo id="ref-648">1333-74-0</CasRegistryNo>
+<MinTemperature>13.95</MinTemperature>
+<MaxTemperature>32</MaxTemperature>
+<C1>66.653</C1>
+<C2>6765.9</C2>
+<C3>-123.63</C3>
+<C4>478.27</C4>
+<C5>0</C5>
+<TC>33.19</TC>
+<CorrelationType>2</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-210" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-649">helium-4</SubstanceName>
+<CasRegistryNo id="ref-650">7440-59-7</CasRegistryNo>
+<MinTemperature>2.2</MinTemperature>
+<MaxTemperature>4.6</MaxTemperature>
+<C1>387220</C1>
+<C2>-465570</C2>
+<C3>211800</C3>
+<C4>-42494</C4>
+<C5>3212.9</C5>
+<TC>5.2</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-211" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-651">neon</SubstanceName>
+<CasRegistryNo id="ref-652">7440-01-9</CasRegistryNo>
+<MinTemperature>24.56</MinTemperature>
+<MaxTemperature>40</MaxTemperature>
+<C1>1034100</C1>
+<C2>-138770</C2>
+<C3>7154</C3>
+<C4>-162.55</C4>
+<C5>1.3841</C5>
+<TC>44.4</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-212" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-653">argon</SubstanceName>
+<CasRegistryNo id="ref-654">7440-37-1</CasRegistryNo>
+<MinTemperature>83.78</MinTemperature>
+<MaxTemperature>135</MaxTemperature>
+<C1>134390</C1>
+<C2>-1989.4</C2>
+<C3>11.043</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>150.86</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-213" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-655">fluorine</SubstanceName>
+<CasRegistryNo id="ref-656">7782-41-4</CasRegistryNo>
+<MinTemperature>58</MinTemperature>
+<MaxTemperature>98</MaxTemperature>
+<C1>-94585</C1>
+<C2>7529.9</C2>
+<C3>-139.6</C3>
+<C4>1.1301</C4>
+<C5>-0.0033241</C5>
+<TC>144.12</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-214" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-657">chlorine</SubstanceName>
+<CasRegistryNo id="ref-658">7782-50-5</CasRegistryNo>
+<MinTemperature>172.12</MinTemperature>
+<MaxTemperature>239.12</MaxTemperature>
+<C1>63936</C1>
+<C2>46.35</C2>
+<C3>-0.1623</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>417.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-215" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-659">bromine</SubstanceName>
+<CasRegistryNo id="ref-660">7726-95-6</CasRegistryNo>
+<MinTemperature>265.9</MinTemperature>
+<MaxTemperature>305.37</MaxTemperature>
+<C1>37570</C1>
+<C2>328.5</C2>
+<C3>-0.67</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>584.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-216" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-661">oxygen</SubstanceName>
+<CasRegistryNo id="ref-662">7782-44-7</CasRegistryNo>
+<MinTemperature>54.36</MinTemperature>
+<MaxTemperature>142</MaxTemperature>
+<C1>175430</C1>
+<C2>-6152.3</C2>
+<C3>113.92</C3>
+<C4>-0.92382</C4>
+<C5>0.0027963</C5>
+<TC>154.58</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-217" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-663">nitrogen</SubstanceName>
+<CasRegistryNo id="ref-664">7727-37-9</CasRegistryNo>
+<MinTemperature>63.15</MinTemperature>
+<MaxTemperature>112</MaxTemperature>
+<C1>281970</C1>
+<C2>-12281</C2>
+<C3>248</C3>
+<C4>-2.2182</C4>
+<C5>0.0074902</C5>
+<TC>126.2</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-218" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-665">ammonia</SubstanceName>
+<CasRegistryNo id="ref-666">7664-41-7</CasRegistryNo>
+<MinTemperature>203.15</MinTemperature>
+<MaxTemperature>401.15</MaxTemperature>
+<C1>61.289</C1>
+<C2>80925</C2>
+<C3>799.4</C3>
+<C4>-2651</C4>
+<C5>0</C5>
+<TC>405.65</TC>
+<CorrelationType>2</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-219" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-667">hydrazine</SubstanceName>
+<CasRegistryNo id="ref-668">302-01-2</CasRegistryNo>
+<MinTemperature>274.69</MinTemperature>
+<MaxTemperature>653.15</MaxTemperature>
+<C1>79815</C1>
+<C2>50.929</C2>
+<C3>0.043379</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>653.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-220" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-669">nitrous oxide</SubstanceName>
+<CasRegistryNo id="ref-670">10024-97-2</CasRegistryNo>
+<MinTemperature>182.3</MinTemperature>
+<MaxTemperature>200</MaxTemperature>
+<C1>67556</C1>
+<C2>54.373</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>309.57</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-221" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-671">nitric oxide</SubstanceName>
+<CasRegistryNo id="ref-672">10102-43-9</CasRegistryNo>
+<MinTemperature>109.5</MinTemperature>
+<MaxTemperature>150</MaxTemperature>
+<C1>-2979600</C1>
+<C2>76602</C2>
+<C3>-652.59</C3>
+<C4>1.8879</C4>
+<C5>0</C5>
+<TC>180.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-222" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-673">cyanogen</SubstanceName>
+<CasRegistryNo id="ref-674">460-19-5</CasRegistryNo>
+<MinTemperature>245.25</MinTemperature>
+<MaxTemperature>300</MaxTemperature>
+<C1>3132200</C1>
+<C2>-24320</C2>
+<C3>48.844</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>400.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-223" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-675">carbon monoxide</SubstanceName>
+<CasRegistryNo id="ref-676">630-08-0</CasRegistryNo>
+<MinTemperature>68.15</MinTemperature>
+<MaxTemperature>132</MaxTemperature>
+<C1>65.429</C1>
+<C2>28723</C2>
+<C3>-847.39</C3>
+<C4>1959.6</C4>
+<C5>0</C5>
+<TC>132.92</TC>
+<CorrelationType>2</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-224" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-677">carbon dioxide</SubstanceName>
+<CasRegistryNo id="ref-678">124-38-9</CasRegistryNo>
+<MinTemperature>220</MinTemperature>
+<MaxTemperature>290</MaxTemperature>
+<C1>-8304300</C1>
+<C2>104370</C2>
+<C3>-433.33</C3>
+<C4>0.60052</C4>
+<C5>0</C5>
+<TC>304.21</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-225" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-679">carbon disulfide</SubstanceName>
+<CasRegistryNo id="ref-680">75-15-0</CasRegistryNo>
+<MinTemperature>161.11</MinTemperature>
+<MaxTemperature>552</MaxTemperature>
+<C1>85600</C1>
+<C2>-122</C2>
+<C3>0.5605</C3>
+<C4>-0.001452</C4>
+<C5>2.008E-06</C5>
+<TC>552</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-226" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-681">hydrogen fluoride</SubstanceName>
+<CasRegistryNo id="ref-682">7664-39-3</CasRegistryNo>
+<MinTemperature>189.79</MinTemperature>
+<MaxTemperature>292.67</MaxTemperature>
+<C1>62520</C1>
+<C2>-223.02</C2>
+<C3>0.6297</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>461.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-227" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-683">hydrogen chloride</SubstanceName>
+<CasRegistryNo id="ref-684">7647-01-0</CasRegistryNo>
+<MinTemperature>165</MinTemperature>
+<MaxTemperature>185</MaxTemperature>
+<C1>47300</C1>
+<C2>90</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>324.65</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-228" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-685">hydrogen bromide</SubstanceName>
+<CasRegistryNo id="ref-686">10035-10-6</CasRegistryNo>
+<MinTemperature>185.15</MinTemperature>
+<MaxTemperature>206.45</MaxTemperature>
+<C1>57720</C1>
+<C2>9.9</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>363.15</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-229" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-687">hydrogen cyanide</SubstanceName>
+<CasRegistryNo id="ref-688">74-90-8</CasRegistryNo>
+<MinTemperature>259.83</MinTemperature>
+<MaxTemperature>298.85</MaxTemperature>
+<C1>95398</C1>
+<C2>-197.52</C2>
+<C3>0.3883</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>456.65</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-230" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-689">hydrogen sulfide</SubstanceName>
+<CasRegistryNo id="ref-690">7783-06-4</CasRegistryNo>
+<MinTemperature>187.68</MinTemperature>
+<MaxTemperature>370</MaxTemperature>
+<C1>64.666</C1>
+<C2>49354</C2>
+<C3>22.493</C3>
+<C4>-1623</C4>
+<C5>0</C5>
+<TC>373.53</TC>
+<CorrelationType>2</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-231" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-691">sulfur dioxide</SubstanceName>
+<CasRegistryNo id="ref-692">7446-09-5</CasRegistryNo>
+<MinTemperature>197.67</MinTemperature>
+<MaxTemperature>350</MaxTemperature>
+<C1>85743</C1>
+<C2>5.7443</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>430.75</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-232" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-693">sulfur trioxide</SubstanceName>
+<CasRegistryNo id="ref-694">7446-11-9</CasRegistryNo>
+<MinTemperature>303.15</MinTemperature>
+<MaxTemperature>303.15</MaxTemperature>
+<C1>258090</C1>
+<C2>0</C2>
+<C3>0</C3>
+<C4>0</C4>
+<C5>0</C5>
+<TC>490.85</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+<a3:PerrysLiquidCpCorrelation id="ref-233" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary.PerrysCorrelations/SubstanceLibrary">
+<SubstanceName id="ref-695">water</SubstanceName>
+<CasRegistryNo id="ref-696">7732-18-5</CasRegistryNo>
+<MinTemperature>273.16</MinTemperature>
+<MaxTemperature>533.15</MaxTemperature>
+<C1>276370</C1>
+<C2>-2090.1</C2>
+<C3>8.125</C3>
+<C4>-0.014116</C4>
+<C5>9.3701E-06</C5>
+<TC>647.13</TC>
+<CorrelationType>1</CorrelationType>
+</a3:PerrysLiquidCpCorrelation>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

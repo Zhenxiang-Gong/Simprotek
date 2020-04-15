@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+   <siteMapNode url="~\Default.aspx" title="Home"  description="About Simprotek Corporation">
+     <siteMapNode url="~\Products.aspx" title="Products"  description="Drying Software, Simprosys 2.1" />
+     <siteMapNode url="~\Download.aspx" title="Download"  description="Download Simprosys"/>
+     <siteMapNode url="~\Services.aspx" title="Services"  description="Drying Consulting Services; Engineering Software Consulting Services"/>
+     <siteMapNode url="~\Company.aspx" title="Company"  description="Simprotek Corporation" />
+     <siteMapNode url="~\Resources.aspx" title="Resources"  description="Drying Resources"/>
+     <siteMapNode url="~\ContactUs.aspx" title="Contact Us"  description="Contact Simprotek Corporation"/>
+
+     <!--
+         <siteMapNode url="~\Beta\BetaMain.aspx" title="Beta Testing"  description="" />
+         <siteMapNode url="~\Beta\BetaDefectReporting.aspx" title="Beta Defect Reporting"  description="" />
+         <siteMapNode url="~\Beta\BetaYourDefects.aspx" title="Beta My Defects"  description="" />
+     -->
+   </siteMapNode>
+</siteMap>

@@ -1,0 +1,7 @@
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Plots\bin\Debug\Plots.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Plots\bin\Debug\Plots.pdb
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Plots\bin\Debug\Prosimo.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Plots\bin\Debug\Prosimo.pdb
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Plots\obj\Debug\Plots.csprojResolveAssemblyReference.cache
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Plots\obj\Debug\Plots.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Plots\obj\Debug\Plots.pdb

@@ -1,0 +1,649 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0043)http://www.cheresources.com/iapwsif97.shtml -->
+<!-- BEGIN LINKEXCHANGE CODE --><!Default Table Color is #B5C8D2><HTML><HEAD><TITLE>Thermodynamic and Transport Properties of Water and Steam</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+<META 
+content="water, steam, thermodynamic and transport properties, fundamental equation, IAPWS industrial formulation, software, add-in, MS Excel, dynamic viscosity, thermal conductivity, surface tension, specific volume, density, enthalpy, entropy, internal energy, heat capacity, speed of sound, gas constant, molecular weight, critical temperature, pressure, density, triple-point, data, power plants, boilers, turbines, condensers, chemical engineering" 
+name=keywords>
+<META 
+content="The IAPWS equations for the thermodynamic and transport properties of water and steam and a free MS Excel add-in file with functions for calculating these properties in SI-units" 
+name=description>
+<META content="MSHTML 6.00.2800.1476" name=GENERATOR></HEAD>
+<BODY vLink=#ff00ff link=#ff0000 bgColor=#ffffff>
+<TABLE cellSpacing=1 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top align=middle width=125><MAP name=menu><AREA shape=RECT 
+        coords=0,98,143,121 
+        href="http://www.cheresources.com/premium_content.shtml"><AREA 
+        shape=RECT coords=0,122,143,142 
+        href="http://www.cheresources.com/cheplusstore/catalogue.php"><AREA 
+        shape=RECT coords=0,143,143,167 
+        href="http://www.cheresources.com/free_articles.shtml"><AREA shape=RECT 
+        coords=0,168,143,182 
+        href="http://www.cheresources.com/newsletter.shtml"><AREA shape=RECT 
+        target=New coords=0,183,143,205 
+        href="http://www.cheresources.com/invision/index.php?s=2721d70a48b458453074e8263ba4df25" 
+        Window><AREA shape=RECT coords=0,206,143,228 
+        href="http://www.cheresources.com/other_resources.shtml"><AREA 
+        shape=RECT coords=0,229,143,248 
+        href="http://www.cheresources.com/link_directory.shtml"><AREA shape=RECT 
+        target=New coords=0,249,143,270 href="http://cheresources.tradepub.com/" 
+        Window><AREA shape=RECT coords=0,271,143,292 
+        href="http://www.cheresources.com/adzz.shtml"><AREA shape=RECT 
+        coords=0,293,143,311 
+        href="http://www.cheresources.com/suggestzz.shtml"><AREA shape=RECT 
+        coords=0,312,143,337 
+        href="http://www.cheresources.com/indexzz.shtml"><AREA shape=RECT 
+        coords=0,338,143,360 
+      href="http://www.cheresources.com/search.shtml"></MAP><IMG height=377 
+      src="Thermodynamic and Transport Properties of Water and Steam_files/menu.gif" 
+      width=143 useMap=#menu border=0> <BR>
+      <CENTER>
+      <SCRIPT type=text/javascript><!--
+google_ad_client = "pub-8851545648128884";
+google_ad_width = 120;
+google_ad_height = 600;
+google_ad_format = "120x600_as";
+google_ad_channel ="";
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "003399";
+google_color_url = "990000";
+google_color_text = "000000";
+//--></SCRIPT>
+
+      <SCRIPT 
+      src="Thermodynamic and Transport Properties of Water and Steam_files/show_ads.js" 
+      type=text/javascript>
+</SCRIPT>
+      </CENTER><BR><!-- startprint --></TD>
+    <TD vAlign=top width=625>
+      <P align=center><IMG height=103 alt="smalllogo.gif (6368 bytes)" 
+      src="Thermodynamic and Transport Properties of Water and Steam_files/smalllogo.gif" 
+      width=135></P>
+      <P align=center><FONT color=#0000ff size=4><STRONG>Thermodynamic and 
+      Transport Properties of Water and Steam</STRONG></FONT></P>
+      <P><FONT face="helvetica, arial" color=#0000ff size=2 
+      font><STRONG>Contents</STRONG></FONT> 
+      <UL>
+        <LI><A 
+        href="http://www.cheresources.com/iapwsif97.shtml#intro">Introduction to 
+        IAPWS-IF97</A> 
+        <LI><A 
+        href="http://www.cheresources.com/iapwsif97.shtml#equations">Equations 
+        of IAPWS-IF97</A> 
+        <LI><A 
+        href="http://www.cheresources.com/iapwsif97.shtml#transport">IAPWS 
+        Transport Properties</A> 
+        <LI><A href="http://www.cheresources.com/iapwsif97.shtml#addin">Excel 
+        Add-In</A> 
+        <LI><A 
+        href="http://www.cheresources.com/iapwsif97.shtml#references">References</A> 
+        </LI></UL>
+      <P><FONT face="helvetica, arial" color=#0000ff size=2 font><STRONG><A 
+      name=intro>Introduction to IAPWS-IF97</A></STRONG></FONT> </P>
+      <P>Water is not only one of the most common substances and indispensable 
+      to life, it's also one of the most important media in engineering 
+      applications. Steam engines with water as the working fluid were at the 
+      beginning of the industrial revolution. The rise of electrical energy is 
+      connected to hydroelectric and steam power plants. Water is used as 
+      cooling medium or heat transfer fluid and it plays an important role for 
+      air-condition. For conservation or for reaching desired properties, water 
+      must be removed from substances (drying). In other cases water must be 
+      added (humidification). Also, many chemical reactions take place in 
+      hydrous solutions. </P>
+      <P>That's why a good deal of work has been spent on the investigation and 
+      measurement of water properties over the years. Thermodynamic, transport 
+      and other properties of water are known better than of any other 
+      substance. Accurate data are especially needed for the design of equipment 
+      in steam power plants (boilers, turbines, condensers). In this field it's 
+      also important that all parties involved, e.g., companies bidding for 
+      equipment in a new steam power plant, base their calculations on the same 
+      property data values because small differences may produce appreciable 
+      differences. </P>
+      <P>A standard for the thermodynamic properties of water over a wide range 
+      of temperature and pressure was developed in the 1960's, the 1967 IFC 
+      Formulation for Industrial Use (IFC-67). Since 1967 IFC-67 has been used 
+      for "official" calculations such as performance guarantee calculations of 
+      power cycles. The equations underlying IFC-97 are published for example in 
+      [1]. </P>
+      <P>In 1997, IFC-67 has been replaced by a new formulation, the <A 
+      href="http://www.iapws.org/newform.htm" target=_blank>IAPWS Industrial 
+      Formulation 1997 for the Thermodynamic Properties of Water and Steam</A> 
+      or IAPWS-IF97 for short. IAPWS-IF97 was developed in an international 
+      research project coordinated by the <A href="http://www.iapws.org/" 
+      target=_blank>International Association for the Properties of Water and 
+      Steam (IAPWS)</A>. The formulation is described in a paper by W. Wagner et 
+      al., "The IAPWS Industrial Formulation 1997 for the Thermodynamic 
+      Properties of Water and Steam," <A 
+      href="http://www.asme.org/pubs/journals/gasturb/gasturb.html" 
+      target=_blank><I>ASME J. Eng. Gas Turbines and Power</I></A>, Vol. 122 
+      (2000), pp. 150-182 and several steam table books, among others <A 
+      href="http://www.asmeny.org/cgi-bin/WEB017C?109992+0001+00+00000+801543" 
+      target=_blank>ASME Steam Tables</A> and <A 
+      href="http://www.springer-ny.com/detail.tpl?cart=1013345046675610&amp;ISBN=3540643397" 
+      target=_blank>Properties of Water and Steam</A> by W. Wagner, Springer 
+      1998. </P>
+      <P>IAPWS-IF97 uses some property constants of water for evaluating the 
+      equations for the thermodynamic properties. The reference values of these 
+      constants are as follows. </P>
+      <P>The value of the specific gas constant </P>
+      <P align=center><I>R</I> = 0.461 526 kJ/(kg K) </P>
+      <P>results from the recommended value of the molar gas constant </P>
+      <P align=center><I>R</I><SUB>m</SUB> = 8.314 51 kJ/(kmol K) </P>
+      <P>and the molecular weight of ordinary water </P>
+      <P align=center><I>M</I> = 18.015 257 kg/kmol </P>
+      <P>Values of the critical temperature, critical pressure and critical 
+      density are taken as </P>
+      <P align=center><I>T</I><SUB>c</SUB> = 647.096 K <I>p</I><SUB>c</SUB> = 
+      220.64 bar <IMG height=18 alt=rhoc 
+      src="Thermodynamic and Transport Properties of Water and Steam_files/iapwsif971.gif" 
+      width=19 align=middle border=0> = 322 kg/m<SUP>3</SUP> </P>
+      <P>The triple-point temperature as defined in the International 
+      Temperature Scale of 1990 (ITS-90) is </P>
+      <P align=center><I>T</I><SUB>t</SUB> = 273.16 K = 0.01 °C </P>
+      <P>and the corresponding pressure at the triple point </P>
+      <P align=center><I>p</I><SUB>t</SUB> = 611.657 Pa </P>
+      <P>Finally, the temperature at the normal boiling point (at a pressure of 
+      1.013 25 bar) is </P>
+      <P align=center><I>T</I><SUB>b</SUB> = 373.1243 K = 99.9743 °C </P>
+      <P><FONT face="helvetica, arial" color=#0000ff size=2 font><STRONG><A 
+      name=equations>Equations of IAPWS-IF97</A></STRONG></FONT> </P>
+      <P>The IAPWS-IF97 divides the thermodynamic surface into five regions (see 
+      figure below): 
+      <UL>
+        <LI>region 1 for the liquid state from low to high pressures, 
+        <LI>region 2 for the vapor and ideal gas state, 
+        <LI>region 3 for the thermodynamic state around the critical point, 
+        <LI>region 4 for the saturation curve (vapor-liquid equilibrium), 
+        <LI>region 5 for high temperatures above 1073.15 K (800 °C) and 
+        pressures up to 10 MPa (100 bar). </LI></UL>
+      <P><IMG height=220 alt="Regions of IAPWS-IF97" 
+      src="Thermodynamic and Transport Properties of Water and Steam_files/iapwsif972.gif" 
+      width=360 border=0> </P>
+      <P>For regions 1, 2, 3 and 5 the authors of IAPWS-IF97 have developed 
+      fundamental equations of very high accuracy. Regions 1, 2 and 5 are 
+      covered by fundamental equations for the Gibbs free energy 
+      <I>g</I>(<I>T</I>,<I>p</I>), region 3 by a fundamental equation for the 
+      Helmholtz free energy <I>f</I>(<I>T</I>,<I>v</I>). All thermodynamic 
+      properties can then be calculated from these fundamental equations by 
+      using the appropriate thermodynamic relations. For region 4 a 
+      saturation-pressure equation has been developed. </P>
+      <P>In chemical engineering applications mainly regions 1, 2, 4, and to 
+      some extent also region 3 are of interest. The range of validity of these 
+      regions, the equations for calculating the thermodynamic properties, and 
+      references are summarized in an <A 
+      href="http://www.cheresources.com/iapwsif971.pdf">Adobe pdf-file</A>. The 
+      equations of the high-temperature region 5 should be looked up in the 
+      references. </P>
+      <P>For regions 1 and 2 the thermodynamic properties are given as a 
+      function of temperature and pressure, for region 3 as a function of 
+      temperature and density. For other independent variables an iterative 
+      calculation is usually required. So-called backward equations are provided 
+      in IAPWS-IF97 which allow direct calculation of properties as a function 
+      of some other sets of variables (see references). </P>
+      <P>Accuracy of the equations and consistency along the region boundaries 
+      are more than sufficient for engineering applications. Details can be 
+      found in the references. </P>
+      <P><FONT face="helvetica, arial" color=#0000ff size=2 font><STRONG><A 
+      name=transport>IAPWS Transport Properties</A></STRONG></FONT> </P>
+      <P>The <A href="http://www.iapws.org/" target=_blank>International 
+      Association for the Properties of Water and Steam</A> (IAPWS) has not only 
+      developed an international standard for the thermodynamic properties of 
+      water and steam but also equations for transport properties and other 
+      properties [2-6]. We have summarized the equations for calculating the 
+      transport properties dynamic viscosity and thermal conductivity as well as 
+      the surface tension of the interface between the liquid and the vapor 
+      phase of water in an <A 
+      href="http://www.cheresources.com/iapwsif972.pdf">Adobe pdf-file</A> . 
+      IAPWS also gives equations for the static dielectric constant and the 
+      refractive index of water which are of less interest in chemical 
+      engineering applications. If required these equations can be found in the 
+      references [2, 3]. </P>
+      <P>The equations for dynamic viscosity and thermal conductivity are given 
+      as a function of temperature and density. The use of density as an 
+      independent variable makes it possible to calculate properties of the 
+      liquid and vapor phase using one single equation. In most cases, however, 
+      temperature and pressure are the independent variables and the density 
+      must be determined first from the IAPWS-IF97 equations. </P>
+      <P>Viscosity can be calculated for temperatures from 0 °C to 900 °C and 
+      for pressures up to at least 3000 bar depending on the temperature. The 
+      equation for thermal conductivity can be applied for temperatures from 0 
+      °C to 800 °C and pressures up to at least 1000 bar. Surface tension can be 
+      calculated over the whole range where a liquid-vapor interface exists, 
+      i.e. from the triple point to the critical point of water. Accuracy of the 
+      equations is more than sufficient for engineering applications. Details 
+      can be found in the references [4-6]. </P>
+      <P><FONT face="helvetica, arial" color=#0000ff size=2 font><STRONG><A 
+      name=addin>Excel Add-In</A></STRONG></FONT> </P>
+      <P><A 
+      href="http://www.cheresources.com/iapwsif97_v13.zip">Water97_v13.xla</A> 
+      (version 1.3) is an Add-In for MS Excel which provides a set of functions 
+      for calculating thermodynamic and transport properties of water and steam 
+      using the industrial standard IAPWS-IF97. </P>
+      <P>Functions are available for calculating the following properties in the 
+      single-phase state for temperatures between 273.15 K and 1073.15 K and 
+      pressures between 0 and 1000 bar: 
+      <UL>
+        <LI>density 
+        <LI>specific internal energy 
+        <LI>specific enthalpy 
+        <LI>specific entropy 
+        <LI>specific isobaric heat capacity 
+        <LI>specific isochoric heat capacity 
+        <LI>dynamic viscosity 
+        <LI>thermal conductivity </LI></UL>
+      <P>Additionally there are functions for calculating the boiling point 
+      temperature as a function of pressure and the vapor pressure as a function 
+      of temperature as well as above named properties for the saturated liquid 
+      and vapor state both as a function of temperature and pressure between the 
+      triple point and the critical point. </P>
+      <P>The functions are provided as an Add-In file for MS Excel. After 
+      downloading and decompressing the archive file the Add-In file 
+      "water97_v13.xla" may be loaded in Excel by going to Tools...Add-ins or by 
+      simply double clicking on "water97_v13.xla" in Explorer. The water 
+      property functions are then available just like built-in functions. In the 
+      function wizard list they can be found under User Defined. </P>
+      <P>The list of available functions with syntax, arguments, units, and 
+      examples can be found in the accompanying readme file. </P>
+      <P>You may use this add-in file for free. However, I retain all rights to 
+      it and it may not be sold or distributed as part of another package that 
+      is sold without my express permission. All files are provided "as is" 
+      without warranty of any kind. </P>
+      <P>While I can't provide full technical support I will do my best to 
+      answer questions or to help via e-mail (<A 
+      href="mailto:b.spang@hamburg.de">b.spang@hamburg.de</A>) if you have any 
+      problems. Suggestions from users are also welcome. 
+      <UL>
+        <LI><A href="http://www.cheresources.com/iapwsif97_v13.zip">Download 
+        Add-In</A> (iapwsif97_v13.zip, 51 kB) </LI></UL>
+      <P><FONT face="helvetica, arial" color=#0000ff size=2 font><STRONG><A 
+      name=references>References</A></STRONG></FONT> 
+      <OL>
+        <LI>Properties of Water and Steam in SI-Units, 2nd Revised and Updated 
+        Printing, Springer 1979. 
+        <LI>William T. Parry et al., ASME International Steam Tables for 
+        Industrial Use, American Society of Mechanical Engineers 2000. 
+        <LI>W. Wagner, A. Kruse, Properties of Water and Steam, Springer-Verlag, 
+        Berlin 1998. 
+        <LI>IAPWS Release on the Viscosity of Ordinary Water Substance, IAPWS 
+        Secretariat 1997. 
+        <LI>IAPWS Release on the Thermal Conductivity of Ordinary Water 
+        Substance, IAPWS Secretariat 1998. 
+        <LI>IAPWS Release: "Surface Tension of Ordinary Water Substance", IAPWS 
+        Secretariat 1994. </LI></OL>
+      <P>IAPWS Releases are available from the Executive Secretary of <A 
+      href="http://www.iapws.org/">IAPWS</A>. </P>
+      <P align=center>&nbsp;</P>
+      <P align=left><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Arial; mso-bidi-font-weight: bold; mso-bidi-font-size: 10.0pt"><FONT 
+      color=#ff0000>By: Dr. Bernhard Spang, Associate Content 
+      Writer</FONT></SPAN> <FONT size=3>(read the author's <A 
+      href="http://www.cheresources.com/staff.shtml">Profile</A>)<BR></FONT><A 
+      href="mailto:b.spang@gmx.net">b.spang@gmx.net</A></P></TD></TR></TBODY></TABLE>
+<P>&nbsp;</P>
+<P align=center><!-- stopprint --><A title="Printer friendly page" 
+href="http://www.cheresources.com/cheplus/phprint.php">
+<P>ChE Plus Subscriber - Click Here for a Printable Version</A><BR><BR><A 
+href="http://www.cheresources.com/tell-a-friend/index.php">Send this Page to a 
+Friend</A> </P>
+<FORM action=http://www.cheresources.com/listmail/signup.php method=post 
+align="center"><INPUT type=hidden value=2 name=list>
+<TABLE align=center border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#bd4a4a colSpan=2><FONT face=Arial color=#ffffff 
+      size=2><STRONG>Fill out your email address to <BR>receive notification of 
+      site updates <BR>and <B>instantly receive five technical <BR>questions and 
+      answers</B>!</STRONG></FONT></TD></TR>
+  <TR>
+    <TD bgColor=#eeeeee><STRONG><FONT face=Arial size=2>Email 
+      Address:</FONT></STRONG></TD>
+    <TD><INPUT name=email></TD></TR>
+  <TR>
+    <TD bgColor=#eeeeee><STRONG><FONT face=Arial size=2>First 
+      Name:</FONT></STRONG></TD>
+    <TD><INPUT name=fname></TD></TR>
+  <TR>
+    <TD bgColor=#eeeeee><STRONG><FONT face=Arial size=2>Last 
+      Name:</FONT></STRONG></TD>
+    <TD><INPUT name=lname></TD></TR>
+  <TR>
+    <TD bgColor=#eeeeee>
+      <DIV align=left>
+      <P><STRONG><FONT face=Arial size=2>State:</FONT></STRONG></P></DIV></TD>
+    <TD><SELECT size=1 name=user1> <OPTION value=none>Choose State</OPTION> 
+        <OPTION value=other selected>Not USA/CAN</OPTION> <OPTION 
+        value=AL>Alabama</OPTION> <OPTION value=AK>Alaska</OPTION> <OPTION 
+        value=AB>Alberta</OPTION> <OPTION value=AZ>Arizona</OPTION> <OPTION 
+        value=AR>Arkansas</OPTION> <OPTION value=BC>British Columbia</OPTION> 
+        <OPTION value=CA>California</OPTION> <OPTION value=CO>Colorado</OPTION> 
+        <OPTION value=CT>Connecticut</OPTION> <OPTION value=DE>Delaware</OPTION> 
+        <OPTION value=FL>Florida</OPTION> <OPTION value=GA>Georgia</OPTION> 
+        <OPTION value=HI>Hawaii</OPTION> <OPTION value=ID>Idaho</OPTION> <OPTION 
+        value=IL>Illinois</OPTION> <OPTION value=IN>Indiana</OPTION> <OPTION 
+        value=IA>Iowa</OPTION> <OPTION value=KS>Kansas</OPTION> <OPTION 
+        value=KY>Kentucky</OPTION> <OPTION value=LA>Louisiana</OPTION> <OPTION 
+        value=ME>Maine</OPTION> <OPTION value=MB>Manitoba</OPTION> <OPTION 
+        value=MD>Maryland</OPTION> <OPTION value=MA>Massachusetts</OPTION> 
+        <OPTION value=MI>Michigan</OPTION> <OPTION value=MN>Minnesota</OPTION> 
+        <OPTION value=MS>Mississippi</OPTION> <OPTION value=MO>Missouri</OPTION> 
+        <OPTION value=MT>Montana</OPTION> <OPTION value=NE>Nebraska</OPTION> 
+        <OPTION value=NV>Nevada</OPTION> <OPTION value=NB>New Brunswick</OPTION> 
+        <OPTION value=NL>Newfoundland and Labrador</OPTION> <OPTION value=NH>New 
+        Hampshire</OPTION> <OPTION value=NJ>New Jersey</OPTION> <OPTION 
+        value=NM>New Mexico</OPTION> <OPTION value=NY>New York</OPTION> <OPTION 
+        value=NC>North Carolina</OPTION> <OPTION value=ND>North Dakota</OPTION> 
+        <OPTION value=NT>Northwest Territories</OPTION> <OPTION value=NS>Nova 
+        Scotia</OPTION> <OPTION value=NU>Nunavut</OPTION> <OPTION 
+        value=OH>Ohio</OPTION> <OPTION value=OK>Oklahoma</OPTION> <OPTION 
+        value=ON>Ontario</OPTION> <OPTION value=OR>Oregon</OPTION> <OPTION 
+        value=PA>Pennsylvania</OPTION> <OPTION value=PE>Prince Edward 
+        Island</OPTION> <OPTION value=QC>Quebec</OPTION> <OPTION value=RI>Rhode 
+        Island</OPTION> <OPTION value=SK>Saskatchewan</OPTION> <OPTION 
+        value=SC>South Carolina</OPTION> <OPTION value=SD>South Dakota</OPTION> 
+        <OPTION value=TN>Tennessee</OPTION> <OPTION value=TX>Texas</OPTION> 
+        <OPTION value=UT>Utah</OPTION> <OPTION value=VT>Vermont</OPTION> <OPTION 
+        value=VA>Virginia</OPTION> <OPTION value=WA>Washington</OPTION> <OPTION 
+        value=DC>Washington D.C.</OPTION> <OPTION value=WV>West 
+        Virginia</OPTION> <OPTION value=WI>Wisconsin</OPTION> <OPTION 
+        value=WY>Wyoming</OPTION> <OPTION value=YT>Yukon Territory</OPTION> 
+        <OPTION value=AE>Army Europe</OPTION> <OPTION value=AP>Army 
+        Pacific</OPTION> <OPTION value=AA>Army America</OPTION></SELECT> </TD></TR>
+  <TR>
+    <TD bgColor=#eeeeee><STRONG><FONT face=Arial 
+      size=2>Country:</FONT></STRONG></TD>
+    <TD><SELECT size=1 name=user2> <OPTION value=none selected>Choose 
+        Country</OPTION> <OPTION value=US>United States</OPTION> <OPTION 
+        value=MX>Mexico</OPTION> <OPTION value=CCA>Canada</OPTION> <OPTION 
+        value=AL>Albania</OPTION> <OPTION value=DZ>Algeria</OPTION> <OPTION 
+        value=AS>American Samoa</OPTION> <OPTION value=AD>Andorra</OPTION> 
+        <OPTION value=AI>Anguilla</OPTION> <OPTION value=AG>Antigua &amp; 
+        Barbuda</OPTION> <OPTION value=AR>Argentina</OPTION> <OPTION 
+        value=AW>Aruba</OPTION> <OPTION value=AU>Australia</OPTION> <OPTION 
+        value=AT>Austria</OPTION> <OPTION value=AP>Azores</OPTION> <OPTION 
+        value=BS>Bahamas</OPTION> <OPTION value=BH>Bahrain</OPTION> <OPTION 
+        value=BD>Bangladesh</OPTION> <OPTION value=BB>Barbados</OPTION> <OPTION 
+        value=BE>Belgium</OPTION> <OPTION value=BZ>Belize</OPTION> <OPTION 
+        value=BY>Belarus</OPTION> <OPTION value=BJ>Benin</OPTION> <OPTION 
+        value=BM>Bermuda</OPTION> <OPTION value=BO>Bolivia</OPTION> <OPTION 
+        value=BL>Bonaire</OPTION> <OPTION value=BA>Bosnia</OPTION> <OPTION 
+        value=BW>Botswana</OPTION> <OPTION value=BR>Brazil</OPTION> <OPTION 
+        value=VG>British Virgin Islands</OPTION> <OPTION 
+        value=BN>Brunei</OPTION> <OPTION value=BG>Bulgaria</OPTION> <OPTION 
+        value=BF>Burkina Faso</OPTION> <OPTION value=BI>Burundi</OPTION> <OPTION 
+        value=KH>Cambodia</OPTION> <OPTION value=CM>Cameroon</OPTION> <OPTION 
+        value=IC>Canary Islands</OPTION> <OPTION value=CV>Cape Verde 
+        Islands</OPTION> <OPTION value=KY>Cayman Islands</OPTION> <OPTION 
+        value=CF>Central African Republic</OPTION> <OPTION 
+        value=TD>Chad</OPTION> <OPTION value=CD>Channel Islands</OPTION> <OPTION 
+        value=CL>Chile</OPTION> <OPTION value=CN>China, Peoples Republic 
+        of</OPTION> <OPTION value=CO>Colombia</OPTION> <OPTION 
+        value=CG>Congo</OPTION> <OPTION value=CK>Cook Islands</OPTION> <OPTION 
+        value=CR>Costa Rica</OPTION> <OPTION value=HR>Croatia</OPTION> <OPTION 
+        value=CB>Curacao</OPTION> <OPTION value=CY>Cyprus</OPTION> <OPTION 
+        value=CZ>Czech Republic</OPTION> <OPTION value=DK>Denmark</OPTION> 
+        <OPTION value=DJ>Djibouti</OPTION> <OPTION value=DM>Dominica</OPTION> 
+        <OPTION value=DO>Dominican Republic</OPTION> <OPTION 
+        value=EC>Ecuador</OPTION> <OPTION value=EG>Egypt</OPTION> <OPTION 
+        value=SV>El Salvador</OPTION> <OPTION value=GQ>Equitorial 
+        Guinea</OPTION> <OPTION value=ER>Eritrea</OPTION> <OPTION 
+        value=EE>Estonia</OPTION> <OPTION value=ET>Ethiopia</OPTION> <OPTION 
+        value=FO>Faeroe Islands</OPTION> <OPTION value=FM>Federated States of 
+        Micronesia</OPTION> <OPTION value=FJ>Fiji</OPTION> <OPTION 
+        value=FI>Finland</OPTION> <OPTION value=FR>France</OPTION> <OPTION 
+        value=GF>French Guiana</OPTION> <OPTION value=PF>French 
+        Polynesia</OPTION> <OPTION value=GA>Gabon</OPTION> <OPTION 
+        value=GM>Gambia</OPTION> <OPTION value=GE>Georgia</OPTION> <OPTION 
+        value=DE>Germany</OPTION> <OPTION value=GH>Ghana</OPTION> <OPTION 
+        value=GI>Gibraltar</OPTION> <OPTION value=GR>Greece</OPTION> <OPTION 
+        value=GL>Greenland</OPTION> <OPTION value=GD>Grenada</OPTION> <OPTION 
+        value=GP>Guadeloupe</OPTION> <OPTION value=GU>Guam</OPTION> <OPTION 
+        value=GT>Guatemala</OPTION> <OPTION value=GN>Guinea</OPTION> <OPTION 
+        value=GW>Guinea-Bissau</OPTION> <OPTION value=GY>Guyana</OPTION> <OPTION 
+        value=HT>Haiti</OPTION> <OPTION value=HN>Honduras</OPTION> <OPTION 
+        value=HK>Hong Kong</OPTION> <OPTION value=HU>Hungary</OPTION> <OPTION 
+        value=IS>Iceland</OPTION> <OPTION value=IN>India</OPTION> <OPTION 
+        value=ID>Indonesia</OPTION> <OPTION value=IE>Ireland</OPTION> <OPTION 
+        value=IL>Israel</OPTION> <OPTION value=IT>Italy</OPTION> <OPTION 
+        value=CI>Ivory Coast</OPTION> <OPTION value=JM>Jamaica</OPTION> <OPTION 
+        value=JP>Japan</OPTION> <OPTION value=JO>Jordan</OPTION> <OPTION 
+        value=KZ>Kazakhstan</OPTION> <OPTION value=KE>Kenya</OPTION> <OPTION 
+        value=KI>Kiribati</OPTION> <OPTION value=KO>Kosrae</OPTION> <OPTION 
+        value=KW>Kuwait</OPTION> <OPTION value=KG>Kyrgyzstan</OPTION> <OPTION 
+        value=LA>Laos</OPTION> <OPTION value=LV>Latvia</OPTION> <OPTION 
+        value=LB>Lebanon</OPTION> <OPTION value=LS>Lesotho</OPTION> <OPTION 
+        value=LR>Liberia</OPTION> <OPTION value=LI>Liechtenstein</OPTION> 
+        <OPTION value=LT>Lithuania</OPTION> <OPTION value=LU>Luxembourg</OPTION> 
+        <OPTION value=MO>Macau</OPTION> <OPTION value=MK>Macedonia</OPTION> 
+        <OPTION value=MG>Madagascar</OPTION> <OPTION value=ME>Madeira</OPTION> 
+        <OPTION value=MW>Malawi</OPTION> <OPTION value=MY>Malaysia</OPTION> 
+        <OPTION value=MV>Maldives</OPTION> <OPTION value=ML>Mali</OPTION> 
+        <OPTION value=MT>Malta</OPTION> <OPTION value=MH>Marshall 
+        Islands</OPTION> <OPTION value=MQ>Martinique</OPTION> <OPTION 
+        value=MR>Mauritania</OPTION> <OPTION value=MU>Mauritius</OPTION> <OPTION 
+        value=MD>Moldova</OPTION> <OPTION value=MC>Monaco</OPTION> <OPTION 
+        value=MS>Montserrat</OPTION> <OPTION value=MA>Morocco</OPTION> <OPTION 
+        value=MZ>Mozambique</OPTION> <OPTION value=MM>Myanmar</OPTION> <OPTION 
+        value=NA>Namibia</OPTION> <OPTION value=NP>Nepal</OPTION> <OPTION 
+        value=NL>Netherlands</OPTION> <OPTION value=AN>Netherlands 
+        Antilles</OPTION> <OPTION value=NC>New Caledonia</OPTION> <OPTION 
+        value=NZ>New Zealand</OPTION> <OPTION value=NI>Nicaragua</OPTION> 
+        <OPTION value=NE>Niger</OPTION> <OPTION value=NG>Nigeria</OPTION> 
+        <OPTION value=NF>Norfolk Island</OPTION> <OPTION value=MP>Northern 
+        Mariana Islands</OPTION> <OPTION value=NO>Norway</OPTION> <OPTION 
+        value=OM>Oman</OPTION> <OPTION value=PK>Pakistan</OPTION> <OPTION 
+        value=PW>Palau</OPTION> <OPTION value=PA>Panama</OPTION> <OPTION 
+        value=PG>Papua New Guinea</OPTION> <OPTION value=PY>Paraguay</OPTION> 
+        <OPTION value=PE>Peru</OPTION> <OPTION value=PH>Philippines</OPTION> 
+        <OPTION value=PL>Poland</OPTION> <OPTION value=PO>Ponape</OPTION> 
+        <OPTION value=PT>Portugal</OPTION> <OPTION value=PR>Puerto Rico</OPTION> 
+        <OPTION value=QA>Qatar</OPTION> <OPTION value=YE>Republic of 
+        Yemen</OPTION> <OPTION value=RE>Reunion</OPTION> <OPTION 
+        value=RO>Romania</OPTION> <OPTION value=RT>Rota</OPTION> <OPTION 
+        value=RU>Russia</OPTION> <OPTION value=RW>Rwanda</OPTION> <OPTION 
+        value=SS>Saba</OPTION> <OPTION value=SP>Saipan</OPTION> <OPTION 
+        value=SA>Saudi Arabia</OPTION> <OPTION value=SN>Senegal</OPTION> <OPTION 
+        value=SC>Seychelles</OPTION> <OPTION value=SL>Sierra Leone</OPTION> 
+        <OPTION value=SG>Singapore</OPTION> <OPTION value=SK>Slovakia</OPTION> 
+        <OPTION value=SI>Slovenia</OPTION> <OPTION value=SB>Solomon 
+        Islands</OPTION> <OPTION value=ZA>South Africa</OPTION> <OPTION 
+        value=KR>South Korea</OPTION> <OPTION value=ES>Spain</OPTION> <OPTION 
+        value=LK>Sri Lanka</OPTION> <OPTION value=NT>St. Barthelemy</OPTION> 
+        <OPTION value=SW>St. Christopher</OPTION> <OPTION value=SX>St. 
+        Croix</OPTION> <OPTION value=EU>St. Eustatius</OPTION> <OPTION 
+        value=UV>St. John</OPTION> <OPTION value=KN>St. Kitts &amp; 
+        Nevis</OPTION> <OPTION value=LC>St. Lucia</OPTION> <OPTION value=MB>St. 
+        Maarten</OPTION> <OPTION value=TB>St. Martin</OPTION> <OPTION 
+        value=VL>St. Thomas</OPTION> <OPTION value=VC>St. Vincent &amp; the 
+        Grenadines</OPTION> <OPTION value=SD>Sudan</OPTION> <OPTION 
+        value=SR>Suriname</OPTION> <OPTION value=SZ>Swaziland</OPTION> <OPTION 
+        value=SE>Sweden</OPTION> <OPTION value=CH>Switzerland</OPTION> <OPTION 
+        value=SY>Syria</OPTION> <OPTION value=TA>Tahiti</OPTION> <OPTION 
+        value=TW>Taiwan</OPTION> <OPTION value=TJ>Tajikistan</OPTION> <OPTION 
+        value=TZ>Tanzania</OPTION> <OPTION value=TH>Thailand</OPTION> <OPTION 
+        value=TI>Tinian</OPTION> <OPTION value=TG>Togo</OPTION> <OPTION 
+        value=TO>Tonga</OPTION> <OPTION value=TL>Tortola</OPTION> <OPTION 
+        value=TT>Trinidad &amp; Tobago</OPTION> <OPTION value=TU>Truk</OPTION> 
+        <OPTION value=TN>Tunisia</OPTION> <OPTION value=TR>Turkey</OPTION> 
+        <OPTION value=TC>Turks &amp; Caicos Islands</OPTION> <OPTION 
+        value=TV>Tuvalu</OPTION> <OPTION value=UG>Uganda</OPTION> <OPTION 
+        value=UA>Ukraine</OPTION> <OPTION value=UI>Union Island</OPTION> <OPTION 
+        value=AE>United Arab Emirates</OPTION> <OPTION value=GB>United 
+        Kingdom</OPTION> <OPTION value=UY>Uruguay</OPTION> <OPTION value=VI>US 
+        Virgin Islands</OPTION> <OPTION value=UZ>Uzbekistan</OPTION> <OPTION 
+        value=VU>Vanuatu</OPTION> <OPTION value=VE>Venezuela</OPTION> <OPTION 
+        value=VN>Vietnam</OPTION> <OPTION value=VR>Virgin Gorda</OPTION> <OPTION 
+        value=WK>Wake Island</OPTION> <OPTION value=WF>Wallis &amp; Futuna 
+        Islands</OPTION> <OPTION value=WS>Western Samoa</OPTION> <OPTION 
+        value=YA>Yap</OPTION> <OPTION value=YU>Yugoslavia</OPTION> <OPTION 
+        value=ZR>Zaire</OPTION> <OPTION value=ZM>Zambia</OPTION> <OPTION 
+        value=ZW>Zimbabwe</OPTION></SELECT> </TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <DIV align=center>
+      <CENTER>
+      <P><STRONG><FONT face=Arial size=2><INPUT type=radio CHECKED value=sub 
+      name=submode>Signup <INPUT type=radio value=unsub 
+      name=submode>Remove</FONT></STRONG></P></CENTER></DIV></TD></TR>
+  <TR align=middle>
+    <TD colSpan=2>
+      <DIV align=center>
+      <CENTER>
+      <P><STRONG><FONT face=Arial size=2><INPUT type=submit value=Submit name=sup></FONT></STRONG></P></CENTER></DIV></TD></TR></TBODY></TABLE></FORM>
+<DIV align=center>
+<CENTER>
+<TABLE borderColor=#ffffff cellSpacing=0 cellPadding=0 width=620 bgColor=#bd4a4a 
+border=1>
+  <TBODY>
+  <TR>
+    <TH width=143 bgColor=#0018ad><A 
+      href="http://www.cheresources.com/link.shtml"><FONT color=#ffffff 
+      size=1><STRONG>Main Page</STRONG></FONT></A></TH>
+    <TH width=963 bgColor=#ffffff>
+      <P align=left><FONT color=#000000 size=1><A 
+      href="http://www.cheresources.com/terms.shtml"><STRONG>Terms of 
+      Use</STRONG></A></FONT></P></TH></TR>
+  <TR>
+    <TH width=143 bgColor=#0018ad><A 
+      href="http://www.cheresources.com/premium_content.shtml"><FONT 
+      color=#ffffff size=1><STRONG>Premium Content</STRONG></FONT></A></TH>
+    <TH width=477 bgColor=#ffffff>
+      <P align=left><FONT color=#000000 size=1><STRONG><A 
+      href="http://www.cheresources.com/cheplus/cheplusintro1.shtml">Login</A>&nbsp; 
+      |&nbsp; <A 
+      href="http://www.cheresources.com/amember/signup.php">Signup</A> &nbsp; 
+      |&nbsp; <A href="http://www.cheresources.com/transition.shtml">Learn 
+      More</A></STRONG></FONT></P></TH></TR>
+  <TR>
+    <TH width=143 bgColor=#0018ad><A 
+      href="http://www.cheresources.com/online_store.shtml"><FONT color=#ffffff 
+      size=1><STRONG>Online Store</STRONG></FONT></A></TH>
+    <TH width=955 bgColor=#ffffff>
+      <P align=left><FONT color=#000000 size=1><STRONG><A 
+      href="http://www.cheresources.com/cheplusstore/catalogue.php">Engineering 
+      Software</A>&nbsp; | &nbsp; <A 
+      href="http://www.cheresources.com/cheplusstore/catalogue.php?cat=18">Training 
+      Material</A>&nbsp; |&nbsp; <A 
+      href="http://www.cheresources.com/cheplusstore/catalogue.php?cat=21">Continuing 
+      Education</A>&nbsp; |&nbsp; <BR><A 
+      href="http://www.cheresources.com/maintad.shtml">Maint Best 
+      Practices</A>&nbsp; |&nbsp; <A 
+      href="http://www.cheresources.com/cheplusstore/catalogue.php?cat=35">Book 
+      Reviews</A></STRONG></FONT></P></TH></TR>
+  <TR>
+    <TH width=143 bgColor=#0018ad><A 
+      href="http://www.cheresources.com/free_articles.shtml"><FONT color=#ffffff 
+      size=1><STRONG>Free Articles</STRONG></FONT></A></TH>
+    <TH width=949 bgColor=#ffffff>
+      <P align=left><FONT color=#000000 size=1><STRONG><A 
+      href="http://www.cheresources.com/new_releases.shtml">Newly 
+      Released</A>&nbsp; |&nbsp; <A 
+      href="http://www.cheresources.com/popular_titles.shtml">Popular 
+      Titles</A>&nbsp; |&nbsp; <A 
+      href="http://www.cheresources.com/process_engineering.shtml">Process 
+      Engineering</A>&nbsp; |&nbsp; <A 
+      href="http://www.cheresources.com/process_design.shtml">Process 
+      Design</A>&nbsp; |&nbsp; <BR><A 
+      href="http://www.cheresources.com/business.shtml">CPI Business</A>&nbsp; 
+      |&nbsp; <A 
+      href="http://www.cheresources.com/engineered_writing.shtml">Engineered 
+      Writing</A> &nbsp; |&nbsp; <A 
+      href="http://www.cheresources.com/asiseeit.shtml">As I See It</A>&nbsp; 
+      |&nbsp; <A 
+      href="http://www.cheresources.com/just_for_students.shtml">Students</A></STRONG></FONT></P></TH></TR>
+  <TR>
+    <TH width=143 bgColor=#0018ad><A 
+      href="http://www.cheresources.com/newsletter.shtml"><FONT color=#ffffff 
+      size=1><STRONG>Newsletter</STRONG></FONT></A></TH>
+    <TH width=963 bgColor=#ffffff>
+      <P align=left><FONT color=#000000 size=1><A 
+      href="http://www.cheresources.com/newsletter.shtml"><STRONG>Sign up for 
+      the ChE Plus Newsletter</STRONG></A></FONT></P></TH></TR>
+  <TR>
+    <TH width=143 bgColor=#0018ad><A 
+      href="http://www.cheresources.com/invision/index.php?s=2721d70a48b458453074e8263ba4df25"><FONT 
+      color=#ffffff size=1><STRONG>Message Boards</STRONG></FONT></A></TH>
+    <TH width=963 bgColor=#ffffff>
+      <P align=left><FONT color=#000000 size=1><A 
+      href="http://www.cheresources.com/invision/index.php?s=2721d70a48b458453074e8263ba4df25"><STRONG>Interact 
+      with other professionals and students on our online message 
+      baords</STRONG></A></FONT></P></TH></TR>
+  <TR>
+    <TH width=143 bgColor=#0018ad><A 
+      href="http://www.cheresources.com/other_resources.shtml"><FONT 
+      color=#ffffff size=1><STRONG>Other Resources</STRONG></FONT></A></TH>
+    <TH width=1121 bgColor=#ffffff>
+      <P align=left><FONT color=#000000 size=1><STRONG><A 
+      href="http://www.cheresources.com/sheetszz.shtml">Free Software</A>&nbsp; 
+      |&nbsp; <A 
+      href="http://www.cheresources.com/physinternetzz.shtml">Physical 
+      Properties</A>&nbsp; |&nbsp; <A 
+      href="http://www.cheresources.com/submit.shtml">Submit an 
+      Aritlce</A>&nbsp; |&nbsp; <A 
+      href="http://www.cheresources.com/link.shtml">Linking to Us</A>&nbsp; 
+      |&nbsp; <BR><A href="http://www.cheresources.com/interview.pdf">Career 
+      Research</A>&nbsp; |&nbsp; <A 
+      href="http://www.cheresources.com/whyzz.shtml">Why ChE?</A> &nbsp; |&nbsp; 
+      <A 
+      href="http://www.cheresources.com/staff.shtml">Staff</A></STRONG></FONT></P></TH></TR>
+  <TR>
+    <TH width=143 bgColor=#0018ad><A 
+      href="http://www.cheresources.com/link_directory.shtml"><FONT 
+      color=#ffffff size=1><STRONG>Link Directories</STRONG></FONT></A></TH>
+    <TH width=961 bgColor=#ffffff>
+      <P align=left><FONT color=#000000 size=1><STRONG><A 
+      href="http://www.cheresources.com/chelinks/index.shtml">ChE Links 
+      Technical Directory</A>&nbsp; |&nbsp; <A 
+      href="http://www.cheresources.com/other/chepartners.shtml">Cheresources 
+      Partner Directory</A></STRONG></FONT></P></TH></TR>
+  <TR>
+    <TH width=143 bgColor=#0018ad><A href="http://cheresources.tradepub.com/" 
+      target="New Window"><FONT color=#ffffff size=1><STRONG>Free 
+      Publications</STRONG></FONT></A></TH>
+    <TH width=477 bgColor=#ffffff>
+      <P align=left><A href="http://cheresources.tradepub.com/" 
+      target=_blank><FONT size=1><STRONG>Free Trade Publications from 
+      Cheresources</STRONG></FONT></A></P></TH></TR>
+  <TR>
+    <TH width=143 bgColor=#0018ad><A 
+      href="http://www.cheresources.com/adzz.shtml"><FONT color=#ffffff 
+      size=1><STRONG>Advertise with Us</STRONG></FONT></A></TH>
+    <TH width=477 bgColor=#ffffff>
+      <P align=left><A href="http://www.cheresources.com/adzz.shtml"><FONT 
+      size=1><STRONG>Advertise Your Company, Products, or 
+      Services</STRONG></FONT></A></P></TH></TR>
+  <TR>
+    <TH width=143 bgColor=#0018ad><A 
+      href="http://www.cheresources.com/suggestzz.shtml"><FONT color=#ffffff 
+      size=1><STRONG>Contact Us</STRONG></FONT></A></TH>
+    <TH width=477 bgColor=#ffffff>
+      <P align=left><A href="http://www.cheresources.com/suggestzz.shtml"><FONT 
+      size=1><STRONG>Send Us Your 
+Feedback</STRONG></FONT></A></P></TH></TR></TBODY></TABLE></CENTER></DIV>
+<DIV align=center>
+<CENTER>
+<TABLE width="72%" border=0>
+  <TBODY>
+  <TR>
+    <TD width="100%"><FONT size=1>The Chemical Engineers' Resource Page, 1442 
+      Goswick Ridge Road, Midlothian, VA 23114, <A 
+      href="http://www.cheresources.com/suggestzz.shtml">Email</A><BR>All 
+      material is Copyright © 2004, 
+www.cheresources.com</FONT></TD></TR></TBODY></TABLE></CENTER></DIV>
+<SCRIPT>
+a=new Image();
+refer=document.referrer;
+doc=document.location;
+x=screen.width;
+y=screen.height;
+a.src="http://www.cheresources.com/cgi-bin/advlogger/logger.cgi?ref="+escape(refer)+"&doc="+escape(doc)+"&res="+x+"x"+y;
+</SCRIPT>
+
+<SCRIPT language=JavaScript 
+src="Thermodynamic and Transport Properties of Water and Steam_files/code.htm" 
+type=text/JavaScript></SCRIPT>
+&nbsp;&nbsp; 
+<P></P>
+<P align=center>&nbsp;</P></BODY></HTML>

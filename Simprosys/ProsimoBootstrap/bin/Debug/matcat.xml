@@ -1,0 +1,198 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-2"/>
+<_size>1</_size>
+<_version>1</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-3"/>
+</SOAP-ENC:Array>
+<a3:DryingMaterial id="ref-3" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials">
+<ClassPersistenceVersionDryingMaterial>1</ClassPersistenceVersionDryingMaterial>
+<Name id="ref-6">Generic Food</Name>
+<IsUserDefined>true</IsUserDefined>
+<IsCompositeSubstance>true</IsCompositeSubstance>
+<Substance href="#ref-7"/>
+<MoistureName id="ref-8">water</MoistureName>
+<MaterialType xsi:type="a3:MaterialType" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials">GenericFood</MaterialType>
+<SolutionType xsi:type="a3:SolutionType" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials">Unknown</SolutionType>
+<DuhringLines xsi:null="1"/>
+<SpecificHeatOfAbsoluteDryMaterial>1260</SpecificHeatOfAbsoluteDryMaterial>
+</a3:DryingMaterial>
+<a3:CompositeSubstance id="ref-7" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials">
+<ClassPersistenceVersionSubstance>2</ClassPersistenceVersionSubstance>
+<Name href="#ref-6"/>
+<MolarWeight>NaN</MolarWeight>
+<IsUserDefined>true</IsUserDefined>
+<Type xsi:type="a5:SubstanceType" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary/SubstanceLibrary">Unknown</Type>
+<CasRegistryNo id="ref-10"></CasRegistryNo>
+<Formula xsi:null="1"/>
+<CriticalPropsAndAcentricFactor xsi:null="1"/>
+<ClassPersistenceVersionCompositeSubstance>1</ClassPersistenceVersionCompositeSubstance>
+<Components href="#ref-11"/>
+</a3:CompositeSubstance>
+<a1:ArrayList id="ref-11" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-12"/>
+<_size>5</_size>
+<_version>7</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-12" SOAP-ENC:arrayType="xsd:anyType[8]">
+<item href="#ref-13"/>
+<item href="#ref-14"/>
+<item href="#ref-15"/>
+<item href="#ref-16"/>
+<item href="#ref-17"/>
+</SOAP-ENC:Array>
+<a3:MaterialComponent id="ref-13" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials">
+<ClassPersistenceVersionNonSolvableProcessVarOwner>1</ClassPersistenceVersionNonSolvableProcessVarOwner>
+<ClassPersistenceVersionMaterialComponent>1</ClassPersistenceVersionMaterialComponent>
+<IsCompositeSubstance>false</IsCompositeSubstance>
+<SubstanceName id="ref-19">Carbohydrate</SubstanceName>
+<MassFraction href="#ref-20"/>
+<MoleFraction href="#ref-21"/>
+</a3:MaterialComponent>
+<a3:MaterialComponent id="ref-14" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials">
+<ClassPersistenceVersionNonSolvableProcessVarOwner>1</ClassPersistenceVersionNonSolvableProcessVarOwner>
+<ClassPersistenceVersionMaterialComponent>1</ClassPersistenceVersionMaterialComponent>
+<IsCompositeSubstance>false</IsCompositeSubstance>
+<SubstanceName id="ref-22">Protein</SubstanceName>
+<MassFraction href="#ref-23"/>
+<MoleFraction href="#ref-24"/>
+</a3:MaterialComponent>
+<a3:MaterialComponent id="ref-15" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials">
+<ClassPersistenceVersionNonSolvableProcessVarOwner>1</ClassPersistenceVersionNonSolvableProcessVarOwner>
+<ClassPersistenceVersionMaterialComponent>1</ClassPersistenceVersionMaterialComponent>
+<IsCompositeSubstance>false</IsCompositeSubstance>
+<SubstanceName id="ref-25">Fat</SubstanceName>
+<MassFraction href="#ref-26"/>
+<MoleFraction href="#ref-27"/>
+</a3:MaterialComponent>
+<a3:MaterialComponent id="ref-16" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials">
+<ClassPersistenceVersionNonSolvableProcessVarOwner>1</ClassPersistenceVersionNonSolvableProcessVarOwner>
+<ClassPersistenceVersionMaterialComponent>1</ClassPersistenceVersionMaterialComponent>
+<IsCompositeSubstance>false</IsCompositeSubstance>
+<SubstanceName id="ref-28">Fiber</SubstanceName>
+<MassFraction href="#ref-29"/>
+<MoleFraction href="#ref-30"/>
+</a3:MaterialComponent>
+<a3:MaterialComponent id="ref-17" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials">
+<ClassPersistenceVersionNonSolvableProcessVarOwner>1</ClassPersistenceVersionNonSolvableProcessVarOwner>
+<ClassPersistenceVersionMaterialComponent>1</ClassPersistenceVersionMaterialComponent>
+<IsCompositeSubstance>false</IsCompositeSubstance>
+<SubstanceName id="ref-31">Ash</SubstanceName>
+<MassFraction href="#ref-32"/>
+<MoleFraction href="#ref-33"/>
+</a3:MaterialComponent>
+<a6:ProcessVarDouble id="ref-20" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-34">MASS_FRACTION</Name>
+<ID>0</ID>
+<State xsi:type="a6:VarState" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Specified</State>
+<Type xsi:type="a6:PhysicalQuantity" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-13"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>0.2</VarValue>
+</a6:ProcessVarDouble>
+<a6:ProcessVarDouble id="ref-21" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-35">MOLE_FRACTION</Name>
+<ID>0</ID>
+<State xsi:type="a6:VarState" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Specified</State>
+<Type xsi:type="a6:PhysicalQuantity" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-13"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>NaN</VarValue>
+</a6:ProcessVarDouble>
+<a6:ProcessVarDouble id="ref-23" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-34"/>
+<ID>0</ID>
+<State xsi:type="a6:VarState" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Specified</State>
+<Type xsi:type="a6:PhysicalQuantity" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-14"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>0.2</VarValue>
+</a6:ProcessVarDouble>
+<a6:ProcessVarDouble id="ref-24" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-35"/>
+<ID>0</ID>
+<State xsi:type="a6:VarState" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Specified</State>
+<Type xsi:type="a6:PhysicalQuantity" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-14"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>NaN</VarValue>
+</a6:ProcessVarDouble>
+<a6:ProcessVarDouble id="ref-26" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-34"/>
+<ID>0</ID>
+<State xsi:type="a6:VarState" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Specified</State>
+<Type xsi:type="a6:PhysicalQuantity" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-15"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>0.2</VarValue>
+</a6:ProcessVarDouble>
+<a6:ProcessVarDouble id="ref-27" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-35"/>
+<ID>0</ID>
+<State xsi:type="a6:VarState" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Specified</State>
+<Type xsi:type="a6:PhysicalQuantity" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-15"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>NaN</VarValue>
+</a6:ProcessVarDouble>
+<a6:ProcessVarDouble id="ref-29" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-34"/>
+<ID>0</ID>
+<State xsi:type="a6:VarState" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Specified</State>
+<Type xsi:type="a6:PhysicalQuantity" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-16"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>0.2</VarValue>
+</a6:ProcessVarDouble>
+<a6:ProcessVarDouble id="ref-30" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-35"/>
+<ID>0</ID>
+<State xsi:type="a6:VarState" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Specified</State>
+<Type xsi:type="a6:PhysicalQuantity" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-16"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>NaN</VarValue>
+</a6:ProcessVarDouble>
+<a6:ProcessVarDouble id="ref-32" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-34"/>
+<ID>0</ID>
+<State xsi:type="a6:VarState" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Specified</State>
+<Type xsi:type="a6:PhysicalQuantity" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-17"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>0.2</VarValue>
+</a6:ProcessVarDouble>
+<a6:ProcessVarDouble id="ref-33" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-35"/>
+<ID>0</ID>
+<State xsi:type="a6:VarState" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Specified</State>
+<Type xsi:type="a6:PhysicalQuantity" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-17"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>NaN</VarValue>
+</a6:ProcessVarDouble>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

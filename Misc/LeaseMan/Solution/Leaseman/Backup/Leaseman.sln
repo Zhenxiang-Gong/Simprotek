@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leaseman", "Leaseman.csproj", "{697E785A-D57F-425D-AA51-15E54E0DBBB2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareProtection", "..\..\..\ProSimO\Solution\SoftwareProtection\SoftwareProtection.csproj", "{688B503B-F700-46BA-80A9-C9A7EAE8FCEC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{697E785A-D57F-425D-AA51-15E54E0DBBB2}.Debug.ActiveCfg = Debug|.NET
+		{697E785A-D57F-425D-AA51-15E54E0DBBB2}.Debug.Build.0 = Debug|.NET
+		{697E785A-D57F-425D-AA51-15E54E0DBBB2}.Release.ActiveCfg = Release|.NET
+		{697E785A-D57F-425D-AA51-15E54E0DBBB2}.Release.Build.0 = Release|.NET
+		{688B503B-F700-46BA-80A9-C9A7EAE8FCEC}.Debug.ActiveCfg = Debug|.NET
+		{688B503B-F700-46BA-80A9-C9A7EAE8FCEC}.Debug.Build.0 = Debug|.NET
+		{688B503B-F700-46BA-80A9-C9A7EAE8FCEC}.Release.ActiveCfg = Release|.NET
+		{688B503B-F700-46BA-80A9-C9A7EAE8FCEC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

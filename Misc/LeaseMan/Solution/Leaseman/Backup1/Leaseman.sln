@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leaseman", "Leaseman.csproj", "{697E785A-D57F-425D-AA51-15E54E0DBBB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftwareProtection", "..\..\..\..\Simprosys\SoftwareProtection\SoftwareProtection.csproj", "{688B503B-F700-46BA-80A9-C9A7EAE8FCEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{697E785A-D57F-425D-AA51-15E54E0DBBB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697E785A-D57F-425D-AA51-15E54E0DBBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697E785A-D57F-425D-AA51-15E54E0DBBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697E785A-D57F-425D-AA51-15E54E0DBBB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{688B503B-F700-46BA-80A9-C9A7EAE8FCEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{688B503B-F700-46BA-80A9-C9A7EAE8FCEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{688B503B-F700-46BA-80A9-C9A7EAE8FCEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{688B503B-F700-46BA-80A9-C9A7EAE8FCEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

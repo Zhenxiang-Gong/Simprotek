@@ -1,0 +1,135 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F1664DED-6E70-4EBF-B015-EBBEF8CEF54B}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>SubstanceLibrary</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Prosimo.SubstanceLibrary</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Windows.Forms" />
+    <ProjectReference Include="..\Prosimo\Prosimo.csproj">
+      <Name>Prosimo</Name>
+      <Project>{E9DB3F4C-08DA-4ED6-81AB-6ACC64B1658C}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CriticalProperties.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CriticalPropsAndAccentricFactor.cs" />
+    <Compile Include="ElementAndCount.cs" />
+    <Compile Include="PeriodicTable.cs" />
+    <Compile Include="PerrysCorrelations\PerrysEvaporationHeatCorrelation.cs" />
+    <Compile Include="PerrysCorrelations\PerrysGasCpCorrelation.cs" />
+    <Compile Include="PerrysCorrelations\PerrysLiquidCpCorrelation.cs" />
+    <Compile Include="PerrysCorrelations\PerrysLiquidDensityCorrelation.cs" />
+    <Compile Include="PerrysCorrelations\PerrysVaporPressureCorrelation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Substance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SubstanceCatalog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SubstanceFormula.cs" />
+    <Compile Include="SubstanceLibraryService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ThermalPropCorrelationffBase.cs" />
+    <Compile Include="ThermalPropsAndCoeffs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="YawsCorrelations\YawsEnthalpyOfFormationCorrelation.cs" />
+    <Compile Include="YawsCorrelations\YawsSolidCpCorrelation.cs" />
+    <Compile Include="YawsCorrelations\YawsEvaporationHeatCorrelation.cs" />
+    <Compile Include="YawsCorrelations\YawsGasCpCorrelation.cs" />
+    <Compile Include="YawsCorrelations\YawsGasThermalConductivityCorrelation.cs" />
+    <Compile Include="YawsCorrelations\YawsGasViscosityCorrelation.cs" />
+    <Compile Include="YawsCorrelations\YawsLiquidCpCorrelation.cs" />
+    <Compile Include="YawsCorrelations\YawsLiquidDensityCorrelation.cs" />
+    <Compile Include="YawsCorrelations\YawsLiquidThermalConductivityCorrelation.cs" />
+    <Compile Include="YawsCorrelations\YawsLiquidViscosityCorrelation.cs" />
+    <Compile Include="YawsCorrelations\YawsSurfaceTensionCorrelation.cs" />
+    <Compile Include="YawsCorrelations\YawsVaporPressureCorrelation.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

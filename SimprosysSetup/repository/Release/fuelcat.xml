@@ -1,0 +1,103 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-2"/>
+<_size>2</_size>
+<_version>2</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-3"/>
+<item href="#ref-4"/>
+</SOAP-ENC:Array>
+<a3:FossilFuel id="ref-3" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials">
+<ClassPersistenceVersionFossilFuel>1</ClassPersistenceVersionFossilFuel>
+<Name id="ref-6">Methane</Name>
+<IsUserDefined>true</IsUserDefined>
+<FossilFuelType xsi:type="a3:FossilFuelType" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials">Detailed</FossilFuelType>
+<ComponentList href="#ref-7"/>
+</a3:FossilFuel>
+<a3:FossilFuel id="ref-4" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials">
+<ClassPersistenceVersionFossilFuel>1</ClassPersistenceVersionFossilFuel>
+<Name id="ref-8">Propane</Name>
+<IsUserDefined>true</IsUserDefined>
+<FossilFuelType xsi:type="a3:FossilFuelType" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials">Detailed</FossilFuelType>
+<ComponentList href="#ref-9"/>
+</a3:FossilFuel>
+<a1:ArrayList id="ref-7" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-10"/>
+<_size>1</_size>
+<_version>1</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-9" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-11"/>
+<_size>1</_size>
+<_version>1</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-10" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-12"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-11" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-13"/>
+</SOAP-ENC:Array>
+<a3:MaterialComponent id="ref-12" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials">
+<ClassPersistenceVersionNonSolvableProcessVarOwner>1</ClassPersistenceVersionNonSolvableProcessVarOwner>
+<ClassPersistenceVersionMaterialComponent>1</ClassPersistenceVersionMaterialComponent>
+<IsCompositeSubstance>false</IsCompositeSubstance>
+<SubstanceName id="ref-15">methane</SubstanceName>
+<MassFraction href="#ref-16"/>
+<MoleFraction href="#ref-17"/>
+</a3:MaterialComponent>
+<a3:MaterialComponent id="ref-13" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials">
+<ClassPersistenceVersionNonSolvableProcessVarOwner>1</ClassPersistenceVersionNonSolvableProcessVarOwner>
+<ClassPersistenceVersionMaterialComponent>1</ClassPersistenceVersionMaterialComponent>
+<IsCompositeSubstance>false</IsCompositeSubstance>
+<SubstanceName id="ref-18">propane</SubstanceName>
+<MassFraction href="#ref-19"/>
+<MoleFraction href="#ref-20"/>
+</a3:MaterialComponent>
+<a4:ProcessVarDouble id="ref-16" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-21">MASS_FRACTION</Name>
+<ID>0</ID>
+<State xsi:type="a4:VarState" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Specified</State>
+<Type xsi:type="a4:PhysicalQuantity" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-12"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a4:ProcessVarDouble>
+<a4:ProcessVarDouble id="ref-17" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-22">MOLE_FRACTION</Name>
+<ID>0</ID>
+<State xsi:type="a4:VarState" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Specified</State>
+<Type xsi:type="a4:PhysicalQuantity" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-12"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a4:ProcessVarDouble>
+<a4:ProcessVarDouble id="ref-19" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-21"/>
+<ID>0</ID>
+<State xsi:type="a4:VarState" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Specified</State>
+<Type xsi:type="a4:PhysicalQuantity" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-13"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a4:ProcessVarDouble>
+<a4:ProcessVarDouble id="ref-20" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-22"/>
+<ID>0</ID>
+<State xsi:type="a4:VarState" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Specified</State>
+<Type xsi:type="a4:PhysicalQuantity" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-13"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a4:ProcessVarDouble>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

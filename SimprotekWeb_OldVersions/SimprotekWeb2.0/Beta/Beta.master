@@ -1,0 +1,82 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Beta.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>AMSCO Technology Inc.</title>
+</head>
+<body style="text-align: center; background-color: silver;">
+    <form id="form1" runat="server">
+    <div>
+       <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 50px; background-image: url(../Images/bits.bmp); background-repeat: repeat;">
+          <tr>
+             <td style="font-weight: bold; font-size: xx-large; text-align: left; color: blue; background-repeat: repeat; background-color: transparent;" nowrap="noWrap" width="50%" bgcolor="#ffccff">
+                AMSCO Technology Inc.</td>
+             <td style="width: 100px; text-align: center; background-repeat: repeat; background-color: transparent;" bgcolor="#ffcc66">
+             </td>
+          </tr>
+       </table>
+    </div>
+       <table style="width: 100%; height: 20px">
+          <tr>
+             <td nowrap="noWrap" width="100%" style="text-align: left; font-weight: bold; font-size: small; color: blue; font-family: Verdana; background-color: white;" bgcolor="#ccffff">
+                Advanced Modeling, Simulation, Control and Optimization</td>
+          </tr>
+       </table>
+       &nbsp;<table style="width: 100%">
+          <tr>
+             <td style="font-weight: bold; font-size: xx-large; color: orange; background-color: silver;" width="20%" valign="top" bgcolor="#ccff66">
+          Beta 1</td>
+             <td bgcolor="#99ffff" style="width: 58%; background-color: darkgray; font-weight: bold; font-size: small; color: blue; font-family: Verdana;">
+                &nbsp;You are currently logged in as:
+                <asp:Label ID="loggedUserLabel" runat="server" Font-Bold="True" BackColor="Silver" BorderStyle="Outset" Font-Size="Small" ForeColor="Orange" BorderWidth="1px"></asp:Label></td>
+             <td nowrap="nowrap" style="text-align: right; background-color: darkgray;" width="20%" bgcolor="#ffff66">
+                <asp:LinkButton ID="logoutLinkButton" runat="server" OnClick="logoutLinkButton_Click"
+                   PostBackUrl="~/BetaLogin.aspx" Font-Bold="True" Font-Names="Verdana" Font-Size="Small" ForeColor="Blue">Logout</asp:LinkButton>
+                &nbsp;&nbsp;</td>
+          </tr>
+       </table>
+<!--       <br /> -->
+       <table style="width: 100%; height: 287px">
+          <tr>
+             <td style="height: 306px; text-align: left; width: 21%; background-color: darkgray;" valign="top" bgcolor="#ccff99">
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <asp:Menu ID="betaMenu" runat="server" StaticDisplayLevels="2" Font-Bold="True" Font-Names="Verdana" Font-Size="Small" Height="116px" StaticSubMenuIndent="20px">
+                   <Items>
+                      <asp:MenuItem NavigateUrl="~/Beta/BetaMain.aspx" Text="Beta Testing" Value="Beta Testing">
+                         <asp:MenuItem NavigateUrl="~/Beta/BetaDefectReporting.aspx" Text="Report Defects"
+                            Value="Report Defects"></asp:MenuItem>
+                         <asp:MenuItem NavigateUrl="~/Beta/BetaYourDefects.aspx" Text="My Reported Defects"
+                            Value="My Reported Defects"></asp:MenuItem>
+                      </asp:MenuItem>
+                   </Items>
+                   <LevelMenuItemStyles>
+                      <asp:MenuItemStyle BackColor="Blue" BorderColor="Orange" BorderStyle="Solid" BorderWidth="2px"
+                         Font-Underline="False" ForeColor="White" HorizontalPadding="4px" ItemSpacing="6px"
+                         VerticalPadding="2px" />
+                      <asp:MenuItemStyle BackColor="Blue" BorderColor="Orange" BorderStyle="Solid" BorderWidth="2px"
+                         Font-Underline="False" ForeColor="White" HorizontalPadding="4px" ItemSpacing="6px"
+                         VerticalPadding="2px" />
+                   </LevelMenuItemStyles>
+                   <StaticHoverStyle BackColor="Silver" />
+                </asp:Menu>
+             </td>
+             <td style="width: 100px; height: 306px; text-align: left; background-color: lightgrey; color: dimgray;" bgcolor="#ffcc99" align="center" valign="top">
+                <asp:ContentPlaceHolder ID="betaContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+             </td>
+          </tr>
+       </table>
+       <small style="color: blue">
+          <table border="0" cellpadding="0" cellspacing="0" style="width: 100%; height: 10px">
+             <tr>
+                <td style="width: 100px; height: 2px; background-color: white">
+                </td>
+             </tr>
+          </table>
+          <br />
+          Copyright &copy; 2006 AMSCO Technology Inc. All rights reserved.</small>&nbsp;&nbsp;&nbsp;&nbsp;<br />
+    </form>
+</body>
+</html>

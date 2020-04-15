@@ -1,0 +1,788 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:ArrayList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-2"/>
+<_size>5</_size>
+<_version>5</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-2" SOAP-ENC:arrayType="xsd:anyType[8]">
+<item href="#ref-3"/>
+<item href="#ref-4"/>
+<item href="#ref-5"/>
+<item href="#ref-6"/>
+<item href="#ref-7"/>
+</SOAP-ENC:Array>
+<a3:EvaporationAndDryingSystem id="ref-3" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.UnitOperations/UnitOperations%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionUnitOpSystem>1</ClassPersistenceVersionUnitOpSystem>
+<Name id="ref-11">Example1</Name>
+<ProcVarTable href="#ref-12"/>
+<FomulaTable href="#ref-13"/>
+<ProcVarCounter>15</ProcVarCounter>
+<ClassPersistenceVersionEvaporationAndDryingSystem>1</ClassPersistenceVersionEvaporationAndDryingSystem>
+<Preferences href="#ref-14"/>
+<DryingMaterial href="#ref-15"/>
+<DryingGas href="#ref-16"/>
+<PlotCatalog href="#ref-17"/>
+<GasStreamList href="#ref-18"/>
+<MaterialStreamList href="#ref-19"/>
+<ProcessStreamList href="#ref-20"/>
+<DryerList href="#ref-21"/>
+<FanList href="#ref-22"/>
+<PumpList href="#ref-23"/>
+<CompressorList href="#ref-24"/>
+<ValveList href="#ref-25"/>
+<CycloneList href="#ref-26"/>
+<BagFilterList href="#ref-27"/>
+<AirFilterList href="#ref-28"/>
+<TeeList href="#ref-29"/>
+<MixerList href="#ref-30"/>
+<HeatExchangerList href="#ref-31"/>
+<HeaterList href="#ref-32"/>
+<CoolerList href="#ref-33"/>
+<FlashTankList href="#ref-34"/>
+<RecycleList href="#ref-35"/>
+<EjectorList href="#ref-36"/>
+<WetScrubberList href="#ref-37"/>
+<ScrubberCondenserList href="#ref-38"/>
+<ElectrostaticPrecipitatorList href="#ref-39"/>
+</a3:EvaporationAndDryingSystem>
+<a6:GasStreamControl id="ref-4" xmlns:a6="http://schemas.microsoft.com/clr/nsassem/ProsimoUI.ProcessStreamsUI/ProsimoUI%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionSolvableControl>1</ClassPersistenceVersionSolvableControl>
+<Location xsi:type="a7:Point" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<x>353</x>
+<y>154</y>
+</Location>
+<SolvableName id="ref-42">Gas 1</SolvableName>
+<ClassPersistenceVersionProcessStreamBaseControl>1</ClassPersistenceVersionProcessStreamBaseControl>
+<StreamOrientation xsi:type="a8:StreamOrientation" xmlns:a8="http://schemas.microsoft.com/clr/nsassem/ProsimoUI/ProsimoUI%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Right</StreamOrientation>
+<ClassPersistenceVersionDryingStreamControl>1</ClassPersistenceVersionDryingStreamControl>
+<ClassPersistenceVersionGasStreamControl>1</ClassPersistenceVersionGasStreamControl>
+</a6:GasStreamControl>
+<a8:FlowsheetPreferences id="ref-5" xmlns:a8="http://schemas.microsoft.com/clr/nsassem/ProsimoUI/ProsimoUI%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionFlowsheetPreferences>1</ClassPersistenceVersionFlowsheetPreferences>
+<BackColor xsi:type="a7:Color" xmlns:a7="http://schemas.microsoft.com/clr/nsassem/System.Drawing/System.Drawing%2C%20Version%3D2.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Db03f5f7f11d50a3a">
+<name xsi:null="1"/>
+<value>0</value>
+<knownColor>164</knownColor>
+<state>1</state>
+</BackColor>
+</a8:FlowsheetPreferences>
+<a9:CustomEditor id="ref-6" xmlns:a9="http://schemas.microsoft.com/clr/nsassem/ProsimoUI.CustomEditor/ProsimoUI%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionCustomEditor>1</ClassPersistenceVersionCustomEditor>
+<VariableIds href="#ref-43"/>
+</a9:CustomEditor>
+<a8:FlowsheetVersion id="ref-7" xmlns:a8="http://schemas.microsoft.com/clr/nsassem/ProsimoUI/ProsimoUI%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionFlowsheetVersion>1</ClassPersistenceVersionFlowsheetVersion>
+<Major>1</Major>
+<Minor>0</Minor>
+<Build>1</Build>
+</a8:FlowsheetVersion>
+<a1:Hashtable id="ref-12" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<LoadFactor>0.72</LoadFactor>
+<Version>16</Version>
+<Comparer xsi:null="1"/>
+<HashCodeProvider xsi:null="1"/>
+<HashSize>23</HashSize>
+<Keys href="#ref-44"/>
+<Values href="#ref-45"/>
+</a1:Hashtable>
+<a1:Hashtable id="ref-13" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<LoadFactor>0.72</LoadFactor>
+<Version>0</Version>
+<Comparer xsi:null="1"/>
+<HashCodeProvider xsi:null="1"/>
+<HashSize>11</HashSize>
+<Keys href="#ref-46"/>
+<Values href="#ref-47"/>
+</a1:Hashtable>
+<a3:EvaporationAndDryingSystemPreferences id="ref-14" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.UnitOperations/UnitOperations%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionEvaporationAndDryingSystemPreferences>1</ClassPersistenceVersionEvaporationAndDryingSystemPreferences>
+<UnitOpCreationType xsi:type="a3:UnitOpCreationType" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.UnitOperations/UnitOperations%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">WithInputAndOutput</UnitOpCreationType>
+<HeatExchangerColdInletType href="#ref-48"/>
+<HeatExchangerHotInletType href="#ref-48"/>
+<TeeInletStreamType xsi:type="a3:DryingStreamType" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.UnitOperations/UnitOperations%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">DryingGas</TeeInletStreamType>
+<MixerInletStreamType xsi:type="a3:DryingStreamType" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.UnitOperations/UnitOperations%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">DryingGas</MixerInletStreamType>
+<ValveInletStreamType href="#ref-48"/>
+<HeaterInletStreamType href="#ref-49"/>
+<CoolerInletStreamType href="#ref-49"/>
+</a3:EvaporationAndDryingSystemPreferences>
+<a4:DryingMaterial id="ref-15" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionDryingMaterial>1</ClassPersistenceVersionDryingMaterial>
+<Name id="ref-50">Generic Drying Material</Name>
+<IsUserDefined>true</IsUserDefined>
+<IsCompositeSubstance>true</IsCompositeSubstance>
+<Substance href="#ref-51"/>
+<MoistureName id="ref-52">Water</MoistureName>
+<MaterialType xsi:type="a4:MaterialType" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">GenericMaterial</MaterialType>
+<SolutionType xsi:type="a4:SolutionType" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Unknown</SolutionType>
+<DuhringLines xsi:null="1"/>
+<SpecificHeatOfAbsoluteDryMaterial>1260</SpecificHeatOfAbsoluteDryMaterial>
+</a4:DryingMaterial>
+<a4:DryingGas id="ref-16" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionDryingGas>1</ClassPersistenceVersionDryingGas>
+<IsUserDefined>false</IsUserDefined>
+<Name id="ref-53">Air</Name>
+<SubstanceName href="#ref-53"/>
+</a4:DryingGas>
+<a5:PlotCatalog id="ref-17" xmlns:a5="http://schemas.microsoft.com/clr/nsassem/Prosimo.Plots/Plots%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionPlotCatalog>1</ClassPersistenceVersionPlotCatalog>
+<PlotList href="#ref-54"/>
+</a5:PlotCatalog>
+<a1:ArrayList id="ref-18" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-55"/>
+<_size>1</_size>
+<_version>1</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-19" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-20" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-21" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-22" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-23" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-24" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-25" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-26" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-27" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-28" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-29" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-30" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-31" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-32" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-33" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-34" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-35" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-36" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-37" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-38" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-39" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-43" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-57"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-44" SOAP-ENC:arrayType="xsd:anyType[15]">
+<item xsi:type="xsd:int">14</item>
+<item xsi:type="xsd:int">13</item>
+<item xsi:type="xsd:int">12</item>
+<item xsi:type="xsd:int">11</item>
+<item xsi:type="xsd:int">10</item>
+<item xsi:type="xsd:int">9</item>
+<item xsi:type="xsd:int">8</item>
+<item xsi:type="xsd:int">7</item>
+<item xsi:type="xsd:int">6</item>
+<item xsi:type="xsd:int">5</item>
+<item xsi:type="xsd:int">4</item>
+<item xsi:type="xsd:int">3</item>
+<item xsi:type="xsd:int">2</item>
+<item xsi:type="xsd:int">1</item>
+<item xsi:type="xsd:int">0</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-45" SOAP-ENC:arrayType="xsd:anyType[15]">
+<item href="#ref-58"/>
+<item href="#ref-59"/>
+<item href="#ref-60"/>
+<item href="#ref-61"/>
+<item href="#ref-62"/>
+<item href="#ref-63"/>
+<item href="#ref-64"/>
+<item href="#ref-65"/>
+<item href="#ref-66"/>
+<item href="#ref-67"/>
+<item href="#ref-68"/>
+<item href="#ref-69"/>
+<item href="#ref-70"/>
+<item href="#ref-71"/>
+<item href="#ref-72"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-46" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-47" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+<a2:UnitySerializationHolder id="ref-48" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+<Data id="ref-73">Prosimo.UnitOperations.ProcessStreams.DryingMaterialStream</Data>
+<UnityType>4</UnityType>
+<AssemblyName id="ref-74">UnitOperations, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</AssemblyName>
+</a2:UnitySerializationHolder>
+<a2:UnitySerializationHolder id="ref-49" xmlns:a2="http://schemas.microsoft.com/clr/ns/System">
+<Data id="ref-75">Prosimo.UnitOperations.ProcessStreams.DryingGasStream</Data>
+<UnityType>4</UnityType>
+<AssemblyName href="#ref-74"/>
+</a2:UnitySerializationHolder>
+<a4:CompositeSubstance id="ref-51" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionSubstance>1</ClassPersistenceVersionSubstance>
+<Name href="#ref-50"/>
+<CasRegistryNo>0</CasRegistryNo>
+<Formula xsi:null="1"/>
+<MolarWeight>0</MolarWeight>
+<IsUserDefined>false</IsUserDefined>
+<Type xsi:type="a10:SubstanceType" xmlns:a10="http://schemas.microsoft.com/clr/nsassem/Prosimo.SubstanceLibrary/SubstanceLibrary%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Organic</Type>
+<PropsAndCoeffs xsi:null="1"/>
+<CriticalProps xsi:null="1"/>
+<ClassPersistenceVersionCompositeSubstance>1</ClassPersistenceVersionCompositeSubstance>
+<Components href="#ref-77"/>
+</a4:CompositeSubstance>
+<a1:ArrayList id="ref-54" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-56"/>
+<_size>0</_size>
+<_version>0</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-55" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-78"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-56" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-57" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+<a11:ProcessVarDouble id="ref-58" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-80">HUMID_VOLUME</Name>
+<ID>14</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">AlwaysCalculated</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">SpecificVolume</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>0.85647429448760859</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-59" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-81">DENSITY</Name>
+<ID>13</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">AlwaysCalculated</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Density</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1.1780855613461707</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-60" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-82">HUMID_HEAT</Name>
+<ID>12</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">AlwaysCalculated</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">SpecificHeat</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1018.3170468091872</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-61" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-83">SPECIFIC_HEAT</Name>
+<ID>11</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Calculated</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">SpecificHeat</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1009.2339413371529</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-62" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-84">HUMID_ENTHALPY</Name>
+<ID>10</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Calculated</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">SpecificHeat</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>47849.017133177389</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-63" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-85">SPECIFIC_ENTHALPY</Name>
+<ID>9</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">AlwaysCalculated</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">SpecificEnergy</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>47422.217178570259</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-64" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-86">RELATIVE_HUMIDITY</Name>
+<ID>8</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Calculated</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>0.45629170796714524</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-65" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-87">ABSOLUTE_HUMIDITY</Name>
+<ID>7</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">MoistureContent</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>0.009</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-66" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-88">DEW_POINT_TEMPERATURE</Name>
+<ID>6</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Calculated</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Temperature</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>285.61151884942461</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-67" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-89">WET_BULB_TEMPERATURE</Name>
+<ID>5</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Calculated</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Temperature</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>290.31786972957491</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-68" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-90">DRY_BULB_TEMPERATURE</Name>
+<ID>4</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Temperature</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>298.15</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-69" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-91">PRESSURE</Name>
+<ID>3</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Pressure</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>101325</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-70" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-92">VOLUME_FLOW_RATE</Name>
+<ID>2</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">VolumeRateFlowGases</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>-2147483</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-71" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-93">MASS_FLOW_RATE_DRY</Name>
+<ID>1</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">MassFlowRate</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>-2147483</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-72" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-94">MASS_FLOW_RATE</Name>
+<ID>0</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">MassFlowRate</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>-2147483</VarValue>
+</a11:ProcessVarDouble>
+<a1:ArrayList id="ref-77" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-95"/>
+<_size>1</_size>
+<_version>1</_version>
+</a1:ArrayList>
+<a12:DryingGasStream id="ref-78" xmlns:a12="http://schemas.microsoft.com/clr/nsassem/Prosimo.UnitOperations.ProcessStreams/UnitOperations%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionSolvable>1</ClassPersistenceVersionSolvable>
+<Name id="ref-96">Gas 1</Name>
+<SolveState xsi:type="a3:SolveState" xmlns:a3="http://schemas.microsoft.com/clr/nsassem/Prosimo.UnitOperations/UnitOperations%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">NotSolved</SolveState>
+<VarList href="#ref-97"/>
+<UnitOpSystem href="#ref-3"/>
+<ClassPersistenceVersionProcessStreamBase>1</ClassPersistenceVersionProcessStreamBase>
+<MaterialComponents href="#ref-98"/>
+<UpStreamOwner xsi:null="1"/>
+<DownStreamOwner xsi:null="1"/>
+<MassFlowRate href="#ref-72"/>
+<VolumeFlowRate href="#ref-70"/>
+<VaporFraction href="#ref-99"/>
+<Pressure href="#ref-69"/>
+<Temperature href="#ref-68"/>
+<SpecificEnthalpy href="#ref-63"/>
+<SpecificHeat href="#ref-61"/>
+<Density href="#ref-59"/>
+<ClassPersistenceVersionDryingStream>1</ClassPersistenceVersionDryingStream>
+<MassFlowRateDryBase href="#ref-71"/>
+<MoistureContentDryBase href="#ref-65"/>
+<MoistureContentWetBase href="#ref-100"/>
+<SpecificHeatDryBase href="#ref-60"/>
+<SpecificEnthalpyDryBase href="#ref-62"/>
+<ClassPersistenceVersionDryingGasStream>1</ClassPersistenceVersionDryingGasStream>
+<WetBulbTemperature href="#ref-67"/>
+<DewPoint href="#ref-66"/>
+<RelativeHumidity href="#ref-64"/>
+<HumidVolume href="#ref-58"/>
+</a12:DryingGasStream>
+<SOAP-ENC:Array id="ref-95" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-101"/>
+</SOAP-ENC:Array>
+<a1:ArrayList id="ref-97" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-102"/>
+<_size>15</_size>
+<_version>15</_version>
+</a1:ArrayList>
+<a12:DryingGasComponents id="ref-98" xmlns:a12="http://schemas.microsoft.com/clr/nsassem/Prosimo.UnitOperations.ProcessStreams/UnitOperations%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionMaterialComponents>1</ClassPersistenceVersionMaterialComponents>
+<Components href="#ref-103"/>
+<Phases href="#ref-104"/>
+<ClassPersistenceVersionDryingGasComponents>1</ClassPersistenceVersionDryingGasComponents>
+</a12:DryingGasComponents>
+<a11:ProcessVarDouble id="ref-99" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-105">VAPOR_FRACTION</Name>
+<ID>0</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-100" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-106">MOISTURE_CONTENT_WET</Name>
+<ID>0</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">MoistureContent</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-78"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>-2147483</VarValue>
+</a11:ProcessVarDouble>
+<a4:MaterialComponent id="ref-101" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionNonSolvableProcessVarOwner>1</ClassPersistenceVersionNonSolvableProcessVarOwner>
+<ClassPersistenceVersionMaterialComponent>1</ClassPersistenceVersionMaterialComponent>
+<IsCompositeSubstance>false</IsCompositeSubstance>
+<SubstanceName id="ref-107">Dry Material</SubstanceName>
+<MassFraction href="#ref-108"/>
+<MoleFraction href="#ref-109"/>
+</a4:MaterialComponent>
+<SOAP-ENC:Array id="ref-102" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item href="#ref-72"/>
+<item href="#ref-71"/>
+<item href="#ref-70"/>
+<item href="#ref-69"/>
+<item href="#ref-68"/>
+<item href="#ref-67"/>
+<item href="#ref-66"/>
+<item href="#ref-65"/>
+<item href="#ref-64"/>
+<item href="#ref-63"/>
+<item href="#ref-62"/>
+<item href="#ref-61"/>
+<item href="#ref-60"/>
+<item href="#ref-59"/>
+<item href="#ref-58"/>
+</SOAP-ENC:Array>
+<a1:ArrayList id="ref-103" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-110"/>
+<_size>3</_size>
+<_version>3</_version>
+</a1:ArrayList>
+<a1:ArrayList id="ref-104" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-111"/>
+<_size>1</_size>
+<_version>1</_version>
+</a1:ArrayList>
+<a11:ProcessVarDouble id="ref-108" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-112">MASS_FRACTION</Name>
+<ID>0</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-101"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-109" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-113">MOLE_FRACTION</Name>
+<ID>0</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-101"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a11:ProcessVarDouble>
+<SOAP-ENC:Array id="ref-110" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-114"/>
+<item href="#ref-115"/>
+<item href="#ref-116"/>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-111" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-117"/>
+</SOAP-ENC:Array>
+<a4:MaterialComponent id="ref-114" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionNonSolvableProcessVarOwner>1</ClassPersistenceVersionNonSolvableProcessVarOwner>
+<ClassPersistenceVersionMaterialComponent>1</ClassPersistenceVersionMaterialComponent>
+<IsCompositeSubstance>false</IsCompositeSubstance>
+<SubstanceName href="#ref-53"/>
+<MassFraction href="#ref-118"/>
+<MoleFraction href="#ref-119"/>
+</a4:MaterialComponent>
+<a4:MaterialComponent id="ref-115" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionNonSolvableProcessVarOwner>1</ClassPersistenceVersionNonSolvableProcessVarOwner>
+<ClassPersistenceVersionMaterialComponent>1</ClassPersistenceVersionMaterialComponent>
+<IsCompositeSubstance>false</IsCompositeSubstance>
+<SubstanceName href="#ref-52"/>
+<MassFraction href="#ref-120"/>
+<MoleFraction href="#ref-121"/>
+</a4:MaterialComponent>
+<a4:MaterialComponent id="ref-116" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionNonSolvableProcessVarOwner>1</ClassPersistenceVersionNonSolvableProcessVarOwner>
+<ClassPersistenceVersionMaterialComponent>1</ClassPersistenceVersionMaterialComponent>
+<IsCompositeSubstance>true</IsCompositeSubstance>
+<Substance href="#ref-51"/>
+<MassFraction href="#ref-122"/>
+<MoleFraction href="#ref-123"/>
+</a4:MaterialComponent>
+<a12:GasPhase id="ref-117" xmlns:a12="http://schemas.microsoft.com/clr/nsassem/Prosimo.UnitOperations.ProcessStreams/UnitOperations%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionPhase>1</ClassPersistenceVersionPhase>
+<Name id="ref-124">Drying Gas Gas Phase</Name>
+<Components href="#ref-125"/>
+<MassFraction>0</MassFraction>
+<ClassPersistenceVersionFluidPhase>1</ClassPersistenceVersionFluidPhase>
+<ClassPersistenceVersionGasPhase>1</ClassPersistenceVersionGasPhase>
+</a12:GasPhase>
+<a11:ProcessVarDouble id="ref-118" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-126">MASS_FRACTION</Name>
+<ID>0</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-114"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-119" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name id="ref-127">MOLE_FRACTION</Name>
+<ID>0</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-114"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-120" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-126"/>
+<ID>0</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-115"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-121" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-127"/>
+<ID>0</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-115"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-122" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-126"/>
+<ID>0</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-116"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-123" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-127"/>
+<ID>0</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-116"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a11:ProcessVarDouble>
+<a1:ArrayList id="ref-125" xmlns:a1="http://schemas.microsoft.com/clr/ns/System.Collections">
+<_items href="#ref-128"/>
+<_size>2</_size>
+<_version>2</_version>
+</a1:ArrayList>
+<SOAP-ENC:Array id="ref-128" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-129"/>
+<item href="#ref-130"/>
+</SOAP-ENC:Array>
+<a4:MaterialComponent id="ref-129" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionNonSolvableProcessVarOwner>1</ClassPersistenceVersionNonSolvableProcessVarOwner>
+<ClassPersistenceVersionMaterialComponent>1</ClassPersistenceVersionMaterialComponent>
+<IsCompositeSubstance>false</IsCompositeSubstance>
+<SubstanceName href="#ref-53"/>
+<MassFraction href="#ref-131"/>
+<MoleFraction href="#ref-132"/>
+</a4:MaterialComponent>
+<a4:MaterialComponent id="ref-130" xmlns:a4="http://schemas.microsoft.com/clr/nsassem/Prosimo.Materials/Materials%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionNonSolvableProcessVarOwner>1</ClassPersistenceVersionNonSolvableProcessVarOwner>
+<ClassPersistenceVersionMaterialComponent>1</ClassPersistenceVersionMaterialComponent>
+<IsCompositeSubstance>false</IsCompositeSubstance>
+<SubstanceName href="#ref-52"/>
+<MassFraction href="#ref-133"/>
+<MoleFraction href="#ref-134"/>
+</a4:MaterialComponent>
+<a11:ProcessVarDouble id="ref-131" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-126"/>
+<ID>0</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-129"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-132" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-127"/>
+<ID>0</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-129"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-133" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-126"/>
+<ID>0</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-130"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a11:ProcessVarDouble>
+<a11:ProcessVarDouble id="ref-134" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ClassPersistenceVersionProcessVariable>1</ClassPersistenceVersionProcessVariable>
+<Name href="#ref-127"/>
+<ID>0</ID>
+<State xsi:type="a11:VarState" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Specified</State>
+<Type xsi:type="a11:PhysicalQuantity" xmlns:a11="http://schemas.microsoft.com/clr/nsassem/Prosimo/Prosimo%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">Fraction</Type>
+<Enabled>true</Enabled>
+<Owner href="#ref-130"/>
+<ClassPersistenceVersionProcessVarDouble>1</ClassPersistenceVersionProcessVarDouble>
+<VarValue>1</VarValue>
+</a11:ProcessVarDouble>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

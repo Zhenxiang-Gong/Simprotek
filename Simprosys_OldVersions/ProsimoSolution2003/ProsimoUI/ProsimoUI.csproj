@@ -1,0 +1,3173 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{D9F2B078-7680-4E9D-9CF0-EEB788B572FA}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "App.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "ProsimoUI"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "ProsimoUI"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = "ProsimoUI.MainForm"
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "mscorlib"
+                    AssemblyName = "mscorlib"
+                    HintPath = "..\..\WINDOWS\Microsoft.NET\Framework\v1.0.3705\mscorlib.dll"
+                />
+                <Reference
+                    Name = "UnitSystems"
+                    Project = "{1BC26AB1-E441-4F73-9510-1CC1672EBF28}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "SoftwareProtection"
+                    Project = "{688B503B-F700-46BA-80A9-C9A7EAE8FCEC}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "UnitOperations"
+                    Project = "{C215C04C-78F8-40DA-B89E-9EA8F5978D02}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "System.Runtime.Serialization.Formatters.Soap"
+                    AssemblyName = "System.Runtime.Serialization.Formatters.Soap"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Runtime.Serialization.Formatters.Soap.dll"
+                />
+                <Reference
+                    Name = "Prosimo"
+                    Project = "{E9DB3F4C-08DA-4ED6-81AB-6ACC64B1658C}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "SHDocVw"
+                    Guid = "{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}"
+                    VersionMajor = "1"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "tlbimp"
+                />
+                <Reference
+                    Name = "AxSHDocVw"
+                    Guid = "{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}"
+                    VersionMajor = "1"
+                    VersionMinor = "1"
+                    Lcid = "0"
+                    WrapperTool = "aximp"
+                />
+                <Reference
+                    Name = "Materials"
+                    Project = "{0203ADF3-CC1E-48B2-9333-9862860DB466}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "SubstanceLibrary"
+                    Project = "{F1664DED-6E70-4EBF-B015-EBBEF8CEF54B}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "Plots"
+                    Project = "{32B00507-6645-4F1F-9C21-7699C53A2A28}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "App.config"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ConnectionManager.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ConnectionPoint.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FindForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FindForm.resx"
+                    DependentUpon = "FindForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Flowsheet.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Flowsheet.resx"
+                    DependentUpon = "Flowsheet.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FlowsheetPreferences.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FlowsheetPreferencesForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FlowsheetPreferencesForm.resx"
+                    DependentUpon = "FlowsheetPreferencesForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FlowsheetVersion.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ListViewItemComparer.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ListViewVariableItem.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MainForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MainForm.resx"
+                    DependentUpon = "MainForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MainNumericFormat.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewSystemPreferences.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewSystemPreferencesForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewSystemPreferencesForm.resx"
+                    DependentUpon = "NewSystemPreferencesForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PersistenceManager.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessVarLabel.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessVarLabel.resx"
+                    DependentUpon = "ProcessVarLabel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessVarNonEditableTextBox.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessVarTextBox.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SelectSolvablesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SelectSolvablesControl.resx"
+                    DependentUpon = "SelectSolvablesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SolvableConnection.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SolvableControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SolvableControl.resx"
+                    DependentUpon = "SolvableControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SolvableEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SolvableEditor.resx"
+                    DependentUpon = "SolvableEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SolvableLabel.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SolvableLabel.resx"
+                    DependentUpon = "SolvableLabel.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SolvableNameTextBox.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SolvableNameTextBox.resx"
+                    DependentUpon = "SolvableNameTextBox.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SolvableVariablesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SolvableVariablesControl.resx"
+                    DependentUpon = "SolvableVariablesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SystemNameForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SystemNameForm.resx"
+                    DependentUpon = "SystemNameForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Toolbox.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Toolbox.resx"
+                    DependentUpon = "Toolbox.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UI.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UIForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UIForm.resx"
+                    DependentUpon = "UIForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UIPreferences.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CustomEditor\CustomEditor.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CustomEditor\CustomEditorElementControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CustomEditor\CustomEditorElementControl.resx"
+                    DependentUpon = "CustomEditorElementControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CustomEditor\CustomEditorForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CustomEditor\CustomEditorForm.resx"
+                    DependentUpon = "CustomEditorForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CustomEditor\CustomEditorHeaderControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CustomEditor\CustomEditorHeaderControl.resx"
+                    DependentUpon = "CustomEditorHeaderControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CustomEditor\VariableSelectorControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CustomEditor\VariableSelectorControl.resx"
+                    DependentUpon = "VariableSelectorControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CustomEditor\VariableSelectorForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CustomEditor\VariableSelectorForm.resx"
+                    DependentUpon = "VariableSelectorForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FormulaEditor\FormulaEditorElementControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FormulaEditor\FormulaEditorElementControl.resx"
+                    DependentUpon = "FormulaEditorElementControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FormulaEditor\FormulaEditorForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FormulaEditor\FormulaEditorForm.resx"
+                    DependentUpon = "FormulaEditorForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FormulaEditor\FormulaEditorHeaderControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FormulaEditor\FormulaEditorHeaderControl.resx"
+                    DependentUpon = "FormulaEditorHeaderControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FormulaEditor\FormulaParser.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FormulaEditor\ListViewSolvableItem.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\AirFiltersEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\BagFiltersEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\CompressorsEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\CoolersEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\CyclonesEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\DryersEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\EjectorsEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\EjectorsEditor.resx"
+                    DependentUpon = "EjectorsEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GlobalEditor\ElectrostaticPrecipitatorsEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\ElectrostaticPrecipitatorsEditor.resx"
+                    DependentUpon = "ElectrostaticPrecipitatorsEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GlobalEditor\FansEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\GasStreamsEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\GasStreamsEditor.resx"
+                    DependentUpon = "GasStreamsEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GlobalEditor\HeatersEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\HeatExchangersEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\MaterialStreamsEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\PumpsEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\StreamsEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\SystemEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\SystemEditor.resx"
+                    DependentUpon = "SystemEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GlobalEditor\UnitOpsEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\ValvesEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\WetScrubbersEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GlobalEditor\WetScrubbersEditor.resx"
+                    DependentUpon = "WetScrubbersEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Help\AboutForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Help\AboutForm.resx"
+                    DependentUpon = "AboutForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Help\ActivationForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Help\ActivationForm.resx"
+                    DependentUpon = "ActivationForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Help\ChooseTutorialForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Help\ChooseTutorialForm.resx"
+                    DependentUpon = "ChooseTutorialForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Help\InformationControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Help\InformationControl.resx"
+                    DependentUpon = "InformationControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Help\SplashForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Help\SplashForm.resx"
+                    DependentUpon = "SplashForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Help\TutorialForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Help\TutorialForm.resx"
+                    DependentUpon = "TutorialForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Help\UserManualForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Help\UserManualForm.resx"
+                    DependentUpon = "UserManualForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HumidityChart\HumidityChartCurrentStateEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HumidityChart\HumidityChartCurrentStateEditor.resx"
+                    DependentUpon = "HumidityChartCurrentStateEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HumidityChart\HumidityChartForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HumidityChart\HumidityChartForm.resx"
+                    DependentUpon = "HumidityChartForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HumidityChart\HumidityChartProcess.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HumidityChart\HumidityChartProcessEditor.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HumidityChart\HumidityChartProcessEditor.resx"
+                    DependentUpon = "HumidityChartProcessEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HumidityChart\HumidityChartState.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HumidityChart\HumidityChartStreamLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HumidityChart\HumidityChartStreamLabelsControl.resx"
+                    DependentUpon = "HumidityChartStreamLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HumidityChart\HumidityChartStreamValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HumidityChart\HumidityChartStreamValuesControl.resx"
+                    DependentUpon = "HumidityChartStreamValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "HumidityChart\StateControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "HumidityChart\StateControl.resx"
+                    DependentUpon = "StateControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "images\add_connection.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\close.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\custom_editor.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\delete.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\delete_connection.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\flowsheet_snapshot.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\formula_editor.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\help.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\humidity_chart.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\new.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\not_solved.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\open.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\partially_solved.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\preferences.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\preview.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\print.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\rotate_clockwise.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\rotate_counterclockwise.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\save.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\selection_snapshot.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\solve_failed.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\solved.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\splash.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\system_editor.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\target.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\unit_converter.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\unit_systems.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_ctrl_not_solved_down.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_ctrl_not_solved_left.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_ctrl_not_solved_right.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_ctrl_not_solved_up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_ctrl_partially_solved_down.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_ctrl_partially_solved_left.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_ctrl_partially_solved_right.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_ctrl_partially_solved_up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_ctrl_solve_failed_down.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_ctrl_solve_failed_left.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_ctrl_solve_failed_right.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_ctrl_solve_failed_up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_ctrl_solved_down.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_ctrl_solved_left.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_ctrl_solved_right.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_ctrl_solved_up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Gas\gas_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_ctrl_not_solved_down.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_ctrl_not_solved_left.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_ctrl_not_solved_right.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_ctrl_not_solved_up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_ctrl_partially_solved_down.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_ctrl_partially_solved_left.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_ctrl_partially_solved_right.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_ctrl_partially_solved_up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_ctrl_solve_failed_down.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_ctrl_solve_failed_left.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_ctrl_solve_failed_right.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_ctrl_solve_failed_up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_ctrl_solved_down.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_ctrl_solved_left.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_ctrl_solved_right.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_ctrl_solved_up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Liquid\material_liquid_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_ctrl_not_solved_down.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_ctrl_not_solved_left.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_ctrl_not_solved_right.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_ctrl_not_solved_up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_ctrl_partially_solved_down.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_ctrl_partially_solved_left.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_ctrl_partially_solved_right.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_ctrl_partially_solved_up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_ctrl_solve_failed_down.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_ctrl_solve_failed_left.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_ctrl_solve_failed_right.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_ctrl_solve_failed_up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_ctrl_solved_down.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_ctrl_solved_left.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_ctrl_solved_right.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_ctrl_solved_up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Material\Solid\material_solid_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_ctrl_not_solved_down.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_ctrl_not_solved_left.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_ctrl_not_solved_right.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_ctrl_not_solved_up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_ctrl_partially_solved_down.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_ctrl_partially_solved_left.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_ctrl_partially_solved_right.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_ctrl_partially_solved_up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_ctrl_solve_failed_down.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_ctrl_solve_failed_left.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_ctrl_solve_failed_right.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_ctrl_solve_failed_up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_ctrl_solved_down.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_ctrl_solved_left.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_ctrl_solved_right.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_ctrl_solved_up.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\Streams\Process\process_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Cyclone\cyclone_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Cyclone\cyclone_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Cyclone\cyclone_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Cyclone\cyclone_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Cyclone\cyclone_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Dryer\dryer_liquid_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Dryer\dryer_liquid_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Dryer\dryer_liquid_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Dryer\dryer_liquid_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Dryer\dryer_liquid_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Dryer\dryer_solid_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Dryer\dryer_solid_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Dryer\dryer_solid_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Dryer\dryer_solid_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Dryer\dryer_solid_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Ejector\ejector_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Ejector\ejector_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Ejector\ejector_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Ejector\ejector_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Ejector\ejector_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\FlashTank\flashtank_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\FlashTank\flashtank_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\FlashTank\flashtank_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\FlashTank\flashtank_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\FlashTank\flashtank_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\HeatExchanger\heatexchanger_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\HeatExchanger\heatexchanger_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\HeatExchanger\heatexchanger_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\HeatExchanger\heatexchanger_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\HeatExchanger\heatexchanger_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Mixer\mixer_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Mixer\mixer_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Mixer\mixer_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Mixer\mixer_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Mixer\mixer_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Tee\tee_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Tee\tee_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Tee\tee_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Tee\tee_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\Tee\tee_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Compressor\compressor_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Compressor\compressor_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Compressor\compressor_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Compressor\compressor_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Compressor\compressor_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Cooler\cooler_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Cooler\cooler_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Cooler\cooler_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Cooler\cooler_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Cooler\cooler_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\ElectrostaticPrecipitator\electrostaticprecipitator_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\ElectrostaticPrecipitator\electrostaticprecipitator_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\ElectrostaticPrecipitator\electrostaticprecipitator_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\ElectrostaticPrecipitator\electrostaticprecipitator_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\ElectrostaticPrecipitator\electrostaticprecipitator_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\FabricFilter\airfilter_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\FabricFilter\airfilter_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\FabricFilter\airfilter_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\FabricFilter\airfilter_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\FabricFilter\airfilter_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\FabricFilter\bagfilter_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\FabricFilter\bagfilter_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\FabricFilter\bagfilter_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\FabricFilter\bagfilter_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\FabricFilter\bagfilter_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Fan\fan_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Fan\fan_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Fan\fan_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Fan\fan_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Fan\fan_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Heater\heater_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Heater\heater_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Heater\heater_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Heater\heater_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Heater\heater_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Pump\pump_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Pump\pump_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Pump\pump_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Pump\pump_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Pump\pump_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Recycle\recycle_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Recycle\recycle_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Recycle\recycle_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Recycle\recycle_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Recycle\recycle_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Valve\valve_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Valve\valve_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Valve\valve_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Valve\valve_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\TwoStream\Valve\valve_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\WetScrubber\wetscrubber_ctrl_not_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\WetScrubber\wetscrubber_ctrl_partially_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\WetScrubber\wetscrubber_ctrl_solve_failed.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\WetScrubber\wetscrubber_ctrl_solved.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\UnitOperations\WetScrubber\wetscrubber_toolbox.bmp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MaterialsUI\AddOrEditDryingMaterialForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MaterialsUI\AddOrEditDryingMaterialForm.resx"
+                    DependentUpon = "AddOrEditDryingMaterialForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MaterialsUI\DMDetailsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MaterialsUI\DMDetailsControl.resx"
+                    DependentUpon = "DMDetailsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MaterialsUI\DMDetailsForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MaterialsUI\DMDetailsForm.resx"
+                    DependentUpon = "DMDetailsForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MaterialsUI\DryingGasesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MaterialsUI\DryingGasesControl.resx"
+                    DependentUpon = "DryingGasesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MaterialsUI\DryingMaterialsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MaterialsUI\DryingMaterialsControl.resx"
+                    DependentUpon = "DryingMaterialsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MaterialsUI\DryingMaterialsForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MaterialsUI\DryingMaterialsForm.resx"
+                    DependentUpon = "DryingMaterialsForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MaterialsUI\DuhringLineControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MaterialsUI\DuhringLineControl.resx"
+                    DependentUpon = "DuhringLineControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MaterialsUI\DuhringLinesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MaterialsUI\DuhringLinesControl.resx"
+                    DependentUpon = "DuhringLinesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MaterialsUI\DuhringLinesForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MaterialsUI\DuhringLinesForm.resx"
+                    DependentUpon = "DuhringLinesForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MaterialsUI\MaterialComponentNameAndFractionControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MaterialsUI\MaterialComponentNameAndFractionControl.resx"
+                    DependentUpon = "MaterialComponentNameAndFractionControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MaterialsUI\MaterialComponentsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MaterialsUI\MaterialComponentsControl.resx"
+                    DependentUpon = "MaterialComponentsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MaterialsUI\ReadOnlyDuhringLinesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MaterialsUI\ReadOnlyDuhringLinesControl.resx"
+                    DependentUpon = "ReadOnlyDuhringLinesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Plots\AddPlot2DForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plots\AddPlot2DForm.resx"
+                    DependentUpon = "AddPlot2DForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Plots\AxisVariable.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plots\Curve.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plots\CurveFamily.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plots\HCPlotControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plots\HCPlotControl.resx"
+                    DependentUpon = "HCPlotControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Plots\HCPlotGraph.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plots\HCPlotGraph.resx"
+                    DependentUpon = "HCPlotGraph.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Plots\ParameterValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plots\ParameterValuesControl.resx"
+                    DependentUpon = "ParameterValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Plots\Plot2DControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plots\Plot2DControl.resx"
+                    DependentUpon = "Plot2DControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Plots\Plot2DGraph.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plots\Plot2DGraph.resx"
+                    DependentUpon = "Plot2DGraph.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Plots\PlotData.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plots\Plots.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plots\PlotsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plots\PlotsControl.resx"
+                    DependentUpon = "PlotsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Plots\PlotsForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plots\PlotsForm.resx"
+                    DependentUpon = "PlotsForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Plots\ViewPlot2DForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Plots\ViewPlot2DForm.resx"
+                    DependentUpon = "ViewPlot2DForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\DryingStreamControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\DryingStreamControl.resx"
+                    DependentUpon = "DryingStreamControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\GasStreamControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\GasStreamControl.resx"
+                    DependentUpon = "GasStreamControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\GasStreamEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\GasStreamEditor.resx"
+                    DependentUpon = "GasStreamEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\GasStreamLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\GasStreamLabelsControl.resx"
+                    DependentUpon = "GasStreamLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\GasStreamValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\GasStreamValuesControl.resx"
+                    DependentUpon = "GasStreamValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\MaterialStreamControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\MaterialStreamControl.resx"
+                    DependentUpon = "MaterialStreamControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\MaterialStreamEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\MaterialStreamEditor.resx"
+                    DependentUpon = "MaterialStreamEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\MaterialStreamLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\MaterialStreamLabelsControl.resx"
+                    DependentUpon = "MaterialStreamLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\MaterialStreamValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\MaterialStreamValuesControl.resx"
+                    DependentUpon = "MaterialStreamValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\ProcessStreamBaseControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\ProcessStreamBaseControl.resx"
+                    DependentUpon = "ProcessStreamBaseControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\ProcessStreamBaseEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\ProcessStreamBaseEditor.resx"
+                    DependentUpon = "ProcessStreamBaseEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\ProcessStreamControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\ProcessStreamControl.resx"
+                    DependentUpon = "ProcessStreamControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\ProcessStreamEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\ProcessStreamEditor.resx"
+                    DependentUpon = "ProcessStreamEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\ProcessStreamLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\ProcessStreamLabelsControl.resx"
+                    DependentUpon = "ProcessStreamLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\ProcessStreamValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\ProcessStreamValuesControl.resx"
+                    DependentUpon = "ProcessStreamValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcessStreamsUI\StreamManager.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcVarsEditor\MinMaxProcVarElementControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcVarsEditor\MinMaxProcVarElementControl.resx"
+                    DependentUpon = "MinMaxProcVarElementControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcVarsEditor\MinMaxProcVarHeaderControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcVarsEditor\MinMaxProcVarHeaderControl.resx"
+                    DependentUpon = "MinMaxProcVarHeaderControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcVarsEditor\ProcVarOutOfRangeForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcVarsEditor\ProcVarOutOfRangeForm.resx"
+                    DependentUpon = "ProcVarOutOfRangeForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcVarsEditor\ProcVarsInappropriateForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcVarsEditor\ProcVarsInappropriateForm.resx"
+                    DependentUpon = "ProcVarsInappropriateForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcVarsEditor\ProcVarsMoreThenOneOutOfRangeForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcVarsEditor\ProcVarsMoreThenOneOutOfRangeForm.resx"
+                    DependentUpon = "ProcVarsMoreThenOneOutOfRangeForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcVarsEditor\ProcVarsOnlyOneOutOfRangeForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcVarsEditor\ProcVarsOnlyOneOutOfRangeForm.resx"
+                    DependentUpon = "ProcVarsOnlyOneOutOfRangeForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcVarsEditor\RecommProcVarElementControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcVarsEditor\RecommProcVarElementControl.resx"
+                    DependentUpon = "RecommProcVarElementControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ProcVarsEditor\RecommProcVarHeaderControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ProcVarsEditor\RecommProcVarHeaderControl.resx"
+                    DependentUpon = "RecommProcVarHeaderControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SubstancesUI\SubstanceDetailsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SubstancesUI\SubstanceDetailsControl.resx"
+                    DependentUpon = "SubstanceDetailsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SubstancesUI\SubstanceDetailsForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SubstancesUI\SubstanceDetailsForm.resx"
+                    DependentUpon = "SubstanceDetailsForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "SubstancesUI\SubstancesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SubstancesUI\SubstancesControl.resx"
+                    DependentUpon = "SubstancesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\EjectorControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\EjectorControl.resx"
+                    DependentUpon = "EjectorControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\EjectorEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\EjectorEditor.resx"
+                    DependentUpon = "EjectorEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\EjectorLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\EjectorLabelsControl.resx"
+                    DependentUpon = "EjectorLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\EjectorValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\EjectorValuesControl.resx"
+                    DependentUpon = "EjectorValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\FlashTankControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\FlashTankControl.resx"
+                    DependentUpon = "FlashTankControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\FlashTankEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\FlashTankEditor.resx"
+                    DependentUpon = "FlashTankEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\MixerControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\MixerControl.resx"
+                    DependentUpon = "MixerControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\MixerEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\MixerEditor.resx"
+                    DependentUpon = "MixerEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TeeControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TeeControl.resx"
+                    DependentUpon = "TeeControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TeeEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TeeEditor.resx"
+                    DependentUpon = "TeeEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TeeStreamAndFractionControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TeeStreamAndFractionControl.resx"
+                    DependentUpon = "TeeStreamAndFractionControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\UnitOpControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\UnitOpControl.resx"
+                    DependentUpon = "UnitOpControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\UnitOpEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\UnitOpEditor.resx"
+                    DependentUpon = "UnitOpEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\UnitOpManager.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\WetScrubberControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\WetScrubberControl.resx"
+                    DependentUpon = "WetScrubberControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\WetScrubberEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\WetScrubberEditor.resx"
+                    DependentUpon = "WetScrubberEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\WetScrubberLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\WetScrubberLabelsControl.resx"
+                    DependentUpon = "WetScrubberLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\WetScrubberValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\WetScrubberValuesControl.resx"
+                    DependentUpon = "WetScrubberValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneControl.resx"
+                    DependentUpon = "CycloneControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneEditor.resx"
+                    DependentUpon = "CycloneEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneLabelsControl.resx"
+                    DependentUpon = "CycloneLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneParticleDistributionControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneParticleDistributionControl.resx"
+                    DependentUpon = "CycloneParticleDistributionControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneParticleDistributionEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneParticleDistributionEditor.resx"
+                    DependentUpon = "CycloneParticleDistributionEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneParticleSizeAndFractionControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneParticleSizeAndFractionControl.resx"
+                    DependentUpon = "CycloneParticleSizeAndFractionControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneRatingEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneRatingEditor.resx"
+                    DependentUpon = "CycloneRatingEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneRatingLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneRatingLabelsControl.resx"
+                    DependentUpon = "CycloneRatingLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneRatingValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneRatingValuesControl.resx"
+                    DependentUpon = "CycloneRatingValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneTotalEfficiencyControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneTotalEfficiencyControl.resx"
+                    DependentUpon = "CycloneTotalEfficiencyControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\CycloneUI\CycloneValuesControl.resx"
+                    DependentUpon = "CycloneValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerControl.resx"
+                    DependentUpon = "DryerControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerEditor.resx"
+                    DependentUpon = "DryerEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerLabelsControl.resx"
+                    DependentUpon = "DryerLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerScopingCircularLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerScopingCircularLabelsControl.resx"
+                    DependentUpon = "DryerScopingCircularLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerScopingCircularValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerScopingCircularValuesControl.resx"
+                    DependentUpon = "DryerScopingCircularValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerScopingCommonLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerScopingCommonLabelsControl.resx"
+                    DependentUpon = "DryerScopingCommonLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerScopingCommonValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerScopingCommonValuesControl.resx"
+                    DependentUpon = "DryerScopingCommonValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerScopingEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerScopingEditor.resx"
+                    DependentUpon = "DryerScopingEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerScopingRectangularLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerScopingRectangularLabelsControl.resx"
+                    DependentUpon = "DryerScopingRectangularLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerScopingRectangularValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerScopingRectangularValuesControl.resx"
+                    DependentUpon = "DryerScopingRectangularValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\DryerUI\DryerValuesControl.resx"
+                    DependentUpon = "DryerValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HeatExchangerControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HeatExchangerControl.resx"
+                    DependentUpon = "HeatExchangerControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HeatExchangerEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HeatExchangerEditor.resx"
+                    DependentUpon = "HeatExchangerEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HeatExchangerLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HeatExchangerLabelsControl.resx"
+                    DependentUpon = "HeatExchangerLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HeatExchangerRatingEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HeatExchangerRatingEditor.resx"
+                    DependentUpon = "HeatExchangerRatingEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HeatExchangerValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HeatExchangerValuesControl.resx"
+                    DependentUpon = "HeatExchangerValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRating2LabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRating2LabelsControl.resx"
+                    DependentUpon = "HXRating2LabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRating2ValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRating2ValuesControl.resx"
+                    DependentUpon = "HXRating2ValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRating3LabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRating3LabelsControl.resx"
+                    DependentUpon = "HXRating3LabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRating3ValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRating3ValuesControl.resx"
+                    DependentUpon = "HXRating3ValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingPlateAndFrameEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingPlateAndFrameEditor.resx"
+                    DependentUpon = "HXRatingPlateAndFrameEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingPlateAndFrameLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingPlateAndFrameLabelsControl.resx"
+                    DependentUpon = "HXRatingPlateAndFrameLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingPlateAndFrameValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingPlateAndFrameValuesControl.resx"
+                    DependentUpon = "HXRatingPlateAndFrameValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeBellDelawareLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeBellDelawareLabelsControl.resx"
+                    DependentUpon = "HXRatingShellAndTubeBellDelawareLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeBellDelawareValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeBellDelawareValuesControl.resx"
+                    DependentUpon = "HXRatingShellAndTubeBellDelawareValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeDonohueLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeDonohueLabelsControl.resx"
+                    DependentUpon = "HXRatingShellAndTubeDonohueLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeDonohueValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeDonohueValuesControl.resx"
+                    DependentUpon = "HXRatingShellAndTubeDonohueValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeEditor.resx"
+                    DependentUpon = "HXRatingShellAndTubeEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeKernLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeKernLabelsControl.resx"
+                    DependentUpon = "HXRatingShellAndTubeKernLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeKernValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingShellAndTubeKernValuesControl.resx"
+                    DependentUpon = "HXRatingShellAndTubeKernValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericEditor.resx"
+                    DependentUpon = "HXRatingSimpleGenericEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericLabelsControl.resx"
+                    DependentUpon = "HXRatingSimpleGenericLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericPlateAndFrameLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericPlateAndFrameLabelsControl.resx"
+                    DependentUpon = "HXRatingSimpleGenericPlateAndFrameLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericPlateAndFrameValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericPlateAndFrameValuesControl.resx"
+                    DependentUpon = "HXRatingSimpleGenericPlateAndFrameValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericShellAndTubeLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericShellAndTubeLabelsControl.resx"
+                    DependentUpon = "HXRatingSimpleGenericShellAndTubeLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericShellAndTubeValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericShellAndTubeValuesControl.resx"
+                    DependentUpon = "HXRatingSimpleGenericShellAndTubeValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\HeatExchangerUI\HXRatingSimpleGenericValuesControl.resx"
+                    DependentUpon = "HXRatingSimpleGenericValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\AirFilterControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\AirFilterControl.resx"
+                    DependentUpon = "AirFilterControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\BagFilterControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\BagFilterControl.resx"
+                    DependentUpon = "BagFilterControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\BagFilterEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\BagFilterEditor.resx"
+                    DependentUpon = "BagFilterEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\BagFilterLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\BagFilterLabelsControl.resx"
+                    DependentUpon = "BagFilterLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\BagFilterValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\BagFilterValuesControl.resx"
+                    DependentUpon = "BagFilterValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\CompressorControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\CompressorControl.resx"
+                    DependentUpon = "CompressorControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\CompressorEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\CompressorEditor.resx"
+                    DependentUpon = "CompressorEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\CompressorLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\CompressorLabelsControl.resx"
+                    DependentUpon = "CompressorLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\CompressorValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\CompressorValuesControl.resx"
+                    DependentUpon = "CompressorValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\CoolerControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\CoolerControl.resx"
+                    DependentUpon = "CoolerControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\CoolerEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\CoolerEditor.resx"
+                    DependentUpon = "CoolerEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\CoolerLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\CoolerLabelsControl.resx"
+                    DependentUpon = "CoolerLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\CoolerValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\CoolerValuesControl.resx"
+                    DependentUpon = "CoolerValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\ElectrostaticPrecipitatorControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\ElectrostaticPrecipitatorControl.resx"
+                    DependentUpon = "ElectrostaticPrecipitatorControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\ElectrostaticPrecipitatorEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\ElectrostaticPrecipitatorEditor.resx"
+                    DependentUpon = "ElectrostaticPrecipitatorEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\ElectrostaticPrecipitatorLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\ElectrostaticPrecipitatorLabelsControl.resx"
+                    DependentUpon = "ElectrostaticPrecipitatorLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\ElectrostaticPrecipitatorValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\ElectrostaticPrecipitatorValuesControl.resx"
+                    DependentUpon = "ElectrostaticPrecipitatorValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FabricFilterControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FabricFilterControl.resx"
+                    DependentUpon = "FabricFilterControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FabricFilterEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FabricFilterEditor.resx"
+                    DependentUpon = "FabricFilterEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FabricFilterLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FabricFilterLabelsControl.resx"
+                    DependentUpon = "FabricFilterLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FabricFilterValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FabricFilterValuesControl.resx"
+                    DependentUpon = "FabricFilterValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanCircularLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanCircularLabelsControl.resx"
+                    DependentUpon = "FanCircularLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanCircularValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanCircularValuesControl.resx"
+                    DependentUpon = "FanCircularValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanControl.resx"
+                    DependentUpon = "FanControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanDimensionsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanDimensionsControl.resx"
+                    DependentUpon = "FanDimensionsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanEditor.resx"
+                    DependentUpon = "FanEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanLabelsControl.resx"
+                    DependentUpon = "FanLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanRectangularLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanRectangularLabelsControl.resx"
+                    DependentUpon = "FanRectangularLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanRectangularValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanRectangularValuesControl.resx"
+                    DependentUpon = "FanRectangularValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\FanValuesControl.resx"
+                    DependentUpon = "FanValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\HeaterControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\HeaterControl.resx"
+                    DependentUpon = "HeaterControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\HeaterEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\HeaterEditor.resx"
+                    DependentUpon = "HeaterEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\HeaterLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\HeaterLabelsControl.resx"
+                    DependentUpon = "HeaterLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\HeaterValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\HeaterValuesControl.resx"
+                    DependentUpon = "HeaterValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\PumpControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\PumpControl.resx"
+                    DependentUpon = "PumpControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\PumpDimensionsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\PumpDimensionsControl.resx"
+                    DependentUpon = "PumpDimensionsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\PumpEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\PumpEditor.resx"
+                    DependentUpon = "PumpEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\PumpLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\PumpLabelsControl.resx"
+                    DependentUpon = "PumpLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\PumpValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\PumpValuesControl.resx"
+                    DependentUpon = "PumpValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\RecycleControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\TwoStreamUnitOpControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\TwoStreamUnitOpControl.resx"
+                    DependentUpon = "TwoStreamUnitOpControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\TwoStreamUnitOpEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\TwoStreamUnitOpEditor.resx"
+                    DependentUpon = "TwoStreamUnitOpEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\ValveControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\ValveControl.resx"
+                    DependentUpon = "ValveControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\ValveEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\ValveEditor.resx"
+                    DependentUpon = "ValveEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\ValveLabelsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\ValveLabelsControl.resx"
+                    DependentUpon = "ValveLabelsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\ValveValuesControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitOperationsUI\TwoStream\ValveValuesControl.resx"
+                    DependentUpon = "ValveValuesControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitSystemsUI\UnitConverterForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitSystemsUI\UnitConverterForm.resx"
+                    DependentUpon = "UnitConverterForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitSystemsUI\UnitSystemControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitSystemsUI\UnitSystemControl.resx"
+                    DependentUpon = "UnitSystemControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitSystemsUI\UnitSystemEditor.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitSystemsUI\UnitSystemEditor.resx"
+                    DependentUpon = "UnitSystemEditor.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitSystemsUI\UnitSystemsControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitSystemsUI\UnitSystemsControl.resx"
+                    DependentUpon = "UnitSystemsControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "UnitSystemsUI\UnitSystemsForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "UnitSystemsUI\UnitSystemsForm.resx"
+                    DependentUpon = "UnitSystemsForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

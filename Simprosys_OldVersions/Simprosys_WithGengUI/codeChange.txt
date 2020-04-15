@@ -1,0 +1,26 @@
+SolvableControl.cs
+ChangeLocation() check against left and top edge of flowsheet
+modify edit() method to use SolvableEditor();
+
+add scrollablePanel.cs
+
+flowsheet.cs
+ - extends from scrollablePanel
+ - Flowsheet_KeyDown() if press Delete key, call DeleteSelectedSolvables()
+
+mainform.cs
+InitializeComponent()
+set the scrollable property of flowsheet.
+
+SolvableEditor.cs
+using propertyGrid.cs 
+
+PropertyBag.cs
+new property grid control
+
+All the editors
+comment out the Edit()
+
+ConnectionManager.cs
+
+ToolBox.cs

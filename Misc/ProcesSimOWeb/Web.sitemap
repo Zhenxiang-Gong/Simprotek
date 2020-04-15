@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+   <siteMapNode url="~\Default.aspx" title="Home"  description="">
+      <siteMapNode url="~\Products.aspx" title="Products"  description="" />
+      <siteMapNode url="~\Company.aspx" title="Company"  description="" />
+      <siteMapNode url="~\BetaLogin.aspx" title="Beta Login"  description="">
+         <!--
+         <siteMapNode url="~\Beta\BetaMain.aspx" title="Beta Testing"  description="" />
+         <siteMapNode url="~\Beta\BetaDefectReporting.aspx" title="Beta Defect Reporting"  description="" />
+         <siteMapNode url="~\Beta\BetaYourDefects.aspx" title="Beta My Defects"  description="" />
+         -->
+      </siteMapNode>
+      </siteMapNode>
+</siteMap>

@@ -1,0 +1,11 @@
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Materials\bin\Debug\Materials.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Materials\bin\Debug\Materials.pdb
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Materials\bin\Debug\Plots.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Materials\bin\Debug\Prosimo.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Materials\bin\Debug\SubstanceLibrary.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Materials\bin\Debug\Prosimo.pdb
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Materials\bin\Debug\SubstanceLibrary.pdb
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Materials\bin\Debug\Plots.pdb
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Materials\obj\Debug\Materials.csprojResolveAssemblyReference.cache
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Materials\obj\Debug\Materials.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\Materials\obj\Debug\Materials.pdb

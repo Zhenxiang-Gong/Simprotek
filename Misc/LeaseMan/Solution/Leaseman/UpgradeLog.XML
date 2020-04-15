@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Leaseman">
+</Property><Property Name="Solution File" Value="D:\Private\Simprotek\Misc\LeaseMan\Solution\Leaseman\Leaseman.sln">
+</Property><Property Name="User Options File" Value="D:\Private\Simprotek\Misc\LeaseMan\Solution\Leaseman\Leaseman.suo">
+</Property><Property Name="Date" Value="Thursday, May 22, 2008">
+</Property><Property Name="Time" Value="13:01 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Leaseman.sln" Description="File successfully backed up as D:\Private\Simprotek\Misc\LeaseMan\Solution\Leaseman\Backup\Leaseman.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Leaseman.suo" Description="File successfully backed up as D:\Private\Simprotek\Misc\LeaseMan\Solution\Leaseman\Backup\Leaseman.suo">
+</Event><Event ErrorLevel="0" Project="Leaseman" Source="Leaseman.csproj" Description="Project file successfully backed up as D:\Private\Simprotek\Misc\LeaseMan\Solution\Leaseman\Backup\Leaseman.csproj">
+</Event><Event ErrorLevel="0" Project="Leaseman" Source="Leaseman.csproj.user" Description="Project user file successfully backed up as D:\Private\Simprotek\Misc\LeaseMan\Solution\Leaseman\Backup\Leaseman.csproj.user">
+</Event><Event ErrorLevel="0" Project="Leaseman" Source="AssemblyInfo.cs" Description="File successfully backed up as D:\Private\Simprotek\Misc\LeaseMan\Solution\Leaseman\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Leaseman" Source="MainForm.cs" Description="File successfully backed up as D:\Private\Simprotek\Misc\LeaseMan\Solution\Leaseman\Backup\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="Leaseman" Source="App.ico" Description="File successfully backed up as D:\Private\Simprotek\Misc\LeaseMan\Solution\Leaseman\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="Leaseman" Source="MainForm.resx" Description="File successfully backed up as D:\Private\Simprotek\Misc\LeaseMan\Solution\Leaseman\Backup\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="Leaseman" Source="Leaseman.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Leaseman" Source="Leaseman.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="SoftwareProtection" Source="..\..\..\ProSimO\Solution\SoftwareProtection\SoftwareProtection.csproj" Description="Warning: The project file is being backed up to a relative path that differs from the original solution relative path.  The difference in folder hierarchy may create problems in opening or building the backed up solution and project.">
+</Event><Event ErrorLevel="2" Project="SoftwareProtection" Source="..\..\..\ProSimO\Solution\SoftwareProtection\SoftwareProtection.csproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="0" Project="" Source="Leaseman.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Leaseman.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Leaseman" Source="Leaseman.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

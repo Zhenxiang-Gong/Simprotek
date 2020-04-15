@@ -1,0 +1,17 @@
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\bin\Debug\UnitOperations.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\bin\Debug\UnitOperations.pdb
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\bin\Debug\Materials.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\bin\Debug\Plots.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\bin\Debug\Prosimo.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\bin\Debug\SubstanceLibrary.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\bin\Debug\ThermalProperties.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\bin\Debug\UnitSystems.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\bin\Debug\Materials.pdb
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\bin\Debug\Plots.pdb
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\bin\Debug\Prosimo.pdb
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\bin\Debug\SubstanceLibrary.pdb
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\bin\Debug\ThermalProperties.pdb
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\bin\Debug\UnitSystems.pdb
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\obj\Debug\UnitOperations.csprojResolveAssemblyReference.cache
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\obj\Debug\UnitOperations.dll
+C:\Users\Zen_Gong\Documents\Simprotek\Simprosys\UnitOperations\obj\Debug\UnitOperations.pdb

@@ -1,0 +1,18 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.50727.42 (1a28df13).
+//
+// c:\private\prosimo\securityprototype\secureassembly\bootstrapexe\release\invokeassembly.tli
+//
+// Wrapper implementations for Win32 type library Release\InvokeAssembly.tlb
+// compiler-generated file created 02/22/06 at 21:48:43 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IInvokeAssembly wrapper method implementations
+//
+
+inline HRESULT IInvokeAssembly::LoadAndExecute ( SAFEARRAY * pBuf ) {
+    HRESULT _hr = raw_LoadAndExecute(pBuf);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
