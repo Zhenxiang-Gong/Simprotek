@@ -1,0 +1,16 @@
+*.ide-shm
+*.ide-wal
+*.ide-wal
+*.dll
+*.resources
+*.cache
+*.pdb
+*.ide-shm
+*.ide-wal
+*.CopyComplete
+*.txt
+*.config
+*.exe
+*.ide-shm
+*.ide-wal
+License/dongle.dat
